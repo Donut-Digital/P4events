@@ -20,28 +20,6 @@ sections:
           always_save: false
           width: 50
       -
-        handle: links_direction
-        field:
-          options:
-            right: Right
-            left: Left
-          multiple: false
-          max_items: 1
-          clearable: false
-          searchable: true
-          taggable: false
-          push_tags: false
-          cast_booleans: false
-          default: right
-          display: 'Links Direction'
-          type: select
-          icon: select
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
         handle: sticky
         field:
           default: false
@@ -52,74 +30,15 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 50
-      -
-        handle: shrinkable
-        field:
-          default: false
-          display: Shrinkable
-          type: toggle
-          icon: toggle
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          if:
-            sticky: 'equals true'
-          width: 50
-  footer_navigation:
-    display: 'Footer Navigation'
-    fields:
-      -
-        handle: footer_company_logo
-        field:
-          mode: list
-          container: images
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          display: 'Company Logo'
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 25
-          max_files: 1
-      -
-        handle: footer_sticky
-        field:
-          default: false
-          display: Sticky
-          type: toggle
-          icon: toggle
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
           width: 25
       -
-        handle: show_footer_navigation
-        field:
-          default: true
-          display: 'Show Footer Navigation'
-          type: toggle
-          icon: toggle
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 25
-      -
-        handle: funky_footer
+        handle: shrink_on_scroll
         field:
           default: false
-          display: 'Funky Footer'
+          display: 'Shrink On Scroll'
           type: toggle
           icon: toggle
           listable: hidden
           instructions_position: above
           visibility: visible
-          always_save: false
           width: 25

@@ -93,3 +93,27 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: telephone
+        field:
+          input_type: text
+          antlers: false
+          display: Telephone
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible

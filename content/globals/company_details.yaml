@@ -1,7 +1,10 @@
 title: 'Company Details'
 data:
   company_name: P4events
+  address: 'Unit 4, Corner Shippon Clifton Fields, Lytham Road, Preston'
   facebook: '#'
   twitter: '#'
   instagram: '#'
   linkedin: '#'
+  email: contact@p4events.co.uk
+  telephone: '0333 050 4624'

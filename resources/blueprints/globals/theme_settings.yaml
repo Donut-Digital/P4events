@@ -17,23 +17,23 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 25
+          width: 33
       -
-        handle: secondary_colour
+        handle: text_colour
         field:
           theme: classic
           lock_opacity: false
           default_color_mode: HEXA
           color_modes:
             - hex
-          display: 'Secondary Colour'
+          display: 'Text Colour'
           type: color
           icon: color
           listable: hidden
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 25
+          width: 33
       -
         handle: support_colour
         field:
@@ -49,20 +49,54 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 25
+          width: 33
+  main_navigation_colours:
+    display: 'Main Navigation Colours'
+    fields:
       -
-        handle: background_colour
+        handle: navigation_primary_colour
         field:
           theme: classic
           lock_opacity: false
           default_color_mode: HEXA
           color_modes:
             - hex
-          display: 'Background Colour'
+          display: 'Navigation Primary Colour'
           type: color
           icon: color
           listable: hidden
           instructions_position: above
           visibility: visible
-          always_save: false
-          width: 25
+          width: 50
+      -
+        handle: navigation_secondary_colour
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Navigation Secondary Colour'
+          type: color
+          icon: color
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          width: 50
+  footer_navigation_colours:
+    display: 'Footer Navigation Colours'
+    fields:
+      -
+        handle: footer_background_colour
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Footer Background Colour'
+          type: color
+          icon: color
+          listable: hidden
+          instructions_position: above
+          visibility: visible

@@ -1,6 +1,4 @@
 sections:
   main:
     display: Main
-    fields:
-      -
-        import: icon
+    fields: {  }

@@ -1,8 +1,5 @@
 title: 'Navigation Settings'
 data:
-  links_direction: right
-  sticky: true
-  shrinkable: true
-  footer_sticky: false
-  show_footer_navigation: false
-  funky_footer: false
+  company_logo: p4events-logo.svg
+  sticky: false
+  shrink_on_scroll: false
