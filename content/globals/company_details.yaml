@@ -1,10 +1,13 @@
 title: 'Company Details'
 data:
   company_name: P4events
-  address: 'Unit 4, Corner Shippon Clifton Fields, Lytham Road, Preston'
+  address: 'Unit 4, Corner Shippon Clifton Fields, Lytham Road'
+  city: Preston
+  postcode: 'PR4 0XG'
+  company_description: 'Passion 4 Events work across the UK & Europe providing specialised event management and planning services including luxury wedding planning, boutique furniture hire and alternative entertainment.'
+  email: contact@p4events.co.uk
+  telephone: '0333 050 4624'
   facebook: '#'
   twitter: '#'
   instagram: '#'
-  linkedin: '#'
-  email: contact@p4events.co.uk
-  telephone: '0333 050 4624'
+  pinterest: '#'

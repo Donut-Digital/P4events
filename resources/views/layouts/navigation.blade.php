@@ -96,12 +96,31 @@
 </nav>
 
 <!-- mobile navigation start -->
-<div id="mobile-menu" class="hidden w-full bg-white left-0 shadow-md">
-    <ul class="flex flex-col p-2 mt-0 text-sm font-medium">
+<div id="mobile-menu" class="hidden w-full left-0 shadow-md bg-nav-secondary border-t-2 border-primary">
+    <ul class="flex flex-col text-sm font-medium text-white text-sm divide-y divide-[#555]">
 
         @foreach(Statamic::tag('nav:main_navigation') as $item)
             @if(count($item['children']) > 0)
+                <li class="flex items-center flex-col w-full py-2">
 
+                    <button class="mobile-dropdown-trigger flex justify-center items-center py-2 pr-4 pl-3 m-auto">
+                        <a href="{{ $item['url'] }}" class="w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between">
+                            <span class="whitespace-nowrap m-auto">{{ $item['title'] }}</span>
+                        </a>
+                        @includeIf('SVGs.dropdown')
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div class="hidden">
+                        <ul class="py-1 text-sm text-center" aria-labelledby="dropdownLargeButton">
+                            @foreach($item['children'] as $child)
+                                <li class="dropdown-item">
+                                    <a href="{{ $child['url'] }}" class="block py-2 px-4">{{ $child['title'] }}</a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+
+                </li>
             @elseif(!$item['last'])
                 <li class="flex items-center w-full py-2">
                     <a href="{{ $item['url'] }}" class="w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between">

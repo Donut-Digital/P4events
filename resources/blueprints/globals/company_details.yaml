@@ -14,7 +14,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 33
+          width: 50
       -
         handle: address
         field:
@@ -23,11 +23,23 @@ sections:
           display: Address
           type: text
           icon: text
-          width: 33
           listable: hidden
           instructions_position: above
           visibility: visible
           always_save: false
+          width: 50
+      -
+        handle: city
+        field:
+          input_type: text
+          antlers: false
+          display: City
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
         handle: postcode
         field:
@@ -36,11 +48,48 @@ sections:
           display: Postcode
           type: text
           icon: text
-          width: 33
+          width: 50
           listable: hidden
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: company_description
+        field:
+          antlers: false
+          display: 'Company Description'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: telephone
+        field:
+          input_type: text
+          antlers: false
+          display: Telephone
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  socials:
+    display: Socials
+    fields:
       -
         handle: facebook
         field:
@@ -81,11 +130,11 @@ sections:
           visibility: visible
           always_save: false
       -
-        handle: linkedin
+        handle: pinterest
         field:
           input_type: text
           antlers: false
-          display: LinkedIn
+          display: Pinterest
           type: text
           icon: text
           width: 25
@@ -93,27 +142,3 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: email
-        field:
-          input_type: text
-          antlers: false
-          display: Email
-          type: text
-          icon: text
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      -
-        handle: telephone
-        field:
-          input_type: text
-          antlers: false
-          display: Telephone
-          type: text
-          icon: text
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
