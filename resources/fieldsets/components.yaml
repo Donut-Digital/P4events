@@ -6,9 +6,11 @@ fields:
       collapse: true
       previews: true
       sets:
-        block:
-          display: Block
-          fields: {  }
+        intro_block:
+          display: 'Intro Block'
+          fields:
+            -
+              import: intro_block
       display: Components
       type: replicator
       icon: replicator

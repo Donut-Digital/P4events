@@ -9,6 +9,7 @@ module.exports = {
     extend: {
         fontFamily: {
             'lato': ['Lato'],
+            'domine': ['Domine'],
         },
         colors:
             {

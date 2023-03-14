@@ -1,0 +1,54 @@
+title: 'Intro Block'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: introduction
+    field:
+      antlers: false
+      display: Introduction
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: background_color
+    field:
+      theme: nano
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - hex
+      display: 'Background Color'
+      type: color
+      icon: color
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: background_image
+    field:
+      mode: list
+      container: images
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: 'Background Image'
+      type: assets
+      icon: assets
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      max_files: 1
