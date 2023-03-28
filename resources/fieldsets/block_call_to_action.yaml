@@ -1,0 +1,104 @@
+title: 'Block: Call to Action Block'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+  -
+    handle: introduction
+    field:
+      antlers: false
+      display: Introduction
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: background_image
+    field:
+      mode: list
+      container: images
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: 'Background Image'
+      type: assets
+      icon: assets
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      folder: p4events
+      max_files: 1
+  -
+    handle: background_color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - hex
+      display: 'Background Color'
+      type: color
+      icon: color
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+  -
+    handle: actions
+    field:
+      mode: stacked
+      min_rows: 1
+      add_row: 'Add CTA'
+      reorderable: true
+      display: Actions
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      fields:
+        -
+          handle: image
+          field:
+            mode: list
+            container: images
+            folder: p4events
+            restrict: false
+            allow_uploads: true
+            show_filename: true
+            display: Image
+            type: assets
+            icon: assets
+            width: 50
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            validate:
+              - required
+            max_files: 1
+        -
+          handle: link
+          field:
+            display: Link
+            type: link
+            icon: link
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            width: 50
+            validate:
+              - required

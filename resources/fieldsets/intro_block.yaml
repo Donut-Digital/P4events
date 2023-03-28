@@ -1,4 +1,4 @@
-title: 'Intro Block'
+title: 'Block: Intro Block'
 fields:
   -
     handle: title
@@ -11,6 +11,8 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
+      validate:
+        - required
   -
     handle: introduction
     field:
@@ -36,6 +38,8 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
+      validate:
+        - required
   -
     handle: background_image
     field:
@@ -52,3 +56,26 @@ fields:
       instructions_position: above
       visibility: visible
       max_files: 1
+      folder: p4events
+  -
+    handle: button_label
+    field:
+      input_type: text
+      antlers: false
+      display: 'Button Label'
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: button
+    field:
+      display: 'Button Link'
+      type: link
+      icon: link
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      width: 50

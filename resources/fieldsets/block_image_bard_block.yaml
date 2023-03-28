@@ -1,0 +1,91 @@
+title: 'Block: Image Bard Block'
+fields:
+  -
+    handle: image_bard_layout
+    field:
+      options:
+        vertical: Vertical
+        horizontal: Horizontal
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Image Bard Layout'
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+  -
+    handle: image
+    field:
+      mode: list
+      container: images
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      max_files: 1
+      display: Image
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+      folder: p4events
+  -
+    handle: bard
+    field:
+      collapse: false
+      always_show_set_button: false
+      previews: true
+      smart_typography: false
+      buttons:
+        - h2
+        - h3
+        - bold
+        - anchor
+        - unorderedlist
+      save_html: false
+      inline: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      antlers: false
+      remove_empty_nodes: false
+      display: Bard
+      type: bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+      container: images
+  -
+    handle: bard_highlight
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - hex
+      display: 'Bard Highlight'
+      type: color
+      icon: color
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      if:
+        image_bard_layout: 'equals horizontal'

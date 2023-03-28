@@ -1,1 +1,4 @@
-.content h1 { @apply font-domine text-[40px] }
+
+.content h1 { @apply font-domine m-auto leading-10 text-[40px]; }
+.content h2 { @apply font-domine text-3xl text-davy-gray; }
+.content p { @apply font-lato text-davy-gray; }

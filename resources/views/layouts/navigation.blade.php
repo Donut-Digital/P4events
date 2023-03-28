@@ -60,7 +60,7 @@
                             </a>
 
                             <!-- Dropdown menu start -->
-                            <div class="absolute min-w-[100%] w-max top-[50px] hidden group-hover:block z-10 bg-nav-secondary shadow border-t-2 border-primary">
+                            <div class="absolute min-w-[100%] w-max top-[50px] hidden group-hover:block z-20 bg-nav-secondary shadow border-t-2 border-primary">
                                 <ul class="py-1 text-white text-sm divide-y divide-[#555]" aria-labelledby="dropdownLargeButton">
                                     @foreach($item['children'] as $child)
                                         <li class="dropdown-item">

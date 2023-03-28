@@ -11,6 +11,16 @@ fields:
           fields:
             -
               import: intro_block
+        image_bard_block:
+          display: 'Image Bard Block'
+          fields:
+            -
+              import: block_image_bard_block
+        block_call_to_action:
+          display: 'Call to Action Block'
+          fields:
+            -
+              import: block_call_to_action
       display: Components
       type: replicator
       icon: replicator

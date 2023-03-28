@@ -1,6 +1,9 @@
 @import url("utility-classes.css");
 @import url("typography.css");
 
+/* Components */
+@import url("components/bard.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
