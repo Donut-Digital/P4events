@@ -18,7 +18,10 @@ module.exports = {
                 'support':'var(--theme-support-colour)',
                 'nav-primary':'var(--theme-navigation-primary-colour)',
                 'nav-secondary':'var(--theme-navigation-secondary-colour)',
-                'footer-primary':'var(--theme-footer-background-colour)'
+                'footer-primary':'var(--theme-footer-background-colour)',
+
+                'davy-gray':'#555555',
+                'sea-shell':'#f0f0f0'
             }
     },
   },
