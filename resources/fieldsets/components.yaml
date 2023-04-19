@@ -1,31 +1,30 @@
 title: Components
 fields:
-  -
-    handle: components
+  - handle: components
     field:
       collapse: true
       previews: true
       sets:
         intro_block:
-          display: 'Intro Block'
+          display: "Intro Block"
           fields:
-            -
-              import: intro_block
+            - import: intro_block
         image_bard_block:
-          display: 'Image Bard Block'
+          display: "Image Bard Block"
           fields:
-            -
-              import: block_image_bard_block
+            - import: block_image_bard_block
         block_call_to_action:
-          display: 'Call to Action Block'
+          display: "Call to Action Block"
           fields:
-            -
-              import: block_call_to_action
+            - import: block_call_to_action
+        contact_us_block:
+          display: "Contact Us Block"
+          fields:
+            - import: contact_us_block
         image_gallery_block:
-          display: 'Image Gallery Block'
+          display: "Image Gallery Block"
           fields:
-            -
-              import: block_image_gallery
+            - import: block_image_gallery
       display: Components
       type: replicator
       icon: replicator

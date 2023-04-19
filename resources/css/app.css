@@ -3,6 +3,7 @@
 
 /* Components */
 @import url("components/bard.css");
+@import url("components/contact-us.css");
 
 @tailwind base;
 @tailwind components;

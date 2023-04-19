@@ -3,6 +3,6 @@
 
 .bard p:not(li p) { @apply mb-8; }
 
-.bard ul { @apply p-5 bg-sea-shell overflow-auto list-none; }
+.bard ul { @apply p-5 bg-support overflow-auto list-none; }
 .bard ul li { @apply w-1/2 float-left flex pb-[3px]; }
 .bard ul li:before { @apply content-['\f058'] font-['FontAwesome'] text-primary mr-2.5 }

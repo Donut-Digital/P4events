@@ -3,7 +3,7 @@ id: eb48a052-cc68-499b-a04f-e02d10ad8ef3
 blueprint: page
 title: Homepage
 updated_by: 1
-updated_at: 1679777951
+updated_at: 1681920582
 components:
   -
     id: lfo0nl2z
@@ -422,5 +422,11 @@ components:
         image: p4events/trilanco_logo_hp-1.png.webp
         link: '#'
     type: block_call_to_action
+    enabled: true
+  -
+    id: lgnw2jhs
+    title: 'Turn your ideas into action, arrange a free consultation'
+    subtitle: 'Or contact us: 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
+    type: contact_us_block
     enabled: true
 ---
