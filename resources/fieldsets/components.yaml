@@ -21,6 +21,11 @@ fields:
           fields:
             -
               import: block_call_to_action
+        image_gallery_block:
+          display: 'Image Gallery Block'
+          fields:
+            -
+              import: block_image_gallery
       display: Components
       type: replicator
       icon: replicator
