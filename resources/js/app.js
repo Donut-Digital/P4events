@@ -6,6 +6,7 @@ import '../css/app.css';
 
 import './scripts/navigation_menu';
 import './scripts/navigation_shrink';
+import './scripts/contact_us_form';
 
 const app = createApp({})
 

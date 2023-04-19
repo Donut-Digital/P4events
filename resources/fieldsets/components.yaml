@@ -21,6 +21,11 @@ fields:
           fields:
             -
               import: block_call_to_action
+        contact_us_block:
+          display: 'Contact Us Block'
+          fields:
+            -
+              import: contact_us_block
       display: Components
       type: replicator
       icon: replicator
