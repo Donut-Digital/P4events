@@ -1,0 +1,14 @@
+.hero-block .bard-light h1,
+.hero-block .bard-light h2,
+.hero-block .bard-light p { @apply !text-white; }
+
+.hero-block .bard-dark h1,
+.hero-block .bard-dark h2,
+.hero-block .bard-dark p { @apply !text-davy-gray; }
+
+.hero-block .bard-dark { @apply border-y border-l border-davy-gray; }
+
+.hero-block .bard-light { @apply border-y border-l border-white; }
+
+.hero-block h1,
+.hero-block h2 { @apply pb-4; }

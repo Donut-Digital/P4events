@@ -34,7 +34,7 @@ fields:
       display: 'Background Color'
       type: color
       icon: color
-      width: 50
+      width: 33
       listable: hidden
       instructions_position: above
       visibility: visible
@@ -51,12 +51,23 @@ fields:
       display: 'Background Image'
       type: assets
       icon: assets
-      width: 50
+      width: 33
       listable: hidden
       instructions_position: above
       visibility: visible
       max_files: 1
       folder: p4events
+  -
+    handle: light_text
+    field:
+      default: true
+      display: 'Light Text'
+      type: toggle
+      icon: toggle
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
   -
     handle: button_label
     field:
