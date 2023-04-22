@@ -20,7 +20,8 @@ module.exports = {
                 'nav-secondary':'var(--theme-navigation-secondary-colour)',
                 'footer-primary':'var(--theme-footer-background-colour)',
 
-                'davy-gray':'#555555'
+                'davy-gray':'#555555',
+                'midnight-black':'#222'
             }
     },
   },
