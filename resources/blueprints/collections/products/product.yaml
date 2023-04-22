@@ -1,0 +1,65 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: product_title
+        field:
+          type: text
+          validate:
+            - required
+          display: 'Product Title'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+      -
+        handle: product_description
+        field:
+          antlers: false
+          display: 'Product Description'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: product_images
+        field:
+          mode: list
+          container: images
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: 'Product Images'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: product_category
+        field:
+          type: terms
+          taxonomies:
+            - product_category
+          display: 'Product Category'
+          mode: select
+  contact_us_block:
+    display: 'Contact Us Block'
+    fields:
+      -
+        import: contact_us_block
+        config:
+          title:
+            required: true
+title: Product
