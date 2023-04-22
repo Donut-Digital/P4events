@@ -1,0 +1,15 @@
+title: 'Block: Product Categories'
+fields:
+  -
+    handle: categories
+    field:
+      mode: default
+      create: true
+      taxonomies:
+        - product_category
+      display: Categories
+      type: terms
+      icon: taxonomy
+      listable: hidden
+      instructions_position: above
+      visibility: visible
