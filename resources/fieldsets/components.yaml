@@ -41,6 +41,11 @@ fields:
           fields:
             -
               import: hero_block
+        product_categories:
+          display: 'Product Categories'
+          fields:
+            -
+              import: block_product_categories
       display: Components
       type: replicator
       icon: replicator
