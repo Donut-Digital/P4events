@@ -3,7 +3,7 @@ id: eb48a052-cc68-499b-a04f-e02d10ad8ef3
 blueprint: page
 title: Homepage
 updated_by: 1
-updated_at: 1681920582
+updated_at: 1682071659
 components:
   -
     id: lfo0nl2z
@@ -428,5 +428,45 @@ components:
     title: 'Turn your ideas into action, arrange a free consultation'
     subtitle: 'Or contact us: 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: contact_us_block
+    enabled: true
+  -
+    id: lgqdgvzq
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Wedding Theming'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Having those all-important unique touches will help you to create your perfect wedding day so you may want to consider the'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://p4events.co.uk/luxury-wedding-planning/wedding-theming/'
+                  rel: null
+                  target: null
+                  title: null
+            text: ' type of theme '
+          -
+            type: text
+            text: "you are looking for to create a totally memorable day. The main goal should be having a wedding that is bespoke to you so finding ways the venue can be personalised to you both will ensure it’s a day to remember.\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Your luxury wedding planner will help you to source everything in the most cost-effective way so whether you are looking for bespoke furniture, personalised table plan or a super creative theme, the possibilities are endless and P4 Events has experience in creating everything from fairground themes to shabby chic English themes.\_Depending on your taste, you may fancy a vintage theme, a clean and modern look or a classic country style wedding and P4 Events has all the experience to make your wedding theme totally unique."
+    bard_highlight: '#5D5D5D'
+    type: bard_block
     enabled: true
 ---

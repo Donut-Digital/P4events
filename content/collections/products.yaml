@@ -2,7 +2,7 @@ title: Products
 template: product
 layout: layout
 taxonomies:
-  - product_category
+  - boutique_furniture_hire
 revisions: false
 route: '{parent_uri}/{slug}'
 sort_dir: asc
@@ -13,3 +13,5 @@ preview_targets:
   -
     label: Entry
     url: '{permalink}'
+structure:
+  root: false

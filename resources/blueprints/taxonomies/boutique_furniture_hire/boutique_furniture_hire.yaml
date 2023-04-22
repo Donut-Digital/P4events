@@ -1,3 +1,4 @@
+title: 'Boutique Furniture Hire'
 sections:
   main:
     display: Main
@@ -34,4 +35,3 @@ sections:
           required: true
           validate:
             - required
-title: 'Product Category'

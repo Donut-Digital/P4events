@@ -6,7 +6,7 @@
 
 
     <div class="content flex-grow">
-        
+
         @foreach($components as $component)
 
             @includeIf('components/' .$component['type'])

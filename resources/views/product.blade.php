@@ -6,7 +6,7 @@
 
 
     <div class="content flex-grow">
-        {{ $product_title }}
+        {{ $title }}
     </div>
 
     @includeIf('layouts.footer')

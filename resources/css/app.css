@@ -4,6 +4,7 @@
 /* Components */
 @import url("components/bard.css");
 @import url("components/contact-us.css");
+@import url("components/hero-block.css");
 
 @tailwind base;
 @tailwind components;

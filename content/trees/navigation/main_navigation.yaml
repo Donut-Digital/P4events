@@ -49,14 +49,17 @@ tree:
     title: Hire
     children:
       -
-        id: 35554988-f193-4937-9627-35385414afb0
-        entry: e44ceaa6-8f51-43a0-9783-244401b428bd
+        id: bb5def2a-36ee-4c03-9a5f-a801facf4264
+        title: 'Bar & Booth Layouts'
+        url: /boutique-furniture-hire/bar-booth-layouts/
       -
-        id: 33b188c2-ad13-4bc6-ae2e-44d0b764c5ad
-        entry: 15b6cb4f-5434-49ce-857e-441da22cbf6d
+        id: 9ad352c7-1ce1-4fdd-8ba6-030e1980c0bc
+        title: 'Bean Bags & Tables'
+        url: /boutique-furniture-hire/bean-bags-tables/
       -
-        id: 9b0f483f-3074-4405-9995-f22c166dc4ba
-        entry: 2a4f62d6-2cb1-4dba-b997-eb78d17f2a0a
+        id: be14655b-4657-4fbc-872f-43cc8f6c12d0
+        title: 'Props & Accessories'
+        url: /boutique-furniture-hire/props-accessories/
   -
     id: 8e5eaffb-f734-4640-8a77-6fbb29d13efa
     entry: 7add59be-8f0c-4413-aa23-2c9feafc2131
