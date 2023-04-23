@@ -1,12 +1,11 @@
-title: 'Block: Product Categories'
+title: "Block: Product Categories"
 fields:
-  -
-    handle: categories
+  - handle: categories
     field:
       mode: default
       create: true
       taxonomies:
-        - product_category
+        - boutique_furniture_hire
       display: Categories
       type: terms
       icon: taxonomy

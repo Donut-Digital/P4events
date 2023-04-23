@@ -1,4 +1,7 @@
 
 #contact_form label { @apply text-primary-text pr-4; }
-#contact_form input { @apply bg-support py-3 px-10 w-full; }
+#contact_form input { @apply bg-support py-3 px-4 w-full rounded; }
 #contact_form .field { @apply flex flex-col items-center xl:flex-row xl:whitespace-nowrap }
+#contact_form textarea {
+    @apply bg-support py-3 px-4 w-full rounded;
+}
