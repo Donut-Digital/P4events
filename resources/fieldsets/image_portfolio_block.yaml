@@ -30,3 +30,4 @@ fields:
       visibility: visible
       validate:
         - required
+      folder: p4events
