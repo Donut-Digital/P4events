@@ -4,7 +4,7 @@
         <div class="w-2/3 xl:w-1/3">
             <div class="flex flex-col h-full">
                 <img src="{{ $component['main_image'] }}">
-                <div class="p-4" style="background-color: var(--theme-primary-colour)">
+                <div class="p-5" style="background-color: var(--theme-primary-colour)">
                     <p class="font-bold" style="color: #FFF;">{{ $component['image_title'] }}</p>
                     <p style="color: #FFF;">{{ $component['image_sub_description'] }}</p>
                 </div>
@@ -13,7 +13,7 @@
 
 
         {{-- Form details --}}
-        <div class="w-2/3 px-4 flex flex-col gap-8 ">
+        <div class="w-2/3 px-0 xl:px-4 flex flex-col gap-8 ">
             <form id="contact_form" class="flex flex-col gap-4" method="post" action="/!/forms/join_us_form">
                 <div class="field flex flex-col justify-start items-stretch">
                     <label for="name" class="mb-2">Your Name:*</label>
