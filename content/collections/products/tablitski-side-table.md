@@ -10,7 +10,7 @@ product_description: |-
   Available in Silver
 boutique_furniture_hire:
   - bean-bags-tables
-featured_image: fat-bot-table2.jpg
+featured_image: p4events/fat-bot-table2.jpg
 contact_us_blocktitle: 'Turn your ideas into action, arrange a free consultation'
 contact_us_blocksubtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
 updated_by: 1

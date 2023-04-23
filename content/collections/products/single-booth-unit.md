@@ -20,5 +20,5 @@ updated_by: 1
 updated_at: 1682195772
 contact_us_blocktitle: 'Turn your ideas into action, arrange a free consultation'
 contact_us_blocksubtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
-featured_image: single-luxury-bar-unit2-(1).jpg
+featured_image: p4events/single-luxury-bar-unit2-(1).jpg
 ---

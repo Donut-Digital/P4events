@@ -10,7 +10,7 @@ product_description: |-
   Available in Black
 boutique_furniture_hire:
   - bean-bags-tables
-featured_image: fat-boy-black.jpg
+featured_image: p4events/fat-boy-black.jpg
 contact_us_blocktitle: 'Turn your ideas into action, arrange a free consultation'
 contact_us_blocksubtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
 updated_by: 1

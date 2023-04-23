@@ -8,7 +8,7 @@ product_description: |-
   Complete your hand crafted bar unit with our 3-door sliding fridge. With a 400 cubic litre capacity, this fridge will comfortably meet your storage needs.
 boutique_furniture_hire:
   - props-accessories
-featured_image: fridge-749x484.jpg
+featured_image: p4events/fridge-749x484.jpg
 updated_by: 1
 updated_at: 1682195542
 contact_us_blocktitle: 'Turn your ideas into action, arrange a free consultation'

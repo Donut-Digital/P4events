@@ -17,6 +17,7 @@ fields:
       max_files: 3
       validate:
         - required
+      folder: p4events
   -
     handle: image_position
     field:
