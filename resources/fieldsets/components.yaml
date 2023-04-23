@@ -46,6 +46,11 @@ fields:
           fields:
             -
               import: block_product_categories
+        image_portfolio_block:
+          display: 'Image Portfolio Block'
+          fields:
+            -
+              import: image_portfolio_block
       display: Components
       type: replicator
       icon: replicator

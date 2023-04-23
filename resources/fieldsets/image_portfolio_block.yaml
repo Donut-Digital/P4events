@@ -1,0 +1,32 @@
+title: 'Block: Image Portfolio Block'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
+  -
+    handle: images
+    field:
+      mode: list
+      container: images
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      max_files: 6
+      display: Images
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      validate:
+        - required
