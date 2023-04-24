@@ -10,7 +10,7 @@ sections:
           display: name
           type: text
           icon: text
-          listable: hidden
+          listable: true
           instructions_position: above
           visibility: visible
       -
@@ -32,7 +32,7 @@ sections:
           display: email
           type: text
           icon: text
-          listable: hidden
+          listable: true
           instructions_position: above
           visibility: visible
       -
@@ -53,7 +53,7 @@ sections:
           display: origin
           type: text
           icon: text
-          listable: hidden
+          listable: true
           instructions_position: above
           visibility: visible
       -
