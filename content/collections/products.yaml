@@ -4,7 +4,7 @@ layout: layout
 taxonomies:
   - boutique_furniture_hire
 revisions: false
-route: '{parent_uri}/{slug}'
+route: 'boutique-furniture-hire/{parent_uri}/{boutique_furniture_hire}/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

@@ -24,7 +24,7 @@
             @endforeach
         </div>
 
-        <section class="border-t border-gray-300 mt-4">
+        <section class="border-t border-gray-300 mt-4 bg-[#fcfcfc]">
             <div class="container mx-auto py-10">
 
                 <h3 class="text-center py-10 text-primary">Turn your ideas into action, arrange a free consultation</h3>
