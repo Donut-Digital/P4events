@@ -1,9 +1,9 @@
 @import url("utility-classes.css");
 @import url("typography.css");
+@import url("form.css");
 
 /* Components */
 @import url("components/bard.css");
-@import url("components/contact-us.css");
 @import url("components/hero-block.css");
 
 @tailwind base;
@@ -13,3 +13,11 @@
 html, body { @apply w-full h-full font-lato; }
 #app { @apply h-full flex flex-col justify-between; }
 
+button {
+    border-radius: 0.25rem
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: all .2s;
+}

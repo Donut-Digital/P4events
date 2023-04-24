@@ -1,7 +1,6 @@
-title: 'Block: Product Categories'
+title: "Block: Product Categories"
 fields:
-  -
-    handle: categories
+  - handle: categories
     field:
       mode: default
       create: true

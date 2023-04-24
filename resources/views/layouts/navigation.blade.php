@@ -6,7 +6,8 @@
             <i class="fa-solid fa-envelope text-nav-secondary text-xs"></i>
         </div>
 
-        <a href="mailto:{{ $company_details['email'] }}" class="mr-2 text-white text-sm lg:text-base font-light hover:text-primary transition-all">{{ $company_details['email'] }}</a>
+        <a href="mailto:{{ $company_details['email'] }}"
+            class="mr-2 text-white text-sm lg:text-base font-light hover:text-primary transition-all">{{ $company_details['email'] }}</a>
     </div>
 
     <div class="flex mr-4">
@@ -14,7 +15,8 @@
             <i class="fa-solid fa-phone text-nav-secondary text-xs"></i>
         </div>
 
-        <a href="tel:{{ $company_details['telephone'] }}" class="mr-2 text-white text-sm lg:text-base font-light hover:text-primary transition-all">{{ $company_details['telephone'] }}</a>
+        <a href="tel:{{ $company_details['telephone'] }}"
+            class="mr-2 text-white text-sm lg:text-base font-light hover:text-primary transition-all">{{ $company_details['telephone'] }}</a>
     </div>
 </nav>
 <!-- banner navigation end -->
@@ -26,7 +28,8 @@
 
         <div class="relative">
             <!-- Mobile Menu Trigger button start -->
-            <button id="menu-btn" type="button" class="absolute h-full my-auto text-white hover:text-primary lg:hidden">
+            <button id="menu-btn" type="button"
+                class="absolute h-full my-auto text-white hover:text-primary lg:hidden">
                 <div class="relative w-10 h-10">
                     <div id="menu-btn-1" class="absolute transition-all ease-in-out duration-300">
                         @includeIf('SVGs.menu')
@@ -39,10 +42,11 @@
             </button>
             <!-- Mobile Menu Trigger button end -->
 
-            @if($navigation_settings['company_logo'])
+            @if ($navigation_settings['company_logo'])
                 <div class="mx-auto lg:mx-0 w-fit">
                     <a href="/">
-                        <img class="w-[230px] h-[48px] py-2 m-auto lg:m-0" src="{{ $navigation_settings['company_logo']['permalink'] }}">
+                        <img class="w-[230px] h-[48px] py-2 m-auto lg:m-0"
+                            src="{{ $navigation_settings['company_logo']['permalink'] }}">
                     </a>
                 </div>
             @endif
@@ -52,19 +56,23 @@
         <!-- desktop navigation start -->
         <div id="desktop-menu" class="pt-[20px] pl-5 hidden lg:block">
             <ul class="flex flex-row text-sm font-medium">
-                @foreach(Statamic::tag('nav:main_navigation') as $item)
-                    @if(count($item['children']) > 0)
-                        <li class="flex relative items-center mr-4 py-2 group border-b-2 border-b-nav-primary hover:border-b-primary transition-all">
+                @foreach (Statamic::tag('nav:main_navigation') as $item)
+                    @if (count($item['children']) > 0)
+                        <li
+                            class="flex relative items-center mr-4 py-2 group border-b-2 border-b-nav-primary hover:border-b-primary transition-all">
                             <a href="{{ $item['url'] }}" class="text-white text-lg font-light">
                                 <span class="whitespace-nowrap">{{ $item['title'] }}</span>
                             </a>
 
                             <!-- Dropdown menu start -->
-                            <div class="absolute min-w-[100%] w-max top-[50px] hidden group-hover:block z-20 bg-nav-secondary shadow border-t-2 border-primary">
-                                <ul class="py-1 text-white text-sm divide-y divide-[#555]" aria-labelledby="dropdownLargeButton">
-                                    @foreach($item['children'] as $child)
+                            <div
+                                class="absolute min-w-[100%] w-max top-[50px] hidden group-hover:block z-20 bg-nav-secondary shadow border-t-2 border-primary">
+                                <ul class="py-1 text-white text-sm divide-y divide-[#555]"
+                                    aria-labelledby="dropdownLargeButton">
+                                    @foreach ($item['children'] as $child)
                                         <li class="dropdown-item">
-                                            <a href="{{ $child['url'] }}" class="block py-2 px-4 hover:bg-[#444]">{{ $child['title'] }}</a>
+                                            <a href="{{ $child['url'] }}"
+                                                class="block py-2 px-4 hover:bg-[#444]">{{ $child['title'] }}</a>
                                         </li>
                                     @endforeach
                                 </ul>
@@ -73,13 +81,15 @@
 
                         </li>
                     @elseif(!$item['last'])
-                        <li class="flex items-center mr-4 py-2 border-b-2 border-b-nav-primary hover:border-b-primary transition-all">
+                        <li
+                            class="flex items-center mr-4 py-2 border-b-2 border-b-nav-primary hover:border-b-primary transition-all">
                             <a href="{{ $item['url'] }}" class="text-white text-lg font-light">
                                 <span class="whitespace-nowrap">{{ $item['title'] }}</span>
                             </a>
                         </li>
                     @else
-                        <li class="flex items-center py-4 px-7 bg-primary hover:bg-[#6e6e6d] text-white fill-white transition-all ml-auto">
+                        <li
+                            class="flex items-center py-4 px-7 bg-primary hover:bg-[#6e6e6d] text-white fill-white transition-all ml-auto cursor-pointer">
                             <a href="{{ $item['url'] }}" class="text-[15px] font-light pr-1 tracking-[1px]">
                                 <span class="whitespace-nowrap">{{ $item['title'] }}</span>
                             </a>
@@ -99,12 +109,13 @@
 <div id="mobile-menu" class="hidden w-full left-0 shadow-md bg-nav-secondary border-t-2 border-primary">
     <ul class="flex flex-col text-sm font-medium text-white text-sm divide-y divide-[#555]">
 
-        @foreach(Statamic::tag('nav:main_navigation') as $item)
-            @if(count($item['children']) > 0)
+        @foreach (Statamic::tag('nav:main_navigation') as $item)
+            @if (count($item['children']) > 0)
                 <li class="flex items-center flex-col w-full py-2">
 
                     <button class="mobile-dropdown-trigger flex justify-center items-center py-2 pr-4 pl-3 m-auto">
-                        <a href="{{ $item['url'] }}" class="w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between">
+                        <a href="{{ $item['url'] }}"
+                            class="w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between">
                             <span class="whitespace-nowrap m-auto">{{ $item['title'] }}</span>
                         </a>
                         @includeIf('SVGs.dropdown')
@@ -112,7 +123,7 @@
                     <!-- Dropdown menu -->
                     <div class="hidden">
                         <ul class="py-1 text-sm text-center" aria-labelledby="dropdownLargeButton">
-                            @foreach($item['children'] as $child)
+                            @foreach ($item['children'] as $child)
                                 <li class="dropdown-item">
                                     <a href="{{ $child['url'] }}" class="block py-2 px-4">{{ $child['title'] }}</a>
                                 </li>
@@ -123,7 +134,8 @@
                 </li>
             @elseif(!$item['last'])
                 <li class="flex items-center w-full py-2">
-                    <a href="{{ $item['url'] }}" class="w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between">
+                    <a href="{{ $item['url'] }}"
+                        class="w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between">
                         <span class="whitespace-nowrap m-auto">{{ $item['title'] }}</span>
                     </a>
                 </li>
@@ -138,16 +150,11 @@
 
 <!-- mobile menu CTA start -->
 <li class="flex items-center justify-center py-2 lg:py-4 px-7 bg-primary lg:hidden">
-    <a href="{{ $last_item_url }}" class="text-[15px] font-light pr-1 tracking-[1px] w-full flex items-center justify-center text-white fill-white">
+    <a href="{{ $last_item_url }}"
+        class="text-[15px] font-light pr-1 tracking-[1px] w-full flex items-center justify-center text-white fill-white">
         <span class="whitespace-nowrap pr-2">{{ $last_item_title }}</span>
         <span class="pr-1">@include('SVGs.right-angle')</span>
         <span>@include('SVGs.right-angle')</span>
     </a>
 </li>
 <!-- mobile menu CTA end -->
-
-
-
-
-
-
