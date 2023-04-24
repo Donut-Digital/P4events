@@ -1,0 +1,72 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: name
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: number
+        field:
+          input_type: text
+          antlers: false
+          display: number
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: email
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: introduction
+        field:
+          antlers: false
+          display: introduction
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: origin
+        field:
+          input_type: text
+          antlers: false
+          display: origin
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: headshot
+        field:
+          mode: list
+          container: images
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Headshot
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
