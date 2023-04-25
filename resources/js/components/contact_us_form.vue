@@ -13,7 +13,7 @@ const number = ref('');
 const email = ref('');
 
 let successful_submission = false;
-let unsuccessful_submission = true;
+let unsuccessful_submission = false;
 
 async function submit(event)
 {
