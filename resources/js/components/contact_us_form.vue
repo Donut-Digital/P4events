@@ -13,6 +13,7 @@ const number = ref('');
 const email = ref('');
 
 let successful_submission = false;
+let unsuccessful_submission = true;
 
 async function submit(event)
 {
@@ -23,26 +24,38 @@ async function submit(event)
   data.append('token',recaptchaToken);
 
   fetch(form.action,
+{
+      method: form.method,
+      body: data,
+      headers:
+          {
+            'X-CSRF-TOKEN': props.csrf,
+            'X-Requested-With':'XMLHttpRequest'
+          }
+    })
+    // promise fulfilled
+    .then((response) =>
+    {
+      if(response.status === 200)
       {
-        method: form.method,
-        body: data,
-        headers:
-            {
-              'X-CSRF-TOKEN': props.csrf,
-              'X-Requested-With':'XMLHttpRequest'
-            }
-      })
-      .then((response) =>
-      {
-        if(response.status === 200)
-        {
-          successful_submission = true;
+        successful_submission = true;
 
-          name.value = '';
-          number.value = '';
-          email.value = '';
-        }
-      });
+        name.value = '';
+        number.value = '';
+        email.value = '';
+      }
+      else
+      {
+        console.error('Panic at the disco:', response);
+        unsuccessful_submission = true;
+      }
+    })
+    // catch any errors
+    .catch(error =>
+    {
+      console.error('Panic at the disco:', error);
+      unsuccessful_submission = true;
+    });
 }
 
 </script>
@@ -51,8 +64,12 @@ async function submit(event)
 
   <div>
 
-    <div v-if="successful_submission" id="contact_form_success" class="p-4 mb-4 text-sm text-green-700 rounded-lg bg-green-50 text-center w-max mx-auto" role="alert">
+    <div v-if="successful_submission" class="p-4 mb-10 text-sm text-green-700 rounded-lg bg-green-50 text-center max-w-3xl mx-auto" role="alert">
       <span class="font-semibold">Success!</span> Thank you for your submission, we will be in touch as soon as possible.
+    </div>
+
+    <div v-if="unsuccessful_submission" class="p-4 mb-10 text-sm text-red-700 rounded-lg bg-red-50 text-center max-w-3xl mx-auto" role="alert">
+      There has been an <span class="font-semibold">error</span> uploading your submission, please get in touch if this issue persists.
     </div>
 
     <form id="contact_form" method="post" action="/!/forms/forms" @submit.prevent="submit"
