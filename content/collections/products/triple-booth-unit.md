@@ -12,11 +12,13 @@ product_description: |-
 
   Specifications;
   Maximum width 4.8m
-boutique_furniture_hire:
-  - bar-booth-layouts
-featured_image: triple-luxury-booth-unit2.jpg
+boutique_furniture_hire: bar-booth-layouts
+featured_image: p4events/triple-luxury-booth-unit2.jpg
 contact_us_blocktitle: 'Turn your ideas into action, arrange a free consultation'
 contact_us_blocksubtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
 updated_by: 1
-updated_at: 1682195362
+updated_at: 1682319763
+product_images:
+  - double-luxury-booth-unit4-342x152-(2).jpg
+  - double-luxury-booth-unit3-342x152-(2).jpg
 ---

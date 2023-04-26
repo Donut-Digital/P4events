@@ -18,10 +18,38 @@ sections:
       -
         handle: product_description
         field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          smart_typography: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          inline: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
           antlers: false
+          remove_empty_nodes: false
           display: 'Product Description'
-          type: textarea
-          icon: textarea
+          type: bard
+          icon: bard
           listable: hidden
           instructions_position: above
           visibility: visible
@@ -39,6 +67,8 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
+      -
+        import: product_components
   sidebar:
     display: Sidebar
     fields:
@@ -59,6 +89,9 @@ sections:
           listable: true
           visibility: visible
           create: true
+          max_items: 1
+          validate:
+            - required
       -
         handle: featured_image
         field:
@@ -74,10 +107,14 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-  contact_us_block:
-    display: 'Contact Us Block'
-    fields:
+          folder: p4events
       -
-        import: contact_us_block
-        prefix: contact_us_block
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - products
+          max_items: 1
+          listable: false
+          localizable: true
 title: Product

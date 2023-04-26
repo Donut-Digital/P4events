@@ -46,11 +46,21 @@ fields:
           fields:
             -
               import: block_product_categories
+        image_portfolio_block:
+          display: 'Image Portfolio Block'
+          fields:
+            -
+              import: image_portfolio_block
         join_us_form_block:
           display: 'Join Us Form Block'
           fields:
             -
               import: join_us_form_block
+        entries_block:
+          display: 'Entries Block'
+          fields:
+            -
+              import: block_entries_block
       display: Components
       type: replicator
       icon: replicator
