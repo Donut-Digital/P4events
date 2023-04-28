@@ -1,5 +1,5 @@
 <section class="border-t border-gray-300 mt-4 bg-[#fcfcfc]">
-    <div class="container mx-auto py-10">
+    <div class="container mx-auto py-5 px-4">
         <h3 class="text-center py-10 text-primary">{{ $component['title'] }}</h3>
 
         <div id="contact_form_success" class="p-4 mb-4 text-sm text-green-700 rounded-lg bg-green-50 text-center hidden"

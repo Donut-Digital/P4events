@@ -21,6 +21,7 @@ module.exports = {
                 'footer-primary':'var(--theme-footer-background-colour)',
 
                 'davy-gray':'#555555',
+                'dim-gray':'#6e6e6d',
                 'midnight-black':'#222'
             }
     },

@@ -19,6 +19,6 @@ contact_us_blocksubtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or emai
 updated_by: 1
 updated_at: 1682319755
 product_images:
-  - double-luxury-booth-unit4-342x152-(1).jpg
-  - double-luxury-booth-unit3-342x152-(1).jpg
+  - p4events/double-luxury-booth-unit4-342x152-(1).jpg
+  - p4events/double-luxury-booth-unit3-342x152-(1).jpg
 ---
