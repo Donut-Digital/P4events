@@ -56,6 +56,11 @@ fields:
           fields:
             -
               import: join_us_form_block
+        documents_block:
+          display: 'Documents Block'
+          fields:
+            -
+              import: block_documents_block
         entries_block:
           display: 'Entries Block'
           fields:
