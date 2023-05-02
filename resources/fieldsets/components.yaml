@@ -61,6 +61,11 @@ fields:
           fields:
             -
               import: block_documents_block
+        entries_block:
+          display: 'Entries Block'
+          fields:
+            -
+              import: block_entries_block
       display: Components
       type: replicator
       icon: replicator

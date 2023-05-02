@@ -89,7 +89,7 @@
                         </li>
                     @else
                         <li
-                            class="flex items-center py-4 px-7 bg-primary hover:bg-[#6e6e6d] text-white fill-white transition-all ml-auto cursor-pointer">
+                            class="flex items-center py-4 px-7 bg-primary hover:bg-dim-gray text-white fill-white transition-all ml-auto cursor-pointer">
                             <a href="{{ $item['url'] }}" class="text-[15px] font-light pr-1 tracking-[1px]">
                                 <span class="whitespace-nowrap">{{ $item['title'] }}</span>
                             </a>
