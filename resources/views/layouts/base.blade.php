@@ -31,6 +31,7 @@
 
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdXbLMlAAAAAJg8pbUQIzEW5jKRWorqlQY1XiNr"></script>
 
 </body>
 
