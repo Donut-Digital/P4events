@@ -30,7 +30,7 @@
 
             <div class="w-2/3">
                 <h4 class="text-white bg-dim-gray px-8 py-4">{{ $page->title }}</h4>
-                <div class="bard">{!! $product_description !!}</div>
+                <div class="bard pt-2">{!! $product_description !!}</div>
             </div>
 
         </div>
