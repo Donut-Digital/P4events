@@ -29,7 +29,7 @@
             </div>
 
             <div class="w-2/3">
-                <h4 class="text-white bg-[#6e6e6d] px-8 py-4">{{ $page->title }}</h4>
+                <h4 class="text-white bg-dim-gray px-8 py-4">{{ $page->title }}</h4>
                 <div class="bard">{!! $product_description !!}</div>
             </div>
 
