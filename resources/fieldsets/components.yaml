@@ -66,6 +66,11 @@ fields:
           fields:
             -
               import: block_entries_block
+        slider_block:
+          display: 'Slider block'
+          fields:
+            -
+              import: slider_block
       display: Components
       type: replicator
       icon: replicator

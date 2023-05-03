@@ -1,6 +1,6 @@
-<section @class(["relative mb-10","border-b border-davy-gray border-opacity-25" =>!$component['light_text']]) style="background-color: {{ $component['background_color'] }};">
+<section @class(["relative","border-b border-davy-gray border-opacity-25" =>!$component['light_text'] && $loop->index == 0]) style="background-color: {{ $component['background_color'] }};">
 
-    <div class="flex flex-col text-center px-5">
+    <div class="flex flex-col text-center">
         <div class="bg-cover bg-center absolute h-full opacity-10 w-full" style="background-image: url({{ $component['background_image'] }});"></div>
         <div @class(['z-10 py-12 max-w-3xl m-auto','py-24' => $component['button_label'] && $component['button']])>
 
