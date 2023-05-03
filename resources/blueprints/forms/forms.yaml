@@ -70,3 +70,17 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
+      -
+        handle: csv
+        field:
+          mode: list
+          container: images
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: csv
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible

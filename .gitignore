@@ -15,4 +15,7 @@ yarn-error.log
 /.idea
 /.vscode
 /public
+please
+/config/statamic
 !/public/images
+
