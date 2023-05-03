@@ -1,7 +1,6 @@
-title: 'Block: Call to Action Block'
+title: "Block: Call to Action Block"
 fields:
-  -
-    handle: title
+  - handle: title
     field:
       input_type: text
       antlers: false
@@ -13,8 +12,7 @@ fields:
       visibility: visible
       validate:
         - required
-  -
-    handle: introduction
+  - handle: introduction
     field:
       antlers: false
       display: Introduction
@@ -23,15 +21,14 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
-  -
-    handle: background_image
+  - handle: background_image
     field:
       mode: list
       container: images
       restrict: false
       allow_uploads: true
       show_filename: true
-      display: 'Background Image'
+      display: "Background Image"
       type: assets
       icon: assets
       width: 50
@@ -40,15 +37,14 @@ fields:
       visibility: visible
       folder: p4events
       max_files: 1
-  -
-    handle: background_color
+  - handle: background_color
     field:
       theme: classic
       lock_opacity: false
       default_color_mode: HEXA
       color_modes:
         - hex
-      display: 'Background Color'
+      display: "Background Color"
       type: color
       icon: color
       width: 50
@@ -57,12 +53,11 @@ fields:
       visibility: visible
       validate:
         - required
-  -
-    handle: actions
+  - handle: actions
     field:
       mode: stacked
       min_rows: 1
-      add_row: 'Add CTA'
+      add_row: "Add CTA"
       reorderable: true
       display: Actions
       type: grid
@@ -71,8 +66,7 @@ fields:
       instructions_position: above
       visibility: visible
       fields:
-        -
-          handle: image
+        - handle: image
           field:
             mode: list
             container: images
@@ -90,8 +84,7 @@ fields:
             validate:
               - required
             max_files: 1
-        -
-          handle: link
+        - handle: link
           field:
             display: Link
             type: link

@@ -1,3 +1,3 @@
-<section class="constraint mx-auto py-10 px-4">
+<section class="mx-auto px-4 py-10 constraint">
     <slider-block :slides="{{ json_encode($component['slides']) }}"></slider-block>
 </section>

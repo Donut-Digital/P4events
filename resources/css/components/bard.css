@@ -1,8 +1,17 @@
+.bard h2 {
+  @apply mb-8;
+}
 
-.bard h2 { @apply mb-8; }
+.bard p:not(li p) {
+  @apply mb-8;
+}
 
-.bard p:not(li p) { @apply mb-8; }
-
-.bard ul { @apply p-5 bg-support overflow-auto list-none; }
-.bard ul li { @apply w-1/2 float-left flex pb-[3px]; }
-.bard ul li:before { @apply content-['\f058'] font-['FontAwesome'] text-primary mr-2.5 }
+.bard ul {
+  @apply list-none overflow-auto p-5 bg-support;
+}
+.bard ul li {
+  @apply float-left flex w-1/2 pb-[3px];
+}
+.bard ul li:before {
+  @apply mr-2.5 font-['FontAwesome'] text-primary content-['\f058'];
+}

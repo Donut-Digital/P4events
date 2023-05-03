@@ -2,8 +2,7 @@ sections:
   main:
     display: Main
     fields:
-      -
-        handle: name
+      - handle: name
         field:
           input_type: text
           antlers: false
@@ -14,8 +13,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: number
+      - handle: number
         field:
           input_type: text
           antlers: false
@@ -25,8 +23,7 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      -
-        handle: email
+      - handle: email
         field:
           input_type: text
           antlers: false

@@ -1,11 +1,9 @@
-title: 'Block: Slider Block'
+title: "Block: Slider Block"
 fields:
-  -
-    handle: slides
+  - handle: slides
     field:
       fields:
-        -
-          handle: quote
+        - handle: quote
           field:
             antlers: false
             display: Quote
@@ -14,20 +12,18 @@ fields:
             listable: hidden
             instructions_position: above
             visibility: visible
-        -
-          handle: quote_source
+        - handle: quote_source
           field:
             input_type: text
             antlers: false
-            display: 'Quote Source'
+            display: "Quote Source"
             type: text
             icon: text
             listable: hidden
             instructions_position: above
             visibility: visible
             width: 50
-        -
-          handle: image
+        - handle: image
           field:
             mode: list
             container: images
@@ -44,7 +40,7 @@ fields:
             instructions_position: above
             visibility: visible
       mode: stacked
-      add_row: 'Add Slide'
+      add_row: "Add Slide"
       reorderable: true
       display: Slides
       type: grid

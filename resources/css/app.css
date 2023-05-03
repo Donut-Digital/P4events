@@ -11,14 +11,19 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body { @apply w-full h-full font-lato; }
-#app { @apply h-full flex flex-col justify-between; }
+html,
+body {
+  @apply h-full w-full font-lato;
+}
+#app {
+  @apply flex h-full flex-col justify-between;
+}
 
 button {
-    border-radius: 0.25rem
+  border-radius: 0.25rem;
 }
 
 button:hover {
-    opacity: 0.8;
-    transition: all .2s;
+  opacity: 0.8;
+  transition: all 0.2s;
 }

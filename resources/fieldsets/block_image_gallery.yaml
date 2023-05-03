@@ -1,7 +1,6 @@
-title: 'Block: Image Gallery Block'
+title: "Block: Image Gallery Block"
 fields:
-  -
-    handle: images
+  - handle: images
     field:
       mode: list
       container: images
@@ -18,8 +17,7 @@ fields:
       validate:
         - required
       folder: p4events
-  -
-    handle: image_position
+  - handle: image_position
     field:
       options:
         Left: null
@@ -31,7 +29,7 @@ fields:
       taggable: false
       push_tags: false
       cast_booleans: false
-      display: 'Image''s Position'
+      display: "Image's Position"
       type: select
       icon: select
       listable: hidden

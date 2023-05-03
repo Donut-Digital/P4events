@@ -1,7 +1,6 @@
 title: Icon
 fields:
-  -
-    handle: icon
+  - handle: icon
     field:
       options:
         alert: Alert
@@ -9,7 +8,7 @@ fields:
         clock: Clock
         code: Code
         computer: Computer
-        graduationHat: 'Graduation Hat'
+        graduationHat: "Graduation Hat"
         quote: Quote
         search: Search
         tick: Tick

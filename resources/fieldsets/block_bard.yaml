@@ -1,7 +1,6 @@
-title: 'Block: Bard Block'
+title: "Block: Bard Block"
 fields:
-  -
-    handle: bard
+  - handle: bard
     field:
       collapse: false
       always_show_set_button: false
@@ -40,15 +39,14 @@ fields:
       visibility: visible
       validate:
         - required
-  -
-    handle: bard_highlight
+  - handle: bard_highlight
     field:
       theme: classic
       lock_opacity: false
       default_color_mode: HEXA
       color_modes:
         - hex
-      display: 'Bard Highlight'
+      display: "Bard Highlight"
       type: color
       icon: color
       listable: hidden

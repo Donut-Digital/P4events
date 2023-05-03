@@ -1,6 +1,6 @@
-<section class="constraint mx-auto">
+<section class="mx-auto constraint">
 
-    <div class="relative hero-block m-4">
+    <div class="relative m-4 hero-block">
         <img src="{{ $component['hero_image'] }}">
         <div @class(["text-right lg:w-4/5 md:absolute bottom-0 right-0 p-8 lg:mb-20",
                  "bard-light"=>$component['light_text'],

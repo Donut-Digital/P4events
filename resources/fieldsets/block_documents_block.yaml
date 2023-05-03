@@ -1,11 +1,9 @@
-title: 'Block: Documents Block'
+title: "Block: Documents Block"
 fields:
-  -
-    handle: documents
+  - handle: documents
     field:
       fields:
-        -
-          handle: label
+        - handle: label
           field:
             input_type: text
             antlers: false
@@ -16,8 +14,7 @@ fields:
             listable: hidden
             instructions_position: above
             visibility: visible
-        -
-          handle: document
+        - handle: document
           field:
             mode: list
             container: images
@@ -41,9 +38,8 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
-      add_row: 'Add Document'
-  -
-    handle: description
+      add_row: "Add Document"
+  - handle: description
     field:
       collapse: false
       always_show_set_button: false

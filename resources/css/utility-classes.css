@@ -1,2 +1,3 @@
-
-.constraint { @apply max-w-[1115px]; }
+.constraint {
+  @apply max-w-[1115px];
+}

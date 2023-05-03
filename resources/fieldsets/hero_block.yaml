@@ -1,7 +1,6 @@
-title: 'Block: Hero Block'
+title: "Block: Hero Block"
 fields:
-  -
-    handle: hero_image
+  - handle: hero_image
     field:
       mode: list
       container: images
@@ -10,41 +9,38 @@ fields:
       allow_uploads: true
       show_filename: true
       max_files: 1
-      display: 'Hero Image'
+      display: "Hero Image"
       type: assets
       icon: assets
       listable: hidden
       instructions_position: above
       visibility: visible
       width: 33
-  -
-    handle: bard_color
+  - handle: bard_color
     field:
       theme: classic
       lock_opacity: false
       default_color_mode: HEXA
       color_modes:
         - hex
-      display: 'Bard Color'
+      display: "Bard Color"
       type: color
       icon: color
       width: 33
       listable: hidden
       instructions_position: above
       visibility: visible
-  -
-    handle: light_text
+  - handle: light_text
     field:
       default: true
-      display: 'Light Text'
+      display: "Light Text"
       type: toggle
       icon: toggle
       width: 33
       listable: hidden
       instructions_position: above
       visibility: visible
-  -
-    handle: bard
+  - handle: bard
     field:
       collapse: false
       always_show_set_button: false

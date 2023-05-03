@@ -1,7 +1,6 @@
-title: 'Block: Join us Form'
+title: "Block: Join us Form"
 fields:
-  -
-    handle: main_image
+  - handle: main_image
     field:
       mode: list
       container: images
@@ -9,7 +8,7 @@ fields:
       allow_uploads: true
       show_filename: true
       max_files: 1
-      display: 'Main Image'
+      display: "Main Image"
       type: assets
       icon: assets
       listable: hidden
@@ -17,30 +16,27 @@ fields:
       visibility: visible
       validate:
         - required
-  -
-    handle: image_title
+  - handle: image_title
     field:
       input_type: text
       antlers: false
-      display: 'Image Title'
+      display: "Image Title"
       type: text
       icon: text
       listable: hidden
       instructions_position: above
       visibility: visible
-  -
-    handle: image_sub_description
+  - handle: image_sub_description
     field:
       input_type: text
       antlers: false
-      display: 'Image sub description'
+      display: "Image sub description"
       type: text
       icon: text
       listable: hidden
       instructions_position: above
       visibility: visible
-  -
-    handle: terms_conditions_file
+  - handle: terms_conditions_file
     field:
       mode: list
       container: images
@@ -48,7 +44,7 @@ fields:
       allow_uploads: true
       show_filename: true
       max_files: 1
-      display: 'Terms & Conditions'
+      display: "Terms & Conditions"
       type: assets
       icon: assets
       listable: hidden

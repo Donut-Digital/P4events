@@ -1,4 +1,4 @@
-<div class="container xl:max-w-6xl mx-auto py-2 px-4 md:px-0">
+<div class="container mx-auto px-4 py-2 md:px-0 xl:max-w-6xl">
     <!-- Only one image has been uploaded -->
     @if (count($component['images']) == 1)
         <?php $firstImage = $component['images'][0]; ?>

@@ -1,16 +1,15 @@
 sections:
   main:
-    display: 'Theme Colours'
+    display: "Theme Colours"
     fields:
-      -
-        handle: primary_colour
+      - handle: primary_colour
         field:
           theme: classic
           lock_opacity: false
           default_color_mode: HEXA
           color_modes:
             - hex
-          display: 'Primary Colour'
+          display: "Primary Colour"
           type: color
           icon: color
           listable: hidden
@@ -18,15 +17,14 @@ sections:
           visibility: visible
           always_save: false
           width: 33
-      -
-        handle: text_colour
+      - handle: text_colour
         field:
           theme: classic
           lock_opacity: false
           default_color_mode: HEXA
           color_modes:
             - hex
-          display: 'Text Colour'
+          display: "Text Colour"
           type: color
           icon: color
           listable: hidden
@@ -34,15 +32,14 @@ sections:
           visibility: visible
           always_save: false
           width: 33
-      -
-        handle: support_colour
+      - handle: support_colour
         field:
           theme: classic
           lock_opacity: false
           default_color_mode: HEXA
           color_modes:
             - hex
-          display: 'Support Colour'
+          display: "Support Colour"
           type: color
           icon: color
           listable: hidden
@@ -51,32 +48,30 @@ sections:
           always_save: false
           width: 33
   main_navigation_colours:
-    display: 'Main Navigation Colours'
+    display: "Main Navigation Colours"
     fields:
-      -
-        handle: navigation_primary_colour
+      - handle: navigation_primary_colour
         field:
           theme: classic
           lock_opacity: false
           default_color_mode: HEXA
           color_modes:
             - hex
-          display: 'Navigation Primary Colour'
+          display: "Navigation Primary Colour"
           type: color
           icon: color
           listable: hidden
           instructions_position: above
           visibility: visible
           width: 50
-      -
-        handle: navigation_secondary_colour
+      - handle: navigation_secondary_colour
         field:
           theme: classic
           lock_opacity: false
           default_color_mode: HEXA
           color_modes:
             - hex
-          display: 'Navigation Secondary Colour'
+          display: "Navigation Secondary Colour"
           type: color
           icon: color
           listable: hidden
@@ -84,17 +79,16 @@ sections:
           visibility: visible
           width: 50
   footer_navigation_colours:
-    display: 'Footer Navigation Colours'
+    display: "Footer Navigation Colours"
     fields:
-      -
-        handle: footer_background_colour
+      - handle: footer_background_colour
         field:
           theme: classic
           lock_opacity: false
           default_color_mode: HEXA
           color_modes:
             - hex
-          display: 'Footer Background Colour'
+          display: "Footer Background Colour"
           type: color
           icon: color
           listable: hidden

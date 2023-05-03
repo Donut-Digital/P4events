@@ -1,8 +1,8 @@
 <section class="container mx-auto py-10">
-    <div class="flex flex-col xl:flex-row text-center xl:text-left items-center xl:items-start justify-center gap-4">
+    <div class="flex flex-col items-center justify-center gap-4 text-center xl:flex-row xl:items-start xl:text-left">
         {{-- Image --}}
         <div class="w-2/3 xl:w-1/3">
-            <div class="flex flex-col h-full">
+            <div class="flex h-full flex-col">
                 <img src="{{ $component['main_image'] }}">
                 <div class="p-5" style="background-color: var(--theme-primary-colour)">
                     <p class="font-bold" style="color: #FFF;">{{ $component['image_title'] }}</p>
@@ -12,7 +12,7 @@
         </div>
 
         {{-- Form details --}}
-        <div id="join_us" class="w-2/3 px-0 xl:px-4 flex flex-col gap-8 ">
+        <div id="join_us" class="flex w-2/3 flex-col gap-8 px-0 xl:px-4">
             <join-us-form csrf="{{ csrf_token() }}" origin="{{ $component['type'] }}"
                 filetermsandconditions="{{ $component['terms_conditions_file'] }}">
             </join-us-form>

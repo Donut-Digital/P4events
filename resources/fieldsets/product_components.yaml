@@ -1,16 +1,14 @@
-title: 'Components: Products'
+title: "Components: Products"
 fields:
-  -
-    handle: components
+  - handle: components
     field:
       collapse: false
       previews: true
       sets:
         contact_us_block:
-          display: 'Contact Us'
+          display: "Contact Us"
           fields:
-            -
-              import: contact_us_block
+            - import: contact_us_block
       display: Components
       type: replicator
       icon: replicator

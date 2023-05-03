@@ -2,25 +2,21 @@ sections:
   main:
     display: Main
     fields:
-      -
-        handle: title
+      - handle: title
         field:
           type: text
           required: true
           validate:
             - required
-      -
-        import: components
+      - import: components
   sidebar:
     display: Sidebar
     fields:
-      -
-        handle: slug
+      - handle: slug
         field:
           type: slug
           localizable: true
-      -
-        handle: parent
+      - handle: parent
         field:
           type: entries
           collections:

@@ -2,12 +2,11 @@ sections:
   main:
     display: Main
     fields:
-      -
-        handle: company_name
+      - handle: company_name
         field:
           input_type: text
           antlers: false
-          display: 'Company Name'
+          display: "Company Name"
           type: text
           icon: text
           listable: hidden
@@ -15,8 +14,7 @@ sections:
           visibility: visible
           always_save: false
           width: 50
-      -
-        handle: address
+      - handle: address
         field:
           input_type: text
           antlers: false
@@ -28,8 +26,7 @@ sections:
           visibility: visible
           always_save: false
           width: 50
-      -
-        handle: city
+      - handle: city
         field:
           input_type: text
           antlers: false
@@ -40,8 +37,7 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      -
-        handle: postcode
+      - handle: postcode
         field:
           input_type: text
           antlers: false
@@ -53,18 +49,16 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: company_description
+      - handle: company_description
         field:
           antlers: false
-          display: 'Company Description'
+          display: "Company Description"
           type: textarea
           icon: textarea
           listable: hidden
           instructions_position: above
           visibility: visible
-      -
-        handle: email
+      - handle: email
         field:
           input_type: text
           antlers: false
@@ -75,8 +69,7 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      -
-        handle: telephone
+      - handle: telephone
         field:
           input_type: text
           antlers: false
@@ -90,8 +83,7 @@ sections:
   socials:
     display: Socials
     fields:
-      -
-        handle: facebook
+      - handle: facebook
         field:
           input_type: text
           antlers: false
@@ -103,8 +95,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: twitter
+      - handle: twitter
         field:
           input_type: text
           antlers: false
@@ -116,8 +107,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: instagram
+      - handle: instagram
         field:
           input_type: text
           antlers: false
@@ -129,8 +119,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: pinterest
+      - handle: pinterest
         field:
           input_type: text
           antlers: false

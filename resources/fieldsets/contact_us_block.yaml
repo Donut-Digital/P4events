@@ -1,7 +1,6 @@
-title: 'Block: Contact Us Block'
+title: "Block: Contact Us Block"
 fields:
-  -
-    handle: title
+  - handle: title
     field:
       input_type: text
       antlers: false
@@ -11,8 +10,7 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
-  -
-    handle: subtitle
+  - handle: subtitle
     field:
       input_type: text
       antlers: false

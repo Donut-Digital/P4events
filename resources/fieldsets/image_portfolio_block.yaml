@@ -1,7 +1,6 @@
-title: 'Block: Image Portfolio Block'
+title: "Block: Image Portfolio Block"
 fields:
-  -
-    handle: title
+  - handle: title
     field:
       input_type: text
       antlers: false
@@ -13,8 +12,7 @@ fields:
       visibility: visible
       validate:
         - required
-  -
-    handle: images
+  - handle: images
     field:
       mode: list
       container: images

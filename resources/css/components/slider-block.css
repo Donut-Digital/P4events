@@ -1,4 +1,8 @@
-
-.swiper-pagination { @apply static; }
-.swiper-pagination-bullet {  }
-.swiper-pagination-bullet-active { @apply bg-primary; }
+.swiper-pagination {
+  @apply static;
+}
+.swiper-pagination-bullet {
+}
+.swiper-pagination-bullet-active {
+  @apply bg-primary;
+}

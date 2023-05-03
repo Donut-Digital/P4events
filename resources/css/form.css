@@ -1,6 +1,12 @@
-form label { @apply text-primary-text pr-4; }
-form input:not([type="checkbox"]) { @apply bg-support py-3 px-4 w-full rounded; }
-form .field { @apply flex flex-col items-center xl:flex-row xl:whitespace-nowrap }
+form label {
+  @apply pr-4 text-primary-text;
+}
+form input:not([type="checkbox"]) {
+  @apply w-full rounded px-4 py-3 bg-support;
+}
+form .field {
+  @apply flex flex-col items-center xl:flex-row xl:whitespace-nowrap;
+}
 form textarea {
-    @apply bg-support py-3 px-4 w-full rounded;
+  @apply w-full rounded px-4 py-3 bg-support;
 }

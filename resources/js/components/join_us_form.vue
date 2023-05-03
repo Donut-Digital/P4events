@@ -18,7 +18,6 @@ let successful_submission = false;
 let unsuccessful_submission = false;
 
 async function submit(event) {
-  console.log(event);
   let form = event.target;
   let data = new FormData(form);
 
@@ -63,22 +62,22 @@ async function submit(event) {
     action="/!/forms/forms"
     @submit.prevent="submit"
   >
-    <div class="field flex flex-col justify-start items-stretch">
+    <div class="flex flex-col items-stretch justify-start field">
       <label for="name" class="mb-2">Your Name:*</label>
       <input type="text" name="name" id="name" required v-model="name" />
     </div>
 
-    <div class="field flex flex-col justify-start items-stretch">
+    <div class="flex flex-col items-stretch justify-start field">
       <label for="number" class="mb-2">Your Number:</label>
       <input type="text" name="number" id="number" v-model="number" />
     </div>
 
-    <div class="field flex flex-col justify-start items-stretch">
+    <div class="flex flex-col items-stretch justify-start field">
       <label for="email" class="mb-2">Your Email Address:*</label>
       <input type="email" name="email" id="email" required v-model="email" />
     </div>
 
-    <div class="field flex flex-col justify-start items-stretch">
+    <div class="flex flex-col items-stretch justify-start field">
       <label for="introduction" class="mb-2">Introduce Yourself:</label>
       <textarea
         name="introduction"
@@ -119,11 +118,11 @@ async function submit(event) {
     <input name="origin" class="hidden" :value="props.origin" />
 
     <div class="flex flex-col gap-4">
-      <a class="cursor-pointer" :href="props.filetermsandconditions" download
-        ><strong class="underline underline-offset-2"
+      <a class="cursor-pointer" :href="props.filetermsandconditions" download>
+        <strong class="underline underline-offset-2"
           >View Terms and conditions</strong
-        ></a
-      >
+        >
+      </a>
       <div class="flex content-center">
         <input
           type="checkbox"
@@ -135,10 +134,11 @@ async function submit(event) {
         />
         <label for="terms" class="cursor-pointer"
           >I have read the terms and conditions</label
-        ><br />
+        >
+        <br />
       </div>
 
-      <button class="p-4 my-4 self-start bg-primary text-white">Submit</button>
+      <button class="my-4 self-start p-4 text-white bg-primary">Submit</button>
     </div>
   </form>
 </template>

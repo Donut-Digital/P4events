@@ -5,21 +5,21 @@
     @includeIf('layouts.navigation')
 
 
-    <div class="content flex-grow">
-        <h1 class="text-center text-white py-10 bg-midnight-black">{{ $title }}</h1>
+    <div class="flex-grow content">
+        <h1 class="py-10 text-center text-white bg-midnight-black">{{ $title }}</h1>
 
-        <h3 class="constraint my-12 mx-auto text-primary font-normal">
+        <h3 class="mx-auto my-12 font-normal constraint text-primary">
             <a href="{{ Statamic::tag('parent') }}">
                 <i class="fa-solid fa-angles-left"></i>
                 Take me back to hire categories
             </a>
         </h3>
 
-        <div class="flex flex-row gap-6 constraint mx-auto">
+        <div class="mx-auto flex flex-row gap-6 constraint">
             @foreach(Statamic::tag('collection:products')->param('boutique_furniture_hire:contains', $slug) as $product)
                 <a href="{{ $product['permalink'] }}" class="group">
                     <img src="{{ $product['featured_image']['permalink'] }}">
-                    <h3 class="text-center text-white bg-dim-gray my-6 p-3 group-hover:bg-primary">{{ $product['title'] }}</h3>
+                    <h3 class="my-6 p-3 text-center text-white bg-dim-gray group-hover:bg-primary">{{ $product['title'] }}</h3>
                 </a>
             @endforeach
         </div>
@@ -27,13 +27,13 @@
         <section class="border-t border-gray-300 mt-4 bg-[#fcfcfc]">
             <div class="container mx-auto py-10">
 
-                <h3 class="text-center py-10 text-primary">Turn your ideas into action, arrange a free consultation</h3>
+                <h3 class="py-10 text-center text-primary">Turn your ideas into action, arrange a free consultation</h3>
 
-                <div id="contact_form_success" class="p-4 mb-4 text-sm text-green-700 rounded-lg bg-green-50 text-center hidden" role="alert">
+                <div id="contact_form_success" class="mb-4 hidden rounded-lg bg-green-50 p-4 text-center text-sm text-green-700" role="alert">
                     <span class="font-semibold">Success!</span> Thank you for your submission, we will be in touch as soon as possible.
                 </div>
 
-                <form id="contact_form" method="post" action="/!/forms/contact_form" class="flex flex-col xl:flex-row justify-center flex-wrap space-y-4 xl:space-x-4">
+                <form id="contact_form" method="post" action="/!/forms/contact_form" class="flex flex-col flex-wrap justify-center space-y-4 xl:space-x-4 xl:flex-row">
                     @csrf
 
                     <div class="field">
@@ -51,12 +51,12 @@
                         <input type="email" name="email" id="email" required>
                     </div>
 
-                    <input type="text" name="honeypot" class="honeypot hidden" />
+                    <input type="text" name="honeypot" class="hidden honeypot" />
 
-                    <button type="submit" class="py-3 px-10 text-center text-white bg-primary">Submit</button>
+                    <button type="submit" class="px-10 py-3 text-center text-white bg-primary">Submit</button>
                 </form>
 
-                <h3 class="text-center py-10">Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk</h3>
+                <h3 class="py-10 text-center">Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk</h3>
 
             </div>
         </section>
