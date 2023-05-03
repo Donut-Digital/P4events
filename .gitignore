@@ -17,3 +17,5 @@ yarn-error.log
 /public
 please
 /config/statamic
+!/public/images
+

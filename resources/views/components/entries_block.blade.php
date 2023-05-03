@@ -1,4 +1,4 @@
-<section class="constraint mx-auto flex flex-wrap mb-5 px-2.5">
+<section class="constraint mx-auto flex flex-wrap my-10 px-2.5">
     @foreach($component['entries'] as $entry)
         <div class="w-full lg:w-1/2 shrink-0">
             <a href="{{ $entry['entry']['permalink'] }}" class="block relative mx-2.5 mb-5 group">
