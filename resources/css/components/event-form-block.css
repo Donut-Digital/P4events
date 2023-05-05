@@ -1,0 +1,3 @@
+.event-form-bard p { @apply text-white font-light; }
+
+.event-form-bard a:hover { @apply !text-white; }

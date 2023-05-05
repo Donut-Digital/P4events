@@ -11,10 +11,11 @@ const name = ref("");
 const number = ref("");
 const email = ref("");
 
-let successful_submission = false;
-let unsuccessful_submission = false;
+let successful_submission = ref(false);
+let unsuccessful_submission = ref(false);
 
-async function submit(event) {
+async function submit(event)
+{
   let form = event.target;
   let data = new FormData(form);
 
@@ -29,24 +30,29 @@ async function submit(event) {
       "X-Requested-With": "XMLHttpRequest",
     },
   })
-    // promise fulfilled
-    .then((response) => {
-      if (response.status === 200) {
-        successful_submission = true;
+  // promise fulfilled
+  .then((response) =>
+  {
+    if (response.status === 200)
+    {
+      successful_submission.value = true;
 
-        name.value = "";
-        number.value = "";
-        email.value = "";
-      } else {
-        console.error("Panic at the disco:", response);
-        unsuccessful_submission = true;
-      }
-    })
-    // catch any errors
-    .catch((error) => {
-      console.error("Panic at the disco:", error);
-      unsuccessful_submission = true;
-    });
+      name.value = "";
+      number.value = "";
+      email.value = "";
+    }
+    else
+    {
+      console.error("Panic at the disco:", response);
+      unsuccessful_submission.value = true;
+    }
+  })
+  // catch any errors
+  .catch((error) =>
+  {
+    console.error("Panic at the disco:", error);
+    unsuccessful_submission.value = true;
+  });
 }
 </script>
 
@@ -74,23 +80,18 @@ async function submit(event) {
       class="flex flex-col flex-wrap justify-center space-y-4 xl:space-y-0 xl:space-x-4 xl:flex-row"
     >
       <div class="field">
-        <label for="name">Name: </label>
+        <label for="name" class="pr-4">Name: </label>
         <input type="text" name="name" id="name" v-model="name" required />
       </div>
 
       <div class="field">
-        <label for="number">Number: </label>
-        <input
-          type="text"
-          name="number"
-          id="number"
-          v-model="number"
-          required
+        <label for="number" class="pr-4">Number: </label>
+        <input type="text" name="number" id="number" v-model="number" required
         />
       </div>
 
       <div class="field">
-        <label for="email">Email: </label>
+        <label for="email" class="pr-4">Email: </label>
         <input type="email" name="email" id="email" v-model="email" required />
       </div>
 

@@ -14,8 +14,8 @@ const introduction = ref("");
 const headshotFileName = ref("No file chosen");
 const csvFileName = ref("No file chosen");
 
-let successful_submission = false;
-let unsuccessful_submission = false;
+let successful_submission = ref(false);
+let unsuccessful_submission = ref(false);
 
 async function submit(event)
 {
@@ -39,7 +39,7 @@ async function submit(event)
   {
     if (response.status === 200)
     {
-      successful_submission = true;
+      successful_submission.value = true;
 
       name.value = "";
       number.value = "";
@@ -51,14 +51,14 @@ async function submit(event)
     else
     {
       console.error("Panic at the disco:", response);
-      unsuccessful_submission = true;
+      unsuccessful_submission.value = true;
     }
   })
   // catch any errors
   .catch((error) =>
   {
     console.error("Panic at the disco:", error);
-    unsuccessful_submission = true;
+    unsuccessful_submission.value = true;
   });
 }
 

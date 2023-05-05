@@ -6,6 +6,7 @@
 @import url("components/bard.css");
 @import url("components/hero-block.css");
 @import url("components/slider-block.css");
+@import url("components/event-form-block.css");
 
 @tailwind base;
 @tailwind components;

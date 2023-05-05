@@ -1,62 +1,81 @@
 title: Components
 fields:
-  - handle: components
+  -
+    handle: components
     field:
       collapse: true
       previews: true
       sets:
         intro_block:
-          display: "Intro Block"
+          display: 'Intro Block'
           fields:
-            - import: intro_block
+            -
+              import: intro_block
         image_bard_block:
-          display: "Image Bard Block"
+          display: 'Image Bard Block'
           fields:
-            - import: block_image_bard_block
+            -
+              import: block_image_bard_block
         block_call_to_action:
-          display: "Call to Action Block"
+          display: 'Call to Action Block'
           fields:
-            - import: block_call_to_action
+            -
+              import: block_call_to_action
         contact_us_block:
-          display: "Contact Us Block"
+          display: 'Contact Us Block'
           fields:
-            - import: contact_us_block
+            -
+              import: contact_us_block
         image_gallery_block:
-          display: "Image Gallery Block"
+          display: 'Image Gallery Block'
           fields:
-            - import: block_image_gallery
+            -
+              import: block_image_gallery
         bard_block:
-          display: "Bard Block"
+          display: 'Bard Block'
           fields:
-            - import: block_bard
+            -
+              import: block_bard
         hero_block:
-          display: "Hero Block"
+          display: 'Hero Block'
           fields:
-            - import: hero_block
+            -
+              import: hero_block
         product_categories:
-          display: "Product Categories"
+          display: 'Product Categories'
           fields:
-            - import: block_product_categories
+            -
+              import: block_product_categories
         image_portfolio_block:
-          display: "Image Portfolio Block"
+          display: 'Image Portfolio Block'
           fields:
-            - import: image_portfolio_block
+            -
+              import: image_portfolio_block
         join_us_form_block:
-          display: "Join Us Form Block"
+          display: 'Join Us Form Block'
           fields:
-            - import: join_us_form_block
+            -
+              import: join_us_form_block
         documents_block:
-          display: "Documents Block"
+          display: 'Documents Block'
           fields:
-            - import: block_documents_block
+            -
+              import: block_documents_block
         entries_block:
-          display: "Entries Block"
+          display: 'Entries Block'
           fields:
-            - import: block_entries_block
+            -
+              import: block_entries_block
         slider_block:
-          display: "Slider block"
+          display: 'Slider block'
           fields:
-            - import: slider_block
+            -
+              import: slider_block
+        event_form_block:
+          display: 'Event Form Block'
+          fields:
+            -
+              import: event_form
       display: Components
       type: replicator
       icon: replicator

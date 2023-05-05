@@ -2,7 +2,8 @@ sections:
   main:
     display: Main
     fields:
-      - handle: name
+      -
+        handle: name
         field:
           input_type: text
           antlers: false
@@ -12,7 +13,8 @@ sections:
           listable: true
           instructions_position: above
           visibility: visible
-      - handle: number
+      -
+        handle: number
         field:
           input_type: text
           antlers: false
@@ -22,7 +24,8 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      - handle: email
+      -
+        handle: email
         field:
           input_type: text
           antlers: false
@@ -32,7 +35,29 @@ sections:
           listable: true
           instructions_position: above
           visibility: visible
-      - handle: introduction
+      -
+        handle: date
+        field:
+          input_type: text
+          antlers: false
+          display: Date
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: event_description
+        field:
+          antlers: false
+          display: 'Event Description'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: introduction
         field:
           antlers: false
           display: introduction
@@ -41,17 +66,36 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      - handle: origin
+      -
+        handle: contact_time
         field:
-          input_type: text
-          antlers: false
-          display: origin
-          type: text
-          icon: text
-          listable: true
+          inline: true
+          display: 'Contact Time'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
           instructions_position: above
           visibility: visible
-      - handle: headshot
+          options:
+            morning: Morning
+            afternoon: Afternoon
+            evening: Evening
+      -
+        handle: contact_method
+        field:
+          inline: true
+          display: 'Contact Method'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          options:
+            via_email: Email
+            sms: SMS
+            telephone: Telephone
+      -
+        handle: headshot
         field:
           mode: list
           container: images
@@ -64,7 +108,8 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      - handle: csv
+      -
+        handle: csv
         field:
           mode: list
           container: images
@@ -75,5 +120,16 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: origin
+        field:
+          input_type: text
+          antlers: false
+          display: origin
+          type: text
+          icon: text
+          listable: true
           instructions_position: above
           visibility: visible
