@@ -1,20 +1,20 @@
-<section class="container mx-auto py-10">
-    <div class="flex flex-col items-center justify-center gap-4 text-center xl:flex-row xl:items-start xl:text-left">
+<section class="constraint mx-auto py-10 px-4">
+    <div class="flex flex-col items-center justify-center gap-4 text-center lg:flex-row lg:items-start lg:text-left">
         {{-- Image --}}
-        <div class="w-2/3 xl:w-1/3">
+        <div class="w-full lg:w-1/3">
             <div class="flex h-full flex-col">
-                <img src="{{ $component['main_image'] }}">
-                <div class="p-5" style="background-color: var(--theme-primary-colour)">
-                    <p class="font-bold" style="color: #FFF;">{{ $component['image_title'] }}</p>
-                    <p style="color: #FFF;">{{ $component['image_sub_description'] }}</p>
+                <img class="hidden lg:block" src="{{ $component['main_image'] }}">
+                <div class="p-5 bg-primary">
+                    <p class="font-bold text-white">{{ $component['image_title'] }}</p>
+                    <p class="text-white">{{ $component['image_sub_description'] }}</p>
                 </div>
             </div>
         </div>
 
         {{-- Form details --}}
-        <div id="join_us" class="flex w-2/3 flex-col gap-8 px-0 xl:px-4">
+        <div id="join_us" class="flex w-full lg:w-2/3 flex-col gap-8">
             <join-us-form csrf="{{ csrf_token() }}" origin="{{ $component['type'] }}"
-                filetermsandconditions="{{ $component['terms_conditions_file'] }}">
+                      tcs="{{ $component['terms_conditions']['permalink'] }}">
             </join-us-form>
         </div>
     </div>

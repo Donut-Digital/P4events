@@ -52,20 +52,16 @@ async function submit(event) {
 
 <template>
   <div>
-    <div
-      v-if="successful_submission"
+    <div v-if="successful_submission"
       class="mx-auto mb-10 max-w-3xl rounded-lg bg-green-50 p-4 text-center text-sm text-green-700"
-      role="alert"
-    >
+      role="alert">
       <span class="font-semibold">Success!</span> Thank you for your submission,
       we will be in touch as soon as possible.
     </div>
 
-    <div
-      v-if="unsuccessful_submission"
+    <div v-if="unsuccessful_submission"
       class="mx-auto mb-10 max-w-3xl rounded-lg bg-red-50 p-4 text-center text-sm text-red-700"
-      role="alert"
-    >
+      role="alert">
       There has been an <span class="font-semibold">error</span> uploading your
       submission, please get in touch if this issue persists.
     </div>
