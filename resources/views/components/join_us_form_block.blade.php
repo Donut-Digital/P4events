@@ -12,7 +12,7 @@
         </div>
 
         {{-- Form details --}}
-        <div id="join_us" class="flex w-full lg:w-2/3 flex-col gap-8">
+        <div id="join_us" class="flex w-full lg:w-2/3 flex-col gap-8 lg:sticky top-0">
             <join-us-form csrf="{{ csrf_token() }}" origin="{{ $component['type'] }}"
                       tcs="{{ $component['terms_conditions']['permalink'] }}">
             </join-us-form>
