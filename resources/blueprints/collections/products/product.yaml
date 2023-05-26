@@ -2,7 +2,8 @@ sections:
   main:
     display: Main
     fields:
-      - handle: title
+      -
+        handle: title
         field:
           type: text
           required: true
@@ -14,7 +15,8 @@ sections:
           visibility: visible
           input_type: text
           antlers: false
-      - handle: product_description
+      -
+        handle: product_description
         field:
           collapse: false
           always_show_set_button: false
@@ -45,39 +47,46 @@ sections:
           enable_paste_rules: true
           antlers: false
           remove_empty_nodes: false
-          display: "Product Description"
+          display: 'Product Description'
           type: bard
           icon: bard
           listable: hidden
           instructions_position: above
           visibility: visible
-      - handle: product_images
+      -
+        handle: product_images
         field:
           mode: list
           container: images
           restrict: false
           allow_uploads: true
           show_filename: true
-          display: "Product Images"
+          display: 'Product Images'
           type: assets
           icon: assets
           listable: hidden
           instructions_position: above
           visibility: visible
-      - import: product_components
+          max_files: 2
+          validate:
+            - required
+      -
+        import: product_components
   sidebar:
     display: Sidebar
     fields:
-      - handle: slug
+      -
+        handle: slug
         field:
           type: slug
           localizable: true
-      - handle: boutique_furniture_hire
+      -
+        handle: boutique_furniture_hire
         field:
           type: terms
           taxonomies:
             - boutique_furniture_hire
-          display: "Boutique Furniture Hire"
+          display: 'Boutique Furniture Hire'
           mode: select
           instructions_position: above
           listable: true
@@ -86,7 +95,8 @@ sections:
           max_items: 1
           validate:
             - required
-      - handle: featured_image
+      -
+        handle: featured_image
         field:
           mode: list
           container: images
@@ -94,14 +104,15 @@ sections:
           allow_uploads: true
           show_filename: true
           max_files: 1
-          display: "Featured Image"
+          display: 'Featured Image'
           type: assets
           icon: assets
           listable: hidden
           instructions_position: above
           visibility: visible
           folder: p4events
-      - handle: parent
+      -
+        handle: parent
         field:
           type: entries
           collections:

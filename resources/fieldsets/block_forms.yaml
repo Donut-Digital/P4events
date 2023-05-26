@@ -1,0 +1,76 @@
+title: 'Block: Forms'
+fields:
+  -
+    handle: form
+    field:
+      options:
+        contact: 'Contact Us'
+        join: 'Join Us'
+        event: Event
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Form
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: contact
+    field:
+      fields:
+        -
+          import: contact_us_block
+      mode: stacked
+      max_rows: 1
+      min_rows: 1
+      reorderable: true
+      display: 'Contact Us Form'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      if:
+        form: 'equals contact'
+  -
+    handle: join
+    field:
+      fields:
+        -
+          import: join_us_form_block
+      mode: stacked
+      max_rows: 1
+      min_rows: 1
+      reorderable: true
+      display: 'Join Us Form'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      if:
+        form: 'equals join'
+  -
+    handle: event
+    field:
+      fields:
+        -
+          import: event_form
+      mode: stacked
+      max_rows: 1
+      min_rows: 1
+      reorderable: true
+      display: 'Event Form'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      if:
+        form: 'equals event'

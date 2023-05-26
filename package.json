@@ -19,6 +19,7 @@
         "vue-loader": "^17.0.0"
     },
     "dependencies": {
+        "@tailwindcss/line-clamp": "^0.4.4",
         "swiper": "^9.2.4",
         "vue": "^3.2.31"
     }

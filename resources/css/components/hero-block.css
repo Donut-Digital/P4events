@@ -10,12 +10,20 @@
   @apply !text-davy-gray;
 }
 
-.hero-block .bard-dark {
+.hero-block:first-of-type .bard-dark {
   @apply border-y border-l border-davy-gray;
 }
 
-.hero-block .bard-light {
+.hero-block:not(:first-of-type) .bard-dark {
+  @apply border-y border-r border-davy-gray;
+}
+
+.hero-block:first-of-type .bard-light {
   @apply border-y border-l border-white;
+}
+
+.hero-block:not(:first-of-type) .bard-light {
+  @apply border-y border-r border-white;
 }
 
 .hero-block h1,

@@ -1,0 +1,21 @@
+title: 'Block: Wishlist'
+fields:
+  -
+    handle: wishlist
+    field:
+      options:
+        view: 'View Wishlist'
+        create: 'Submit Wishlist'
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Wishlist
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible

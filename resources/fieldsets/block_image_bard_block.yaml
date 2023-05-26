@@ -1,25 +1,7 @@
-title: "Block: Image Bard Block"
+title: 'Block: Image Bard Block'
 fields:
-  - handle: image_bard_layout
-    field:
-      options:
-        vertical: Vertical
-        horizontal: Horizontal
-      multiple: false
-      clearable: false
-      searchable: true
-      taggable: false
-      push_tags: false
-      cast_booleans: false
-      display: "Image Bard Layout"
-      type: select
-      icon: select
-      listable: hidden
-      instructions_position: above
-      visibility: visible
-      validate:
-        - required
-  - handle: image
+  -
+    handle: image
     field:
       mode: list
       container: images
@@ -36,7 +18,8 @@ fields:
       validate:
         - required
       folder: p4events
-  - handle: bard
+  -
+    handle: bard
     field:
       collapse: false
       always_show_set_button: false
@@ -70,18 +53,19 @@ fields:
       validate:
         - required
       container: images
-  - handle: bard_highlight
+  -
+    handle: bard_highlight
     field:
       theme: classic
       lock_opacity: false
       default_color_mode: HEXA
       color_modes:
         - hex
-      display: "Bard Highlight"
+      display: 'Bard Highlight'
       type: color
       icon: color
       listable: hidden
       instructions_position: above
       visibility: visible
       if:
-        image_bard_layout: "equals horizontal"
+        image_bard_layout: 'equals horizontal'

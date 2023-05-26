@@ -4,28 +4,34 @@
 
     @includeIf('layouts.navigation')
 
-
     <div class="flex-grow content">
         <h1 class="py-10 text-center text-white bg-midnight-black">{{ $title }}</h1>
 
-        <h3 class="mx-auto my-12 font-normal constraint text-primary">
-            <a href="{{ Statamic::tag('parent') }}">
-                <i class="fa-solid fa-angles-left"></i>
-                Take me back to hire categories
-            </a>
-        </h3>
+        <div class="constraint mx-auto flex flex-col">
 
-        <div class="mx-auto flex flex-row gap-6 constraint">
-            @foreach(Statamic::tag('collection:products')->param('boutique_furniture_hire:contains', $slug) as $product)
-                <a href="{{ $product['permalink'] }}" class="group">
-                    <img src="{{ $product['featured_image']['permalink'] }}">
-                    <h3 class="my-6 p-3 text-center text-white bg-dim-gray group-hover:bg-primary">{{ $product['title'] }}</h3>
-                </a>
-            @endforeach
+            <div class="flex flex-row justify-between">
+                <h3 class="my-5 md:my-10 font-normal text-primary">
+                    <a href="{{ Statamic::tag('parent') }}">
+                        <i class="fa-solid fa-angles-left"></i>
+                        Take me back to hire categories
+                    </a>
+                </h3>
+
+                <my-wishlist></my-wishlist>
+            </div>
+
+            <div class="flex flex-row gap-6">
+                @foreach(Statamic::tag('collection:products')->param('boutique_furniture_hire:contains', $slug) as $product)
+                    <a href="{{ $product['permalink'] }}" class="group">
+                        <img src="{{ $product['featured_image']['permalink'] }}" class="border">
+                        <h3 class="my-6 p-3 text-center text-white bg-dim-gray group-hover:bg-primary">{{ $product['title'] }}</h3>
+                    </a>
+                @endforeach
+            </div>
         </div>
 
         <section class="border-t border-gray-300 mt-4 bg-[#fcfcfc]">
-            <div class="container mx-auto py-10">
+            <div class="py-10">
 
                 <h3 class="py-10 text-center text-primary">Turn your ideas into action, arrange a free consultation</h3>
 
@@ -60,6 +66,7 @@
 
             </div>
         </section>
+
     </div>
 
     @includeIf('layouts.footer')

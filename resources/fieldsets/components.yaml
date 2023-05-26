@@ -21,11 +21,6 @@ fields:
           fields:
             -
               import: block_call_to_action
-        contact_us_block:
-          display: 'Contact Us Block'
-          fields:
-            -
-              import: contact_us_block
         image_gallery_block:
           display: 'Image Gallery Block'
           fields:
@@ -51,11 +46,6 @@ fields:
           fields:
             -
               import: image_portfolio_block
-        join_us_form_block:
-          display: 'Join Us Form Block'
-          fields:
-            -
-              import: join_us_form_block
         documents_block:
           display: 'Documents Block'
           fields:
@@ -67,15 +57,20 @@ fields:
             -
               import: block_entries_block
         slider_block:
-          display: 'Slider block'
+          display: 'Slider Block'
           fields:
             -
               import: slider_block
-        event_form_block:
-          display: 'Event Form Block'
+        wishlist:
+          display: 'Wishlist Block'
           fields:
             -
-              import: event_form
+              import: block_wishlist
+        form_block:
+          display: 'Form Block'
+          fields:
+            -
+              import: block_forms
       display: Components
       type: replicator
       icon: replicator

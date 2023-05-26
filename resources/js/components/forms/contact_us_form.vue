@@ -1,7 +1,7 @@
 <script setup>
 // import ref functionality
 import { ref } from "vue";
-import { generateRecaptchaToken } from "../modules/Recaptcha.js";
+import { generateRecaptchaToken } from "../../modules/Recaptcha.js";
 
 // values passed into the component
 const props = defineProps(["csrf", "origin"]);

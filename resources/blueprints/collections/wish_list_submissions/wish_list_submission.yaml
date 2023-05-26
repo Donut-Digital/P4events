@@ -1,0 +1,144 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          display: Name
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+          width: 50
+      -
+        handle: wish_list_status
+        field:
+          options:
+            todo: 'To Do'
+            inprogress: 'In Progress'
+            completed: Completed
+          multiple: false
+          max_items: 1
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          default: todo
+          display: Status
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          width: 50
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          width: 50
+      -
+        handle: phone
+        field:
+          input_type: text
+          antlers: false
+          display: Phone
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          width: 50
+      -
+        handle: event_location
+        field:
+          input_type: text
+          antlers: false
+          display: 'Event Location'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          width: 50
+      -
+        handle: event_date
+        field:
+          mode: single
+          time_enabled: false
+          time_seconds_enabled: false
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Event Date'
+          type: date
+          icon: date
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          width: 50
+      -
+        handle: message
+        field:
+          antlers: false
+          display: Message
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: products
+        field:
+          fields:
+            -
+              handle: product
+              field:
+                max_items: 1
+                mode: default
+                create: true
+                collections:
+                  - products
+                display: Product
+                type: entries
+                icon: entries
+                width: 50
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+            -
+              handle: quantity
+              field:
+                input_type: text
+                antlers: false
+                display: Quantity
+                type: text
+                icon: text
+                width: 50
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+          mode: table
+          min_rows: 1
+          reorderable: true
+          display: Products
+          type: grid
+          icon: grid
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+title: 'Wish List Submission'
