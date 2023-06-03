@@ -2,7 +2,7 @@
 
         @foreach($component['hero_sections'] as $hero_block)
             <div @class(['relative inline-block hero-block',
-                         'w-full p-4' => $loop->index == 0,
+                         'w-full px-4 py-2' => $loop->index == 0,
                          'w-1/2 px-4'=>$loop->index !== 0])>
 
                 <img class="w-full" src="{{ $hero_block['hero_image'] }}">

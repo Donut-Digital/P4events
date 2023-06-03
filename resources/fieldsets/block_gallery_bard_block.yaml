@@ -1,0 +1,68 @@
+title: 'Block: Gallery Bard Block'
+fields:
+  -
+    handle: images
+    field:
+      max_files: 6
+      min_files: 3
+      mode: list
+      container: images
+      folder: p4events
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      show_set_alt: true
+      type: assets
+      display: Images
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: bard
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+      smart_typography: false
+      save_html: false
+      inline: false
+      toolbar_mode: fixed
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      remove_empty_nodes: false
+      antlers: false
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      type: bard
+      display: Bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: bard_highlight
+    field:
+      allow_any: true
+      type: color
+      display: 'Bard Highlight'
+      icon: color
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

@@ -22,6 +22,7 @@ module.exports = {
 
                 'davy-gray':'#555555',
                 'dim-gray':'#6e6e6d',
+                'white-smoke':'#efefef',
                 'midnight-black':'#222'
             }
     },

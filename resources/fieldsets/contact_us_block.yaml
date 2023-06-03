@@ -1,6 +1,7 @@
-title: "Block: Contact Us Block"
+title: 'Block: Contact Us Block'
 fields:
-  - handle: title
+  -
+    handle: title
     field:
       input_type: text
       antlers: false
@@ -10,7 +11,10 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
-  - handle: subtitle
+      default: 'Turn your ideas into action, arrange a free consultation'
+      hide_display: false
+  -
+    handle: subtitle
     field:
       input_type: text
       antlers: false
@@ -20,3 +24,5 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
+      default: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
+      hide_display: false

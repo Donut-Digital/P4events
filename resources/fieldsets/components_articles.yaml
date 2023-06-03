@@ -1,0 +1,49 @@
+title: 'Components: Articles'
+fields:
+  -
+    handle: components
+    field:
+      collapse: false
+      previews: true
+      fullscreen: true
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          instructions: null
+          icon: null
+          sets:
+            hero_block:
+              display: 'Hero Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: hero_block
+            bard_block:
+              display: 'Bard Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_bard
+            image_gallery_block:
+              display: 'Image Gallery Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_image_gallery
+            image_bard_block:
+              display: 'Image Bard Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_image_bard_block
+      type: replicator
+      display: Components
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

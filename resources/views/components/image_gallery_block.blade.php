@@ -1,57 +1,32 @@
-<div class="container mx-auto px-4 py-2 md:px-0 xl:max-w-6xl">
+<div class="mx-auto container xl:max-w-screen-xl p-4">
     <!-- Only one image has been uploaded -->
-    @if (count($component['images']) == 1)
-        <?php $firstImage = $component['images'][0]; ?>
-        <div>
-            <img src="{{ $firstImage['permalink'] }}" alt="your-image-description" class="w-full">
-        </div>
-    @elseif(count($component['images']) == 2)
-        <?php $firstImage = $component['images'][0]; ?>
-        <?php $secondImage = $component['images'][1]; ?>
 
-        <div class="grid grid-cols-2 gap-4">
-            <div>
-                <img class="h-full" src="{{ $firstImage['permalink'] }}">
-            </div>
+    @if (count($component['images']) <= 2)
 
-            <div>
-                <img class="h-full" src="{{ $secondImage['permalink'] }}">
-            </div>
+        <div class="flex flex-row gap-4">
+            <img src="{{ $component['images'][0]['permalink'] }}" alt="your-image-description" class="min-w-0 flex-1 object-cover">
+
+            @if(isset($component['images'][1]))
+                <img src="{{ $component['images'][1]['permalink'] }}" alt="your-image-description" class="min-w-0 flex-1 object-cover">
+            @endif
         </div>
-    @else
+
+    @elseif(count($component['images']) == 3)
         <?php $firstImage = $component['images'][0]; ?>
         <?php $secondImage = $component['images'][1]; ?>
         <?php $thirdImage = $component['images'][2]; ?>
         <!-- Position last two image on the left into two rows -->
-        @if ($component['image_position'] == 'Left')
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-1">
-                    <div class="pb-4">
-                        <img src="{{ $firstImage['permalink'] }}">
-                    </div>
-                    <div>
-                        <img src="{{ $secondImage['permalink'] }}">
-                    </div>
-                </div>
-                <div class="col-span-1">
-                    <img class="h-full" src="{{ $thirdImage['permalink'] }}">
-                </div>
-            </div>
-        @elseif($component['image_position'] == 'Right')
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-1">
-                    <img class="h-full" src="{{ $thirdImage['permalink'] }}">
-                </div>
-                <div class="col-span-1">
-                    <div class="pb-4">
-                        <img src="{{ $firstImage['permalink'] }}">
-                    </div>
-                    <div>
-                        <img src="{{ $secondImage['permalink'] }}">
-                    </div>
-                </div>
+        <!-- $component['image_position'] == 'Left' -->
 
+            <div class="flex gap-4">
+                <div @class(["w-1/3 flex flex-col justify-between gap-4","order-last"=>$component['image_position']->value() === 'Left'])>
+                    <img src="{{ $firstImage['permalink'] }}" class="w-full h-full">
+                    <img src="{{ $secondImage['permalink'] }}" class="w-full h-full">
+                </div>
+                <div class="w-2/3">
+                    <img class="w-full" src="{{ $thirdImage['permalink'] }}">
+                </div>
             </div>
-        @endif
+
     @endif
 </div>

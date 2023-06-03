@@ -1,0 +1,56 @@
+title: 'Block: Entries Block 2'
+fields:
+  -
+    handle: entries
+    field:
+      fields:
+        -
+          handle: entry
+          field:
+            max_items: 1
+            mode: default
+            create: true
+            collections:
+              - articles
+              - pages
+              - products
+            type: entries
+            display: Entry
+            icon: entries
+            width: 50
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+        -
+          handle: entry_image
+          field:
+            max_files: 1
+            mode: list
+            container: images
+            folder: p4events
+            restrict: false
+            allow_uploads: true
+            show_filename: true
+            show_set_alt: true
+            type: assets
+            display: 'Entry Image'
+            icon: assets
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+            width: 50
+      mode: table
+      reorderable: true
+      fullscreen: true
+      type: grid
+      display: Entries
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+      max_rows: 3
+      min_rows: 1
+      add_row: 'Add Entry'

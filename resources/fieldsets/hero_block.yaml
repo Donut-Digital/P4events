@@ -36,6 +36,8 @@ fields:
             listable: hidden
             instructions_position: above
             visibility: visible
+            allow_any: true
+            hide_display: false
         -
           handle: light_text
           field:
@@ -110,3 +112,5 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
+      fullscreen: false
+      hide_display: false

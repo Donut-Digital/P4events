@@ -1,0 +1,17 @@
+title: 'Block: Articles Block'
+fields:
+  -
+    handle: category
+    field:
+      max_items: 1
+      mode: select
+      create: true
+      taxonomies:
+        - category
+      type: terms
+      display: Category
+      icon: taxonomy
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

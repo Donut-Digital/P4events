@@ -3,7 +3,7 @@ id: 230a564f-2e26-4415-8ebb-58860f49310f
 blueprint: page
 title: 'Bespoke Event Management'
 updated_by: 1
-updated_at: 1684952042
+updated_at: 1685816844
 components:
   -
     id: lf8ogwb1
@@ -69,9 +69,13 @@ components:
     type: slider_block
     enabled: true
   -
-    id: li20xm3v
-    title: 'Turn your ideas into action, arrange a free consultation'
-    subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
-    type: contact_us_block
+    id: ligbtikq
+    form: contact
+    contact:
+      -
+        id: GQrFtRxw
+        title: 'Turn your ideas into action, arrange a free consultation'
+        subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
+    type: form_block
     enabled: true
 ---

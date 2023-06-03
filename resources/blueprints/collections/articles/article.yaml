@@ -1,0 +1,114 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            import: components_articles
+      -
+        display: Footer
+        fields:
+          -
+            handle: contact_us_form
+            field:
+              fields:
+                -
+                  import: contact_us_block
+              mode: stacked
+              max_rows: 1
+              min_rows: 1
+              reorderable: true
+              fullscreen: true
+              type: grid
+              icon: grid
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              display: 'Contact Us Form'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - articles
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: featured_image
+            field:
+              max_files: 1
+              min_files: 1
+              mode: list
+              container: images
+              folder: p4events
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Featured Image'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: summary
+            field:
+              antlers: false
+              type: textarea
+              display: Summary
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: category
+            field:
+              type: terms
+              taxonomies:
+                - category
+              display: Category
+              mode: select
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+          -
+            handle: created_by
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Created By'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+title: Article

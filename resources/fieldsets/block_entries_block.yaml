@@ -1,9 +1,11 @@
-title: "Block: Entries Block"
+title: 'Block: Entries Block'
 fields:
-  - handle: entries
+  -
+    handle: entries
     field:
       fields:
-        - handle: entry
+        -
+          handle: entry
           field:
             max_items: 1
             mode: default
@@ -15,7 +17,13 @@ fields:
             listable: hidden
             instructions_position: above
             visibility: visible
-        - handle: image
+            collections:
+              - articles
+              - pages
+              - products
+            hide_display: false
+        -
+          handle: image
           field:
             mode: list
             container: images
@@ -32,7 +40,7 @@ fields:
             instructions_position: above
             visibility: visible
       mode: table
-      add_row: "Add new entry"
+      add_row: 'Add new entry'
       reorderable: true
       display: Entries
       type: grid
@@ -40,3 +48,5 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
+      fullscreen: true
+      hide_display: false
