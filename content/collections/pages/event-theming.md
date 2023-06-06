@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Theming'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1685121851
+updated_at: 1686035943
 components:
   -
     id: li4t6z8j
@@ -23,6 +23,14 @@ components:
         bard_color: '#E61E2A'
         light_text: true
         bard_field:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Inventive Ideas'
           -
             type: paragraph
             content:
