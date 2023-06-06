@@ -4,7 +4,6 @@
 
     @includeIf('layouts.navigation')
 
-
     <div class="flex-grow content">
         <h1 class="py-10 text-center text-white bg-midnight-black">{{ $page->title }}</h1>
 
@@ -49,11 +48,11 @@
 
             </div>
 
-            @foreach($components as $component)
-                @includeIf('components/' .$component['type'])
-            @endforeach
         </div>
 
+        @foreach($components as $component)
+            @includeIf('components/' .$component['type'])
+        @endforeach
 
     </div>
 

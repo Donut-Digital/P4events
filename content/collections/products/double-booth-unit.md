@@ -17,8 +17,15 @@ featured_image: p4events/double-luxury-booth-unit21.jpg
 contact_us_blocktitle: 'Turn your ideas into action, arrange a free consultation'
 contact_us_blocksubtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
 updated_by: 1
-updated_at: 1684247737
+updated_at: 1686059072
 product_images:
   - p4events/double-luxury-booth-unit4-342x152-(1).jpg
   - p4events/double-luxury-booth-unit3-342x152-(1).jpg
+components:
+  -
+    id: likc1bbx
+    title: 'Turn your ideas into action, arrange a free consultation'
+    subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
+    type: contact_us_block
+    enabled: true
 ---
