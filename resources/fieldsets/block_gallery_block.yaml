@@ -1,0 +1,64 @@
+title: 'Block: Gallery Block'
+fields:
+  -
+    handle: gallery_type
+    field:
+      options:
+        row: Row
+        col: Columns
+      taggable: false
+      push_tags: false
+      multiple: false
+      clearable: false
+      searchable: true
+      cast_booleans: false
+      default: row
+      type: select
+      display: 'Gallery Type'
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: main_image_position
+    field:
+      options:
+        left: Left
+        right: Right
+      taggable: false
+      push_tags: false
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      cast_booleans: false
+      type: select
+      display: 'Main Image Position'
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+      if:
+        gallery_type: 'equals col'
+      default: left
+  -
+    handle: gallery
+    field:
+      max_files: 3
+      min_files: 1
+      mode: list
+      container: images
+      folder: p4events
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      show_set_alt: true
+      type: assets
+      display: Gallery
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
