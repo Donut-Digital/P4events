@@ -1,7 +1,6 @@
 <div class="mx-auto container xl:max-w-screen-xl px-4 py-2 flex flex-col lg:flex-row gap-5">
     @foreach($component['entries'] as $entry)
 
-
         <a href="{{ $entry['entry']['permalink'] }}" @class(['relative inline-block w-full lg:w-1/3'])>
 
             <img class="object-cover h-full w-full" src="{{ $entry['entry_image']['permalink'] }}">
