@@ -1,5 +1,4 @@
-<div class="mx-auto container xl:max-w-screen-xl px-4 pt-2 pb-4 flex flex-row flex-wrap gap-5">
-
+<div class="mx-auto container xl:max-w-screen-xl px-4 pt-2 pb-4 flex flex-row gap-5">
 
     <div class="w-full lg:w-1/3 flex flex-col gap-5">
         <img class="w-full min-w-0" src="{{ $component['images'][0]['permalink'] }}">
