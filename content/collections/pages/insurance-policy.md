@@ -3,7 +3,7 @@ id: c908f0c4-ff54-45eb-b125-00628c638f3c
 blueprint: page
 title: 'Insurance Policy'
 updated_by: 1
-updated_at: 1682666959
+updated_at: 1686074700
 components:
   -
     id: lh089gv5
@@ -46,4 +46,14 @@ components:
           -
             type: text
             text: "We hold full Public, Products and Professional Liability Insurance which can be downloaded below along with our company Health and Safety Policy.\_Risk Assessments are written individually for each event and will be sent a minimum of three-working days in advance of your event along with all relevant PAT certification."
+  -
+    id: liklcbe1
+    form: contact
+    contact:
+      -
+        id: HwEecjRh
+        title: 'Turn your ideas into action, arrange a free consultation'
+        subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
+    type: form_block
+    enabled: true
 ---

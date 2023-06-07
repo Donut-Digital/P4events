@@ -26,13 +26,13 @@ fields:
               fields:
                 -
                   import: block_bard
-            image_gallery_block:
-              display: 'Image Gallery Block'
+            gallery_block:
+              display: 'Gallery Block'
               instructions: null
               icon: null
               fields:
                 -
-                  import: block_image_gallery
+                  import: block_gallery_block
             image_bard_block:
               display: 'Image Bard Block'
               instructions: null

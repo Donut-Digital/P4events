@@ -3,7 +3,7 @@ id: 230a564f-2e26-4415-8ebb-58860f49310f
 blueprint: page
 title: 'Bespoke Event Management'
 updated_by: 1
-updated_at: 1685816844
+updated_at: 1686061835
 components:
   -
     id: lf8ogwb1
@@ -47,6 +47,14 @@ components:
         image: p4events/event-enquiry1.png
         entry: ba672c65-a064-4db6-9cc1-49933bb5760b
     type: entries_block
+    enabled: true
+  -
+    id: likdnpll
+    title: 'Event Testimonials'
+    introduction: 'See what our clients have said about their experience with us.'
+    background_color: '#E61E2A'
+    light_text: true
+    type: intro_block
     enabled: true
   -
     id: li20tuqv
