@@ -2,7 +2,7 @@
     <h2 class="mb-4 text-center">{{ $component['title'] }}</h2>
     <div class="flex flex-row justify-center gap-2">
         @foreach ($component['images'] as $image)
-            <img class="w-1/6" src="{{ $image['permalink'] }}">
+            <img class="w-1/6" src="{{ $image['permalink'] }}" alt="{{ $image['alt'] }}">
         @endforeach
     </div>
 </div>

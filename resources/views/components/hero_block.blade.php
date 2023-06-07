@@ -5,7 +5,7 @@
                          'w-full px-4 py-2' => $loop->index == 0,
                          'w-1/2 px-4'=>$loop->index !== 0])>
 
-                <img class="w-full" src="{{ $hero_block['hero_image'] }}">
+                <img class="w-full" src="{{ $hero_block['hero_image'] }}" alt="{{ $hero_block['hero_image']['alt'] }}">
 
                 @if($hero_block['bard_color'] && $hero_block['bard_field'])
 

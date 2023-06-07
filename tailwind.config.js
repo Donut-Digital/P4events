@@ -13,12 +13,12 @@ module.exports = {
         },
         colors:
             {
-                'primary':'var(--theme-primary-colour)',
-                'primary-text':'var(--theme-text-colour)',
-                'support':'var(--theme-support-colour)',
-                'nav-primary':'var(--theme-navigation-primary-colour)',
-                'nav-secondary':'var(--theme-navigation-secondary-colour)',
-                'footer-primary':'var(--theme-footer-background-colour)',
+                'primary':'#E61E2A',
+                'primary-text':'#575756',
+                'support':'#F0F0F0',
+                'nav-primary':'#3C3C3B',
+                'nav-secondary':'#31302F',
+                'footer-primary':'#3C3C3B',
 
                 'davy-gray':'#555555',
                 'dim-gray':'#6e6e6d',

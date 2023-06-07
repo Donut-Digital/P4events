@@ -1,133 +1,192 @@
-sections:
+tabs:
   main:
     display: Main
-    fields:
-      - handle: company_name
-        field:
-          input_type: text
-          antlers: false
-          display: "Company Name"
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
-      - handle: address
-        field:
-          input_type: text
-          antlers: false
-          display: Address
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
-      - handle: city
-        field:
-          input_type: text
-          antlers: false
-          display: City
-          type: text
-          icon: text
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      - handle: postcode
-        field:
-          input_type: text
-          antlers: false
-          display: Postcode
-          type: text
-          icon: text
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      - handle: company_description
-        field:
-          antlers: false
-          display: "Company Description"
-          type: textarea
-          icon: textarea
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      - handle: email
-        field:
-          input_type: text
-          antlers: false
-          display: Email
-          type: text
-          icon: text
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-      - handle: telephone
-        field:
-          input_type: text
-          antlers: false
-          display: Telephone
-          type: text
-          icon: text
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
+    sections:
+      -
+        fields:
+          -
+            handle: company_name
+            field:
+              input_type: text
+              antlers: false
+              display: 'Company Name'
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+              width: 50
+          -
+            handle: address
+            field:
+              input_type: text
+              antlers: false
+              display: Address
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+              width: 50
+          -
+            handle: city
+            field:
+              input_type: text
+              antlers: false
+              display: City
+              type: text
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: postcode
+            field:
+              input_type: text
+              antlers: false
+              display: Postcode
+              type: text
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: company_description
+            field:
+              antlers: false
+              display: 'Company Description'
+              type: textarea
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: email
+            field:
+              input_type: text
+              antlers: false
+              display: Email
+              type: text
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+          -
+            handle: telephone
+            field:
+              input_type: text
+              antlers: false
+              display: Telephone
+              type: text
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
   socials:
     display: Socials
-    fields:
-      - handle: facebook
-        field:
-          input_type: text
-          antlers: false
-          display: Facebook
-          type: text
-          icon: text
-          width: 25
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      - handle: twitter
-        field:
-          input_type: text
-          antlers: false
-          display: Twitter
-          type: text
-          icon: text
-          width: 25
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      - handle: instagram
-        field:
-          input_type: text
-          antlers: false
-          display: Instagram
-          type: text
-          icon: text
-          width: 25
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      - handle: pinterest
-        field:
-          input_type: text
-          antlers: false
-          display: Pinterest
-          type: text
-          icon: text
-          width: 25
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
+    sections:
+      -
+        fields:
+          -
+            handle: facebook
+            field:
+              input_type: text
+              antlers: false
+              display: Facebook
+              type: text
+              icon: text
+              width: 25
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: twitter
+            field:
+              input_type: text
+              antlers: false
+              display: Twitter
+              type: text
+              icon: text
+              width: 25
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: instagram
+            field:
+              input_type: text
+              antlers: false
+              display: Instagram
+              type: text
+              icon: text
+              width: 25
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: pinterest
+            field:
+              input_type: text
+              antlers: false
+              display: Pinterest
+              type: text
+              icon: text
+              width: 25
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+  assets:
+    display: Assets
+    sections:
+      -
+        display: 'New Section'
+        fields:
+          -
+            handle: navigation_logo
+            field:
+              max_files: 1
+              mode: list
+              container: images
+              folder: p4events
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Navigation Logo'
+              icon: assets
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: favicon
+            field:
+              max_files: 1
+              mode: list
+              container: images
+              folder: p4events
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: Favicon
+              icon: assets
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false

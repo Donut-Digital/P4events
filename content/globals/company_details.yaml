@@ -11,3 +11,5 @@ data:
   twitter: '#'
   instagram: '#'
   pinterest: '#'
+  navigation_logo: p4events/p4events-logo.svg
+  favicon: p4events/favicon.gif

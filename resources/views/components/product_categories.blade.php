@@ -5,7 +5,7 @@
     <div class="flex flex-col md:flex-row md:gap-8 mt-5 md:mt-10">
         @foreach($component['categories'] as $category)
             <a class="mt-6 group md:mt-0" href="{{ $category['category']['permalink'] }}">
-                <img class="w-full" src="{{ $category['category_image']['permalink'] }}">
+                <img class="w-full" src="{{ $category['category_image']['permalink'] }}" alt="{{ $category['category_image']['alt'] }}">
                 <h3 class="mt-6 py-4 text-center text-white bg-primary group-hover:bg-dim-gray">{{ $category['category']['title'] }}</h3>
             </a>
         @endforeach

@@ -21,13 +21,13 @@
 
             <div class="pb-12">
                 <div class="flex flex-row pb-12">
-                    <img class="w-2/3 object-cover border" src="{{ $page->featured_image->permalink }}">
+                    <img class="w-2/3 object-cover border" src="{{ $page->featured_image->permalink }}" alt="{{ $page->featured_image->alt }}">
 
                     <div class="flex flex-col gap-4 w-1/3">
 
-                        <img class="ml-4 object-cover border" src="{{ $page->featured_image->permalink }}">
+                        <img class="ml-4 object-cover border" src="{{ $page->featured_image->permalink }}" alt="{{ $page->featured_image->alt }}">
                         @foreach($page->product_images as $img)
-                            <img class="ml-4 object-cover border" src="{{ $img->permalink }}">
+                            <img class="ml-4 object-cover border" src="{{ $img->permalink }}" alt="{{ $img->alt }}">
                         @endforeach
                     </div>
                 </div>

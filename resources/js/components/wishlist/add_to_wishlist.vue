@@ -34,6 +34,7 @@ function addProductToWishlist()
         permalink:product.permalink,
         title:product.title,
         img:product.featured_image.permalink,
+        alt:product.featured_image.alt,
         description:product.product_description,
         quantity:quantity.value
       });

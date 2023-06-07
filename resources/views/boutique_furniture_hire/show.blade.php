@@ -23,7 +23,7 @@
             <div class="flex flex-row flex-wrap">
                 @foreach(Statamic::tag('collection:products')->param('boutique_furniture_hire:contains', $slug) as $product)
                     <a href="{{ $product['permalink'] }}" class="group w-1/3 px-3">
-                        <img src="{{ $product['featured_image']['permalink'] }}" class="border">
+                        <img src="{{ $product['featured_image']['permalink'] }}" alt="{{ $product['featured_image']['alt'] }}" class="border">
                         <h3 class="my-6 py-3 text-center text-white bg-dim-gray group-hover:bg-primary">{{ $product['title'] }}</h3>
                     </a>
                 @endforeach

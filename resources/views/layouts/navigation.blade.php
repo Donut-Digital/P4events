@@ -42,11 +42,12 @@
             </button>
             <!-- Mobile Menu Trigger button end -->
 
-            @if ($navigation_settings['company_logo'])
+            @if ($company_details['navigation_logo'])
                 <div class="mx-auto w-fit lg:mx-0">
                     <a href="/">
                         <img class="m-auto py-2 w-[230px] h-[48px] lg:m-0"
-                            src="{{ $navigation_settings['company_logo']['permalink'] }}">
+                            src="{{ $company_details['navigation_logo']['permalink'] }}"
+                            alt="{{ $company_details['navigation_logo']['alt'] }}">
                     </a>
                 </div>
             @endif

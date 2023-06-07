@@ -16,7 +16,7 @@
                          'w-full' => $loop->index % 3 == 0,
                          'w-full lg:w-[49%]'=>$loop->index % 3 !== 0])>
 
-                <img class="w-full h-[740px] object-cover" src="{{ $entry['featured_image'] }}">
+                <img class="w-full h-[740px] object-cover" src="{{ $entry['featured_image'] }}" alt="{{ $entry['featured_image']['alt'] }}">
 
                 <div @class(['md:absolute bottom-0 p-12',
                              'text-right w-full min-h-2/5' => $loop->index % 3 !== 0,
