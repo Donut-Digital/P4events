@@ -1,4 +1,4 @@
-<section @class(["relative","border-b border-davy-gray border-opacity-25" =>!$component['light_text'] && $loop->index == 0]) style="background-color: {{ $component['background_color'] }};">
+<section @class(["relative","border-b border-davy-gray border-opacity-25 px-4 mb-2" =>!$component['light_text'] && $loop->index == 0]) style="background-color: {{ $component['background_color'] }};">
 
     <div class="flex flex-col text-center">
         <div class="absolute h-full w-full bg-cover bg-center opacity-10" style="background-image: url({{ $component['background_image'] }});"></div>

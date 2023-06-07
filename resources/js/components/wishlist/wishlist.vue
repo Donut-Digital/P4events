@@ -51,13 +51,17 @@ function UpdateProductOnWishlist(product,event)
   <div class="flex flex-col py-4">
     <div v-for="(item,index) in sortedWishlist()" class="mx-4 flex flex-row justify-between py-6" :class="{ 'border-b' :index !== wishlist.length - 1 }">
       <img :src="item.img" :alt="item.alt" class="w-32 object-contain pr-4">
-      <a :href="item.permalink" class="my-auto h-max w-44 shrink-0">
+      <a :href="item.permalink" class="my-auto h-max w-22 sm:w-44 shrink-0">
         <h4 class="hover:text-primary hover:cursor-pointer">{{ item.title }}</h4>
       </a>
 
-      <p class="my-auto px-6 line-clamp-2" v-html="item.description"></p>
+      <div class="md:my-auto md:px-6 hidden md:block">
+        <p class="line-clamp-2" v-html="item.description">
 
-      <div class="my-auto flex h-fit w-24 shrink-0 flex-row bg-support">
+        </p>
+      </div>
+
+      <div class="my-auto flex h-fit w-20 md:w-24 shrink-0 flex-row bg-support">
         <select id="quantity" @change="UpdateProductOnWishlist(item,$event)"
                 class="block w-full appearance-none px-4 py-4 text-xl text-gray-900 outline-none bg-support h-[60px]" :value="item.quantity">
           <option selected value="0">Quantity</option>
@@ -76,18 +80,18 @@ function UpdateProductOnWishlist(product,event)
       </div>
 
 
-      <i @click="RemoveProductFromWishlist(item.id)" class="my-auto h-max px-6 text-xl fa-solid fa-trash hover:text-primary hover:cursor-pointer"></i>
+      <i @click="RemoveProductFromWishlist(item.id)" class="my-auto h-max pl-4 md:px-6 text-xl fa-solid fa-trash hover:text-primary hover:cursor-pointer"></i>
     </div>
 
   </div>
 
-  <div class="flex flex-row justify-between">
-      <span class="w-2/5 text-davy-gray">
+  <div class="flex flex-col lg:flex-row justify-between">
+      <span class="order-last lg:order-first text-center lg:text-left m-auto lg:m-0 w-full sm:w-2/3 lg:w-2/5 text-davy-gray pr-2">
         Once you send your wishlist over to one of specialist planners, we will contact you shortly with a quote.
       </span>
 
-    <a href="/wish-list/send" class="flex w-2/5 flex-row justify-center px-5 py-4 text-white bg-primary hover:bg-dim-gray">
-      <span class="pr-4">Send my wishlist to our specialist planner</span> <i class="my-auto fa-solid fa-list"></i>
+    <a href="/wish-list/send" class="flex text-center m-auto lg:m-0 w-full sm:w-2/3 lg:w-2/5 flex-row justify-center px-5 py-4 text-white bg-primary hover:bg-dim-gray">
+      <span class="pr-4 text-center">Send my wishlist to our specialist planner</span> <i class="my-auto fa-solid fa-list"></i>
     </a>
   </div>
 

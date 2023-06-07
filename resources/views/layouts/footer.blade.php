@@ -1,19 +1,19 @@
 
 
 <footer class="bg-footer-primary">
-    <div class="m-auto flex flex-row p-9 constraint">
+    <div class="m-auto flex flex-col lg:flex-row p-9 constraint">
 
-        <div class="w-1/3">
+        <div class="w-full pb-4 lg:pb-0 lg:w-1/3">
             @foreach(Statamic::tag('nav:footer_navigation') as $item)
-                <a href="{{ $item['url'] }}" class="inline-block w-1/2 whitespace-nowrap text-white hover:underline">{{ $item['title'] }}</a>
+                <a href="{{ $item['url'] }}" class="inline-block py-2 lg:py-0 text-center lg:text-left w-1/3 lg:w-1/2 whitespace-nowrap text-white hover:underline">{{ $item['title'] }}</a>
             @endforeach
         </div>
 
-        <div class="w-1/3 font-light leading-5 text-white">
+        <div class="w-full pb-4 lg:pb-0 lg:w-1/3 text-center lg:text-left font-light leading-5 text-white">
             {{ $company_details['company_description'] }}
         </div>
 
-        <div class="w-1/3">
+        <div class="m-auto lg:m-0 lg:w-1/3">
             <div class="flex justify-end">
 
                 <!-- Telephone -->
@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="float-right w-52 pt-5 text-right text-white">
+            <div class="float-right w-52 pt-5 text-center lg:text-right text-white">
                 {{ $company_details['address'] }}, {{ $company_details['city'] }}, {{ $company_details['postcode'] }}
             </div>
 
