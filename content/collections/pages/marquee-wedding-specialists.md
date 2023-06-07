@@ -4,7 +4,7 @@ blueprint: page
 title: 'Marquee Wedding Specialists'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686071646
+updated_at: 1686161797
 components:
   -
     id: likhscnc
@@ -73,20 +73,6 @@ components:
     type: hero_block
     enabled: true
   -
-    id: likio0oz
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Featured Wedding: Jess & Tommy'
-    bard_highlight: '#ffffff'
-    type: bard_block
-    enabled: true
-  -
     id: likirhs3
     gallery_type: row
     gallery:
@@ -95,6 +81,7 @@ components:
       - p4events/jt3.jpg
     type: gallery_block
     enabled: true
+    title: 'Featured Wedding: Jess & Tommy'
   -
     id: likisf91
     image: p4events/screenshot-2023-06-06-175341.jpg

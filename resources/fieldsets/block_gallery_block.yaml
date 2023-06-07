@@ -21,6 +21,18 @@ fields:
       visibility: visible
       hide_display: false
   -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Title
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
     handle: main_image_position
     field:
       options:
