@@ -71,3 +71,29 @@ fields:
       validate:
         - required
       container: images
+  -
+    handle: call_to_action_entry
+    field:
+      collections:
+        - articles
+        - pages
+        - products
+      type: link
+      display: 'Call To Action Entry'
+      icon: link
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: call_to_action_label
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Call To Action Label'
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
