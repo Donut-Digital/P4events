@@ -14,7 +14,7 @@
                                  'text-left lg:left-0'=>$loop->index !== 0,
                                  "bard-light"=>$hero_block['light_text'],
                                  "bard-dark"=>!$hero_block['light_text']])
-                         style="background-color: {{ $hero_block['bard_color'] }};">
+                         style="background-color: {{ $hero_block['bard_color'] }}e8;">
 
                         @if($hero_block['link'])
                             <a href="{{$hero_block['link']['permalink']}}">
