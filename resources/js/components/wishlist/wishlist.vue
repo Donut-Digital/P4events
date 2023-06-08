@@ -50,7 +50,7 @@ function UpdateProductOnWishlist(product,event)
 
   <div class="flex flex-col py-4">
     <div v-for="(item,index) in sortedWishlist()" class="mx-4 flex flex-row justify-between py-6" :class="{ 'border-b' :index !== wishlist.length - 1 }">
-      <img :src="item.img" :alt="item.alt" class="w-32 object-contain pr-4">
+      <img :src="item.img" :alt="item.alt" class="w-32 object-contain pr-4" loading="lazy">
       <a :href="item.permalink" class="my-auto h-max w-22 sm:w-44 shrink-0">
         <h4 class="hover:text-primary hover:cursor-pointer">{{ item.title }}</h4>
       </a>

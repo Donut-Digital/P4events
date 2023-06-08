@@ -3,7 +3,7 @@
         {{-- Image --}}
         <div class="w-full lg:w-1/3">
             <div class="flex h-full flex-col">
-                <img class="hidden lg:block" src="{{ $component['main_image'] }}" alt="{{ $component['main_image']['alt'] }}">
+                <img class="hidden lg:block" src="{{ $component['main_image'] }}" alt="{{ $component['main_image']['alt'] }}" loading="lazy">
                 <div class="p-5 bg-primary">
                     <p class="font-bold text-white">{{ $component['image_title'] }}</p>
                     <p class="text-white">{{ $component['image_sub_description'] }}</p>

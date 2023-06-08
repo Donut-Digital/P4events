@@ -3,7 +3,7 @@
         {{-- Image --}}
         <div class="w-full lg:w-1/3">
             <div class="flex h-full flex-col">
-                <img class="hidden lg:block" src="{{ $component['image'] }}" alt="{{ $component['alt'] }}">
+                <img class="hidden lg:block" src="{{ $component['image'] }}" alt="{{ $component['alt'] }}" loading="lazy">
                 <div class="p-5 bg-primary event-form-bard">
                     {!! $component['bard'] !!}
                 </div>
