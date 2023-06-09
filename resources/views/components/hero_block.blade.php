@@ -5,7 +5,7 @@
                          'w-full' => $loop->index == 0,
                          'w-full lg:flex-1'=>$loop->index !== 0])>
 
-                <img class="w-full" src="{{ $hero_block['hero_image'] }}" alt="{{ $hero_block['hero_image']['alt'] }}" loading="lazy">
+                <img class="w-full h-full" src="{{ $hero_block['hero_image'] }}" alt="{{ $hero_block['hero_image']['alt'] }}" loading="lazy">
 
                 @if($hero_block['bard_color'] && $hero_block['bard_field'])
 

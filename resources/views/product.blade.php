@@ -1,7 +1,6 @@
 @extends('layouts.base')
 
 @section('content')
-
     @includeIf('layouts.navigation')
 
     <div class="flex-grow content">
@@ -21,13 +20,16 @@
 
             <div class="pb-12">
                 <div class="flex flex-row pb-12">
-                    <img class="w-2/3 object-cover border" src="{{ $page->featured_image->permalink }}" alt="{{ $page->featured_image->alt }}" loading="lazy">
+                    <img id="main_image" class="w-2/3 object-cover border" src="{{ $page->featured_image->permalink }}"
+                        alt="{{ $page->featured_image->alt }}" loading="lazy">
 
                     <div class="flex flex-col gap-4 w-1/3">
 
-                        <img class="ml-4 object-cover border" src="{{ $page->featured_image->permalink }}" alt="{{ $page->featured_image->alt }}" loading="lazy">
-                        @foreach($page->product_images as $img)
-                            <img class="ml-4 object-cover border" src="{{ $img->permalink }}" alt="{{ $img->alt }}" loading="lazy">
+                        <img class="ml-4 object-cover border sub_image" src="{{ $page->featured_image->permalink }}"
+                            alt="{{ $page->featured_image->alt }}" loading="lazy">
+                        @foreach ($page->product_images as $img)
+                            <img class="ml-4 object-cover border sub_image" src="{{ $img->permalink }}"
+                                alt="{{ $img->alt }}" loading="lazy">
                         @endforeach
                     </div>
                 </div>
@@ -50,12 +52,11 @@
 
         </div>
 
-        @foreach($components as $component)
-            @includeIf('components/' .$component['type'])
+        @foreach ($components as $component)
+            @includeIf('components/' . $component['type'])
         @endforeach
 
     </div>
 
     @includeIf('layouts.footer')
-
 @endsection
