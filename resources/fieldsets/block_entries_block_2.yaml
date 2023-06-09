@@ -41,7 +41,31 @@ fields:
             visibility: visible
             hide_display: false
             width: 50
-      mode: table
+        -
+          handle: label_background
+          field:
+            allow_any: true
+            type: color
+            display: 'Label Background'
+            icon: color
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+            width: 50
+        -
+          handle: light_text
+          field:
+            default: false
+            type: toggle
+            display: 'Light Text'
+            icon: toggle
+            width: 50
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+      mode: stacked
       reorderable: true
       fullscreen: true
       type: grid

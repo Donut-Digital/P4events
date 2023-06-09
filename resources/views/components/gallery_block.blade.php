@@ -40,7 +40,7 @@
 
         <div class="flex flex-col lg:flex-row gap-5">
             @foreach($component['gallery'] as $image)
-                <img class="object-cover w-full lg:w-1/3 h-[250px] min-w-0" src="{{ $image['permalink'] }}" alt="{{ $image['alt'] }}" loading="lazy">
+                <img class="object-cover w-full flex-1 lg:w-1/3 h-[250px] min-w-0" src="{{ $image['permalink'] }}" alt="{{ $image['alt'] }}" loading="lazy">
             @endforeach
         </div>
 
