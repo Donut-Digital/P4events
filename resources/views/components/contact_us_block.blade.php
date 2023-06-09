@@ -1,4 +1,4 @@
-<section class="border-t border-gray-300 bg-[#fcfcfc] mt-2 px-4 py-5">
+<section class="border-t border-gray-300 bg-[#fcfcfc] px-4 py-5">
     <div class="container mx-auto">
         <h3 class="py-10 text-center text-primary">{{ $component['title'] }}</h3>
 
