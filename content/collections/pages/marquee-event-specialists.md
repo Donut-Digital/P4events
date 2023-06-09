@@ -4,7 +4,7 @@ blueprint: page
 title: 'Marquee Event Specialists'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1685121834
+updated_at: 1686335797
 components:
   -
     id: lgqehxcp
@@ -42,7 +42,7 @@ components:
       -
         id: K2NHWWSS
         hero_image: p4events/barclays11-1115x742.jpg
-        bard_color: '#E61E2AC4'
+        bard_color: '#E61E2A'
         light_text: true
         bard_field:
           -
@@ -62,7 +62,7 @@ components:
       -
         id: li3a3icl
         hero_image: p4events/tri_1.jpg
-        bard_color: '#E61E2AC4'
+        bard_color: '#E61E2A'
         light_text: true
         bard_field:
           -

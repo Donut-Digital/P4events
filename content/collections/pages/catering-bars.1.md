@@ -4,14 +4,14 @@ blueprint: page
 title: 'Catering & Bars'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686074355
+updated_at: 1686337139
 components:
   -
     id: likkupav
     title: 'Catering & Bars'
     introduction: 'We understand that the quality of food and drinks served at any event is what really gets people talking. It’s for this reason that we only use a handpicked selection of the very best tried and trusted caterers, highly skilled cocktail bar staff and experienced wine merchants. We also have our own range of tailor-made luxury mobile bars available to hire and fully customisable around your brand or event theme.'
-    background_color: '#E61E2A'
-    light_text: true
+    background_color: '#fcfcfc'
+    light_text: false
     type: intro_block
     enabled: true
   -
@@ -19,9 +19,9 @@ components:
     hero_sections:
       -
         id: jV72Rts4
-        hero_image: p4events/mobile-bars1-1115x760-1686073946.jpg
-        bard_color: '#E61E2A'
-        light_text: true
+        hero_image: p4events/d4a4105-1115x742.jpg
+        bard_color: '#ffffff'
+        light_text: false
         bard_field:
           -
             type: heading
@@ -39,9 +39,22 @@ components:
                 text: 'We can tailor a bespoke bar concept around your entire event theme, creating an individual cocktail menu which once finalised will be executed perfectly at your event by our trained mixologists leaving your guests wanting more!'
       -
         id: likkwna0
-        hero_image: p4events/mobile-bars2-716x504-1686073982.jpg
-        bard_color: '#E61E2A'
+        hero_image: p4events/wedding-bars1-716x504.jpg
         light_text: true
+      -
+        id: likkxh8f
+        hero_image: p4events/197730_10150884063392691_1093016170_n-639x504.jpg
+        light_text: true
+    type: hero_block
+    enabled: true
+  -
+    id: lioxd0ht
+    hero_sections:
+      -
+        id: 30mML9oR
+        hero_image: p4events/case-study-3.jpg
+        bard_color: '#ffffff'
+        light_text: false
         bard_field:
           -
             type: heading
@@ -50,18 +63,24 @@ components:
             content:
               -
                 type: text
-                text: 'Adding the glamour'
+                text: 'Sale or Return'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Having a cocktail bar at your next event will not only add glamour, but also the added entertainment for your guests, with our passionate and experienced mixologists performing behind the bar. Turn your event in to a sophisticated nightclub scene and add that unexpected touch of sparkle.'
-      -
-        id: likkxh8f
-        hero_image: p4events/mobile-bars3-716x504-1686074034.jpg
-        light_text: true
+                text: 'All of our beverages are sold on a sale or return basis, meaning you never need to worry about purchasing too much stock, or even worse, running out! We will ensure we over order the highest quality stock to meet your budget requirements so that your only concern is having fun.'
     type: hero_block
+    enabled: true
+  -
+    id: lioxhe5e
+    gallery_type: row
+    title: 'Featured Wedding:'
+    gallery:
+      - p4events/wedding-day1-1115x743.jpg
+      - p4events/wedding-day2-716x504.jpg
+      - p4events/venue-search-hero-716x504.jpg
+    type: gallery_block
     enabled: true
   -
     id: likkz01j
@@ -110,6 +129,8 @@ components:
             text: "\_today for your quotation."
     type: image_bard_block
     enabled: true
+    call_to_action_entry: /test
+    call_to_action_label: "Read More > Victoria and Drew's Big Day"
   -
     id: likkznqn
     form: contact

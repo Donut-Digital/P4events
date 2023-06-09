@@ -21,6 +21,10 @@ fields:
             listable: hidden
             instructions_position: above
             visibility: visible
+            show_set_alt: true
+            hide_display: false
+            validate:
+              - required
         -
           handle: bard_color
           field:

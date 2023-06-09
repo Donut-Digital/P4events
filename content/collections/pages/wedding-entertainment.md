@@ -4,7 +4,7 @@ blueprint: page
 title: 'Wedding Entertainment'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686125275
+updated_at: 1686337361
 components:
   -
     id: likm0m3t
@@ -46,14 +46,20 @@ components:
         id: LGnznZY0
         entry: d74f2116-ca89-41f5-a425-662d8f4bd4cd
         entry_image: p4events/arcade-machine-hire61-716x504.jpg
+        label_background: '#ffffff'
+        light_text: false
       -
         id: lilfewth
         entry: 5a65afb8-633e-4822-a6c7-1ad07e52bfd4
         entry_image: p4events/1-1115x760.jpg
+        label_background: '#ffffff'
+        light_text: false
       -
         id: lilff9zg
         entry: b95995fb-2ec3-4c51-b0e4-0616decb7edc
         entry_image: p4events/aerialacts07-716x468.png
+        light_text: false
+        label_background: '#ffffff'
     type: entries_block_2
     enabled: true
   -
@@ -61,9 +67,9 @@ components:
     images:
       - p4events/weddingents-716x504.jpg
       - p4events/kozakiewicz-399-716x504.jpg
-      - p4events/716x504a-716x468-1686076680.png
+      - p4events/aerialacts07-716x468.png
       - p4events/weddingents-716x1045.jpg
-      - p4events/aerial-1115x760-716x468.jpg
+      - p4events/aerial-1115x760.jpg
       - p4events/blog-4-716x508.jpg
     bard:
       -

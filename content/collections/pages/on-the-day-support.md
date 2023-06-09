@@ -4,7 +4,7 @@ blueprint: page
 title: 'On the Day Support'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686067000
+updated_at: 1686336163
 components:
   -
     id: lijyf0ug
@@ -39,7 +39,7 @@ components:
                 text: 'We pride ourselves on always being only a phone call away, discussing all of the finer details and meeting with you as frequently as required so that we understand precisely how you would like your event to run. Ensuring every last element is correct so that your event goes exactly to plan.'
       -
         id: likgeu51
-        hero_image: p4events/onsite1-1686066509.jpg
+        hero_image: p4events/onsite1.jpg
         bard_color: '#E61E2A'
         light_text: true
         bard_field:
@@ -65,7 +65,7 @@ components:
     enabled: true
   -
     id: likgn8il
-    image: p4events/screenshot-2023-06-06-165425.jpg
+    image: p4events/screenshot-2023-05-26-at-18.20.59.png
     bard_highlight: '#E61E2A'
     bard:
       -
