@@ -10,7 +10,7 @@
                 @if($hero_block['bard_color'] && $hero_block['bard_field'])
 
                     <div @class(['w-full lg:w-4/5 md:absolute bottom-0 p-6 lg:p-8 lg:mb-20',
-                                 'text-right lg:right-0' => $loop->index == 0,
+                                 'lg:text-right lg:right-0' => $loop->index == 0,
                                  'text-left lg:left-0'=>$loop->index !== 0,
                                  "bard-light"=>$hero_block['light_text'],
                                  "bard-dark"=>!$hero_block['light_text']])
