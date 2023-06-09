@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Entertainment'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1685821099
+updated_at: 1686336026
 components:
   -
     id: ligbtw43
@@ -19,7 +19,6 @@ components:
     hero_sections:
       -
         id: Luys1GbT
-        hero_image: p4events/blog-4-1115x760-(1).jpg
         bard_color: '#e61e2a'
         light_text: true
         bard_field:
@@ -37,6 +36,7 @@ components:
               -
                 type: text
                 text: 'Take a look at some of our favourite acts below, including our Multi-skilled performers who are a great way to ensure your entertainment budget stretches as far as possible!'
+        hero_image: p4events/blog-4-716x508.jpg
     type: hero_block
     enabled: true
   -
@@ -48,14 +48,20 @@ components:
         id: ligc5q2h
         entry: 7b17aac5-67ab-4cfe-a255-90d661de96d3
         entry_image: p4events/1115x477.png
+        label_background: '#ec353c'
+        light_text: true
       -
         id: ligc69e7
         entry: 91bc9c86-dca8-44a3-87bf-972e5f242e6a
         entry_image: p4events/barcadia-076.jpg.webp
+        label_background: '#ec353c'
+        light_text: true
       -
         id: ligc6ka5
         entry: a4ca2745-13ba-4f39-8112-a69b1d8d5941
         entry_image: p4events/catering-and-bars1.png
+        label_background: '#ec353c'
+        light_text: true
   -
     id: ligd8qq1
     type: gallery_bard_block

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Enquiry'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686072849
+updated_at: 1686336261
 components:
   -
     id: likk7nel
@@ -19,7 +19,7 @@ components:
     event:
       -
         id: Z7WpztHB
-        image: p4events/eventenquiryimage-(1).jpg
+        image: p4events/eventenquiryimage.jpg
         bard:
           -
             type: paragraph
