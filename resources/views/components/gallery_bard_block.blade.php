@@ -2,9 +2,9 @@
 
     @if(count($component['images']) == 6)
     <div class="flex lg:flex-1 w-full flex-col gap-5 lg:w-1/3">
-        <img class="w-full min-w-0" src="{{ $component['images'][0]['permalink'] }}" alt="{{ $component['images'][0]['alt'] }}" loading="lazy">
-        <img class="w-full min-w-0" src="{{ $component['images'][1]['permalink'] }}" alt="{{ $component['images'][1]['alt'] }}" loading="lazy">
-        <img class="w-full min-w-0" src="{{ $component['images'][2]['permalink'] }}" alt="{{ $component['images'][2]['alt'] }}" loading="lazy">
+        <img class="w-full h-full min-w-0" src="{{ $component['images'][0]['permalink'] }}" alt="{{ $component['images'][0]['alt'] }}" loading="lazy">
+        <img class="w-full h-full min-w-0" src="{{ $component['images'][1]['permalink'] }}" alt="{{ $component['images'][1]['alt'] }}" loading="lazy">
+        <img class="w-full h-full min-w-0" src="{{ $component['images'][2]['permalink'] }}" alt="{{ $component['images'][2]['alt'] }}" loading="lazy">
     </div>
 
     <div class="flex lg:flex-1 w-full flex-col gap-5 lg:w-1/3">
