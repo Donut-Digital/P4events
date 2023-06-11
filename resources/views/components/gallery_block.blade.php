@@ -13,7 +13,7 @@
                 <img src="{{ $component['gallery'][0]['image']['permalink'] }}" alt="{{ $component['gallery'][0]['image']['alt'] }}" class="min-w-0 flex-1 object-cover" loading="lazy">
 
                 @if(isset($component['gallery'][1]))
-                    <img src="{{ $component['gallery'][1]['permalink'] }}" alt="{{ $component['gallery'][1]['image']['alt'] }}" class="min-w-0 flex-1 object-cover" loading="lazy">
+                    <img src="{{ $component['gallery'][1]['image']['permalink'] }}" alt="{{ $component['gallery'][1]['image']['alt'] }}" class="min-w-0 flex-1 object-cover" loading="lazy">
                 @endif
             </div>
 

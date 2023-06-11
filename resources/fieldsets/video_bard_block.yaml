@@ -1,0 +1,95 @@
+title: 'Block: Video Bard Block'
+fields:
+  -
+    handle: video
+    field:
+      type: video
+      display: Video
+      icon: video
+      width: 66
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: bard_highlight
+    field:
+      allow_any: true
+      type: color
+      display: 'Bard highlight'
+      icon: color
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: bard
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+      smart_typography: false
+      save_html: false
+      inline: false
+      toolbar_mode: fixed
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      remove_empty_nodes: false
+      antlers: false
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      always_show_set_button: false
+      collapse: false
+      previews: true
+      type: bard
+      display: Bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: call_to_action_entry
+    field:
+      max_items: 1
+      mode: default
+      create: true
+      collections:
+        - articles
+        - pages
+        - products
+      type: entries
+      display: 'Call To Action Entry'
+      icon: entries
+      width: 66
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: call_to_action_label
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Call To Action Label'
+      icon: text
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

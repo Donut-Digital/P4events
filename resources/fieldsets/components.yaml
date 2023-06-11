@@ -25,6 +25,13 @@ fields:
               fields:
                 -
                   import: hero_block
+            video_bard_block:
+              display: 'Video Bard Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: video_bard_block
             image_bard_block:
               display: 'Image Bard Block'
               instructions: null
@@ -46,13 +53,6 @@ fields:
               fields:
                 -
                   import: block_bard
-            product_categories:
-              display: 'Product Categories'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: block_product_categories
             image_portfolio_block:
               display: 'Image Portfolio Block'
               instructions: null
@@ -60,13 +60,6 @@ fields:
               fields:
                 -
                   import: image_portfolio_block
-            documents_block:
-              display: 'Documents Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: block_documents_block
             entries_block:
               display: 'Entries Block'
               instructions: null
@@ -81,13 +74,6 @@ fields:
               fields:
                 -
                   import: block_entries_block_2
-            slider_block:
-              display: 'Slider Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: slider_block
             form_block:
               display: 'Form Block'
               instructions: null
@@ -95,27 +81,6 @@ fields:
               fields:
                 -
                   import: block_forms
-            articles_block:
-              display: 'Articles Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: block_articles_block
-            wishlist:
-              display: 'Wishlist Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: block_wishlist
-            gallery_bard_block:
-              display: 'Gallery Bard Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: block_gallery_bard_block
             gallery_block:
               display: 'Gallery Block'
               instructions: null
@@ -123,6 +88,48 @@ fields:
               fields:
                 -
                   import: block_gallery_block
+            gallery_bard_block:
+              display: 'Gallery Bard Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_gallery_bard_block
+            slider_block:
+              display: 'Slider Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: slider_block
+            product_categories:
+              display: 'Product Categories'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_product_categories
+            articles_block:
+              display: 'Articles Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_articles_block
+            documents_block:
+              display: 'Documents Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_documents_block
+            wishlist:
+              display: 'Wishlist Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_wishlist
       display: Components
       type: replicator
       icon: replicator
