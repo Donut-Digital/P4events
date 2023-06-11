@@ -4,7 +4,7 @@ blueprint: page
 title: 'On the Day Support'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686336163
+updated_at: 1686518575
 components:
   -
     id: lijyf0ug
@@ -64,8 +64,8 @@ components:
     type: hero_block
     enabled: true
   -
-    id: likgn8il
-    image: p4events/screenshot-2023-05-26-at-18.20.59.png
+    id: lirxlatz
+    video: 'https://www.youtube.com/embed/qBUqVgQyEJE'
     bard_highlight: '#E61E2A'
     bard:
       -
@@ -93,7 +93,7 @@ components:
                   target: null
                   title: null
             text: 'Learn more here…'
-    type: image_bard_block
+    type: video_bard_block
     enabled: true
   -
     id: likgr386

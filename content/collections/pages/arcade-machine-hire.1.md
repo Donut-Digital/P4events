@@ -1,26 +1,26 @@
 ---
-id: d74f2116-ca89-41f5-a425-662d8f4bd4cd
+id: 39c04e17-258d-4c0d-8ace-863d36dcf142
 blueprint: page
 title: 'Arcade Machine Hire'
 updated_by: 1
-updated_at: 1686519797
+updated_at: 1686518440
 components:
   -
-    id: liry73gy
+    id: lirwi310
     title: 'Arcade Machine Hire'
-    introduction: 'Retro films are in! And with recent releases from Disney and Sony Entertainment of Wreck It Ralph, PIXELS and of course the forthcoming new Star Wars movie, our collection of retro arcade equipment has never been more popular!'
-    background_color: '#fcfcfc'
-    light_text: false
+    introduction: 'Retro films are in! And with recent releases from Disney and Sony Entertainment of Wreck It Ralph, PIXELS and of course, the eagerly anticipated Star Wars movie, our collection of retro arcade equipment has never been more popular!'
+    background_color: '#e61e2a'
+    light_text: true
     type: intro_block
     enabled: true
   -
-    id: liry7opx
+    id: lirwisaa
     hero_sections:
       -
-        id: fFnD4nBw
+        id: VmiBZ1wm
         hero_image: p4events/arcade-machine-hire61-716x504.jpg
-        bard_color: '#ffffff'
-        light_text: false
+        bard_color: '#e61e2a'
+        light_text: true
         bard_field:
           -
             type: heading
@@ -35,34 +35,43 @@ components:
             content:
               -
                 type: text
-                text: 'With access to one of the most expansive and valuable collections of Star Wars machines and merchandise in the whole of Europe, there’s no better choice for your Sci-Fi themed event.'
+                text: 'With access to one of the most expansive and valuable collections of '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Star Wars'
+              -
+                type: text
+                text: " machines and merchandise in the whole of Europe, there’s no better choice for your\_Sci-Fi themed event."
     type: hero_block
     enabled: true
   -
-    id: liry9oaw
+    id: lirwjgc9
     gallery_type: row
     gallery:
       -
-        id: 2kA6WU8U
-        image: p4events/arcade-machine-hire7-716x504.jpg
+        id: lirwjtwp
+        image: p4events/arcade-machine-hire11-716x504.jpg
         add_cta: false
       -
-        id: liry9qth
-        image: p4events/wedding-ents-arcade1-704x516-(1).jpg
+        id: lirwjygh
+        image: p4events/arcade-machine-hire3-716x504.jpg
         add_cta: false
       -
-        id: liry9rcb
+        id: 4mF7bKZB
+        add_cta: false
         image: p4events/aracdedirect3-716x504.png
-        add_cta: false
     type: gallery_block
     enabled: true
   -
-    id: liryah78
+    id: lirwk8r9
     images:
+      - p4events/arcade-machine-hire2-716x504.jpg
       - p4events/aracdedirect1-716x504.png
-      - p4events/aracdedirect7-716x504.png
-      - p4events/wedding-ents-arcade1-1432x468.jpg
-      - p4events/wedding-ents-arcade1-716x1046.jpg
+      - p4events/arcade-machine-hire5-1115x468.jpg
+      - p4events/arcade-machine-hire71-716x1046.jpg
       - p4events/aracdedirect-716x508.png
     bard:
       -
@@ -87,17 +96,17 @@ components:
             type: hardBreak
           -
             type: text
-            text: '> PacMan Arcade Machine'
+            text: "> PacMan\_Arcade Machine"
           -
             type: hardBreak
           -
             type: text
-            text: '> Space Invaders Arcade Machine'
+            text: "> Space Invaders\_Arcade Machine"
           -
             type: hardBreak
           -
             type: text
-            text: '> Star Wars Trilogy Arcade Machine'
+            text: "> Star Wars Trilogy\_Arcade Machine"
       -
         type: paragraph
         content:
@@ -120,6 +129,8 @@ components:
                   rel: noopener
                   target: _blank
                   title: null
+              -
+                type: bold
             text: 'Arcade Direct'
           -
             type: text
@@ -128,11 +139,11 @@ components:
     type: gallery_bard_block
     enabled: true
   -
-    id: liryc1ex
+    id: lirwlbvl
     form: contact
     contact:
       -
-        id: ZwlbTjr8
+        id: f9qqvcO9
         title: 'Turn your ideas into action, arrange a free consultation'
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block

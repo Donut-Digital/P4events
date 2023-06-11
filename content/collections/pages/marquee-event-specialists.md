@@ -4,7 +4,7 @@ blueprint: page
 title: 'Marquee Event Specialists'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686335797
+updated_at: 1686516365
 components:
   -
     id: lgqehxcp
@@ -71,15 +71,15 @@ components:
               -
                 type: text
                 text: 'I can’t recommend Passion4Events highly enough to anyone wanting to throw a party to remember” Lisa Balmer | Trilanco'
-        link: ba672c65-a064-4db6-9cc1-49933bb5760b
+        link: 7c3722de-fbb5-40e8-908a-ce37c327d1fa
       -
         id: li3ajnaf
         hero_image: p4events/tri_3.jpg
         light_text: true
   -
-    id: li3c8dai
-    image_bard_layout: horizontal
-    image: p4events/screenshot-2023-05-25-at-17.39.21.png
+    id: lirw97nt
+    video: 'https://www.youtube.com/embed/Giu72-ghubc'
+    bard_highlight: '#E61E2A'
     bard:
       -
         type: paragraph
@@ -110,8 +110,7 @@ components:
           -
             type: text
             text: ' today to arrange your complementary consultation.'
-    bard_highlight: '#E61E2A'
-    type: image_bard_block
+    type: video_bard_block
     enabled: true
   -
     id: li4u0dzc

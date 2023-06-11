@@ -3,7 +3,7 @@ id: eb48a052-cc68-499b-a04f-e02d10ad8ef3
 blueprint: page
 title: Homepage
 updated_by: 1
-updated_at: 1686514142
+updated_at: 1686516206
 components:
   -
     id: lfo0nl2z
@@ -433,50 +433,6 @@ components:
         title: 'Turn your ideas into action, arrange a free consultation'
         subtitle: 'Or contact us: 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
-    enabled: true
-  -
-    id: liruuh81
-    video: 'https://www.youtube.com/embed/fgZki2VnWYA'
-    bard_highlight: '#5d5d5d'
-    bard:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Our themes are fully flexible and can be created for just one aspect of your day or carried throughout. The fairground theme for example, can also be carried through inside with theme park table plans and chocolate covered popcorn, mini doughnuts and candyfloss incorporated into your wedding breakfast desert.\_The possibilities are endless!"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'So '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'http://p4events.co.uk/luxury-wedding-planning/wedding-enquiry/'
-                  rel: null
-                  target: null
-                  title: null
-            text: 'contact us'
-          -
-            type: text
-            text: ' today for your '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'complementary '
-          -
-            type: text
-            text: consultation.
-    call_to_action_entry: 00aedf09-1dee-4dcf-b716-55dee9e73e31
-    call_to_action_label: test
-    type: video_bard_block
     enabled: true
 test:
   - double-luxury-booth-unit3-342x152-(1).jpg

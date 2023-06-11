@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Entertainment'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686336026
+updated_at: 1686518292
 components:
   -
     id: ligbtw43
@@ -45,21 +45,21 @@ components:
     enabled: true
     entries:
       -
-        id: ligc5q2h
-        entry: 7b17aac5-67ab-4cfe-a255-90d661de96d3
-        entry_image: p4events/1115x477.png
-        label_background: '#ec353c'
-        light_text: true
-      -
-        id: ligc69e7
-        entry: 91bc9c86-dca8-44a3-87bf-972e5f242e6a
-        entry_image: p4events/barcadia-076.jpg.webp
-        label_background: '#ec353c'
-        light_text: true
-      -
         id: ligc6ka5
-        entry: a4ca2745-13ba-4f39-8112-a69b1d8d5941
-        entry_image: p4events/catering-and-bars1.png
+        entry: 39c04e17-258d-4c0d-8ace-863d36dcf142
+        entry_image: p4events/arcade-machine-hire61-716x504.jpg
+        label_background: '#ec353c'
+        light_text: true
+      -
+        id: lirxdpcu
+        entry: 437616ac-add0-4126-afb6-a2ec9565a0af
+        entry_image: p4events/1-1115x760.jpg
+        label_background: '#ec353c'
+        light_text: true
+      -
+        id: lirxdx2p
+        entry: f5eaab76-7676-4336-a227-b592e6085894
+        entry_image: p4events/aerial-1115x760.jpg
         label_background: '#ec353c'
         light_text: true
   -

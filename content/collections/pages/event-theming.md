@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Theming'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686035943
+updated_at: 1686516439
 components:
   -
     id: li4t6z8j
@@ -64,8 +64,9 @@ components:
     type: hero_block
     enabled: true
   -
-    id: li4tprij
-    image: p4events/screenshot-2023-05-26-at-18.15.15.png
+    id: lirwc0ir
+    video: 'https://www.youtube.com/embed/dR_o0o8Bl1w?autoplay=1&feature=oembed'
+    bard_highlight: '#ec353c'
     bard:
       -
         type: paragraph
@@ -107,9 +108,8 @@ components:
           -
             type: text
             text: ' today for your complementary consultation.'
-    type: image_bard_block
+    type: video_bard_block
     enabled: true
-    bard_highlight: '#ec353c'
   -
     id: li4ttc80
     form: contact

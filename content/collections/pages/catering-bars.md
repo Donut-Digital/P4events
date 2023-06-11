@@ -4,7 +4,7 @@ blueprint: page
 title: 'Catering & Bars'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686335868
+updated_at: 1686516518
 components:
   -
     id: li4tua4n
@@ -64,8 +64,8 @@ components:
     type: hero_block
     enabled: true
   -
-    id: li4txhjo
-    image: p4events/screenshot-2023-05-26-at-18.20.59.png
+    id: lirwdaol
+    video: 'https://www.youtube.com/embed/qBUqVgQyEJE'
     bard_highlight: '#e22631'
     bard:
       -
@@ -108,7 +108,7 @@ components:
           -
             type: text
             text: "\_today for your quotation."
-    type: image_bard_block
+    type: video_bard_block
     enabled: true
   -
     id: liowu0tp

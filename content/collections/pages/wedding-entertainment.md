@@ -4,13 +4,13 @@ blueprint: page
 title: 'Wedding Entertainment'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686337361
+updated_at: 1686519628
 components:
   -
     id: likm0m3t
     title: 'Wedding Entertainment'
     introduction: 'Your choice of entertainment for your wedding is what really makes it stand out from the rest, with a long day and natural pauses for aspects such as group photography, it’s important to ensure a smooth flow of great entertainment throughout the day to keep your guests entertained, and your photos unique!'
-    background_color: '#ffffff'
+    background_color: '#fcfcfc'
     light_text: false
     type: intro_block
     enabled: true
