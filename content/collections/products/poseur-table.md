@@ -9,9 +9,6 @@ product_description:
       -
         type: text
         text: 'The elegant poseur table offers both formality and functionality. Adding height and defining spaces at your next event.'
-product_images:
-  - poseur-table2.2-342x152.jpg
-  - poseur-table2.1-342x152.jpg
 components:
   -
     id: likbesyv
@@ -22,5 +19,8 @@ components:
 boutique_furniture_hire: bean-bags-tables
 featured_image: p4events/poseur-table21-749x484.jpg
 updated_by: 1
-updated_at: 1686058035
+updated_at: 1686339101
+product_images:
+  - p4events/products/poseur-table2.1-342x152.jpg
+  - p4events/products/poseur-table2.2-342x152.jpg
 ---

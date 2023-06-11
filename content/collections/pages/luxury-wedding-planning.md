@@ -3,7 +3,7 @@ id: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 blueprint: page
 title: 'Luxury Wedding Planning'
 updated_by: 1
-updated_at: 1683055965
+updated_at: 1686336324
 components:
   -
     id: lh6nj9qz
@@ -27,7 +27,7 @@ components:
       -
         id: lh6nllre
         entry: 7b17aac5-67ab-4cfe-a255-90d661de96d3
-        image: p4events/catering-and-bars1-(1).png
+        image: p4events/catering-and-bars1.png
       -
         id: lh6nlt6l
         entry: 31cf4d92-3193-4d5b-a713-c78727597576
@@ -72,9 +72,13 @@ components:
         quote_source: 'Victoria & Drew'
         image: p4events/successstory3.png
   -
-    id: lh6nqu5b
-    title: 'Turn your ideas into action, arrange a free consultation'
-    subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
-    type: contact_us_block
+    id: liox2yig
+    form: contact
+    contact:
+      -
+        id: EPUAPVmz
+        title: 'Turn your ideas into action, arrange a free consultation'
+        subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
+    type: form_block
     enabled: true
 ---

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Wedding Theming'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686076278
+updated_at: 1686336384
 components:
   -
     id: likjj798
@@ -87,20 +87,6 @@ components:
     type: hero_block
     enabled: true
   -
-    id: likk2o86
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Featured Wedding:'
-    bard_highlight: '#ffffff'
-    type: bard_block
-    enabled: true
-  -
     id: likk3eo5
     gallery_type: row
     gallery:
@@ -109,6 +95,7 @@ components:
       - p4events/barclays11-1115x742.jpg
     type: gallery_block
     enabled: true
+    title: 'Featured Wedding:'
   -
     id: likk7ec7
     image: p4events/screenshot-2023-06-06-183408.jpg

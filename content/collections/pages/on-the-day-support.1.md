@@ -4,7 +4,7 @@ blueprint: page
 title: 'On the Day Support'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686074983
+updated_at: 1686336446
 components:
   -
     id: likl5a8f
@@ -73,20 +73,6 @@ components:
     type: hero_block
     enabled: true
   -
-    id: likldzzt
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Featured Wedding:'
-    bard_highlight: '#ffffff'
-    type: bard_block
-    enabled: true
-  -
     id: liklb1c0
     gallery_type: row
     gallery:
@@ -95,6 +81,7 @@ components:
       - p4events/victoriaanddrew3-716x504.jpg
     type: gallery_block
     enabled: true
+    title: 'Featured Wedding:'
   -
     id: liklgfw0
     image: p4events/screenshot-2023-05-26-at-18.20.59.png

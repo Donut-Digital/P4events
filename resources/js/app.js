@@ -8,14 +8,15 @@ import event_form from "./components/forms/event_form.vue";
 import slider_block from "./components/blocks/slider_block.vue";
 import article_filter_block from "./components/blocks/article_filter_block.vue";
 
-import wishlist from './components/wishlist/wishlist.vue';
-import my_wishlist from './components/wishlist/my_wishlist.vue';
-import add_to_wishlist from './components/wishlist/add_to_wishlist.vue';
-import submit_wishlist from './components/wishlist/submit_wishlist.vue';
+import wishlist from "./components/wishlist/wishlist.vue";
+import my_wishlist from "./components/wishlist/my_wishlist.vue";
+import add_to_wishlist from "./components/wishlist/add_to_wishlist.vue";
+import submit_wishlist from "./components/wishlist/submit_wishlist.vue";
 
 import "../css/app.css";
 
 import "./scripts/navigation_menu";
+import "./scripts/products_slider";
 
 const app = createApp({});
 

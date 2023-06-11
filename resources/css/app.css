@@ -1,6 +1,7 @@
 @import url("utility-classes.css");
 @import url("typography.css");
 @import url("form.css");
+@import url("product.css");
 
 /* Components */
 @import url("components/bard.css");
