@@ -58,18 +58,95 @@ fields:
   -
     handle: gallery
     field:
-      max_files: 3
-      min_files: 1
-      mode: list
-      container: images
-      folder: p4events
-      restrict: false
-      allow_uploads: true
-      show_filename: true
-      show_set_alt: true
-      type: assets
+      fields:
+        -
+          handle: image
+          field:
+            max_files: 1
+            mode: list
+            container: images
+            folder: p4events
+            restrict: false
+            allow_uploads: true
+            show_filename: true
+            show_set_alt: true
+            type: assets
+            display: Image
+            icon: assets
+            width: 50
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+        -
+          handle: add_cta
+          field:
+            default: false
+            type: toggle
+            display: 'Add CTA'
+            icon: toggle
+            width: 50
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+        -
+          handle: entry
+          field:
+            max_items: 1
+            mode: default
+            create: true
+            collections:
+              - articles
+              - pages
+              - products
+            type: entries
+            display: Entry
+            icon: entries
+            width: 50
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+            if:
+              add_cta: 'equals true'
+        -
+          handle: title
+          field:
+            input_type: text
+            antlers: false
+            type: text
+            display: Title
+            icon: text
+            width: 50
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+            if:
+              add_cta: 'equals true'
+        -
+          handle: description
+          field:
+            input_type: text
+            antlers: false
+            type: text
+            display: Description
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+            if:
+              add_cta: 'equals true'
+      mode: stacked
+      min_rows: 1
+      add_row: 'Add Gallery Item'
+      reorderable: true
+      fullscreen: true
+      type: grid
       display: Gallery
-      icon: assets
+      icon: grid
       listable: hidden
       instructions_position: above
       visibility: visible
