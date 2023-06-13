@@ -17,10 +17,10 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bean-bags-tables
-featured_image: p4events/poseur-table21-749x484.jpg
 updated_by: 1
-updated_at: 1686339101
+updated_at: 1686551150
 product_images:
-  - p4events/products/poseur-table2.1-342x152.jpg
-  - p4events/products/poseur-table2.2-342x152.jpg
+  - p4events/products/poseur-table2.jpeg
+  - p4events/products/poseur-table2.1-749x484.jpg
+featured_image: p4events/products/poseur-table.jpeg
 ---

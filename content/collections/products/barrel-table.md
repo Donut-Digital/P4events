@@ -10,8 +10,8 @@ product_description:
         type: text
         text: 'Country and vintage themed events are completed with our sturdy, hand crafted barrel tables. Offering height and defining spaces with this robust furniture option.'
 product_images:
-  - barrel-table5-342x152.jpg
-  - barrel-table4-342x152.jpg
+  - p4events/products/barrel-table5.jpeg
+  - p4events/products/barrel-table4.jpeg
 components:
   -
     id: likbdixn
@@ -20,7 +20,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bean-bags-tables
-featured_image: p4events/barrel-table3-749x484.jpg
+featured_image: p4events/products/barrel-table.jpeg
 updated_by: 1
-updated_at: 1686057975
+updated_at: 1686551310
 ---

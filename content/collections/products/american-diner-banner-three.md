@@ -21,8 +21,8 @@ product_description:
         type: text
         text: 'Maximum width 1.5m'
 product_images:
-  - american-banner2.11-342x152-(2).jpg
-  - american-banner1.11-342x152-(2).jpg
+  - p4events/products/american-banner1.1.jpeg
+  - p4events/products/american-banner1.2.jpeg
 components:
   -
     id: likbi09h
@@ -31,7 +31,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: props-accessories
-featured_image: p4events/american-banner3.11-749x484.jpg
 updated_by: 1
-updated_at: 1686058183
+updated_at: 1686551585
+featured_image: p4events/products/american-banner3.jpeg
 ---

@@ -21,8 +21,8 @@ product_description:
         type: text
         text: 'Seats up to 3 people'
 product_images:
-  - booth-stool2.3-342x152.jpg
-  - booth-stool2.4-342x152.jpg
+  - p4events/products/booth-stool2.3-749x484.jpg
+  - p4events/products/booth-stool2.4-749x484-(1).jpg
 components:
   -
     id: likb5ap9
@@ -31,7 +31,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
-featured_image: p4events/booth-stool2.2-749x484.jpg
 updated_by: 1
-updated_at: 1686057629
+updated_at: 1686550927
+featured_image: p4events/products/booth-stool2.2-749x484-(1).jpg
 ---

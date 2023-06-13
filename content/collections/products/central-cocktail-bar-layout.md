@@ -32,8 +32,8 @@ product_description:
         type: text
         text: 'Maximum width'
 product_images:
-  - central-luxury-bar-unit4-342x152.jpg
-  - central-luxury-bar-unit3-342x152.jpg
+  - p4events/products/central-luxury-bar-unit4-749x484.jpg
+  - p4events/products/central-luxury-bar-unit3-749x484.jpg
 components:
   -
     id: likb7xkn
@@ -42,7 +42,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
-featured_image: p4events/central-luxury-bar-unit2-749x484.jpg
 updated_by: 1
-updated_at: 1686057725
+updated_at: 1686550862
+featured_image: p4events/products/central-luxury-bar-unit.jpeg
 ---

@@ -32,8 +32,8 @@ product_description:
         type: text
         text: 'Maximum width'
 product_images:
-  - double-luxury-booth-unit3-342x152-(3).jpg
-  - horseshoe-luxury-bar-unit3-342x152.jpg
+  - p4events/products/horseshoe-luxury-bar-unit3.jpg
+  - p4events/products/double-luxury-booth-unit3.jpg
 components:
   -
     id: likb8uuf
@@ -42,7 +42,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
-featured_image: p4events/horseshoe-luxury-bar-unit2.jpg
 updated_by: 1
-updated_at: 1686057761
+updated_at: 1686550822
+featured_image: p4events/products/horseshoe-luxury-bar-unit.jpeg
 ---

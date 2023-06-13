@@ -32,8 +32,8 @@ product_description:
         type: text
         text: 'Maximum width 1.5m'
 product_images:
-  - single-luxury-bar-unit4-342x152.jpg
-  - single-luxury-bar-unit5-1-342x152.jpg
+  - p4events/products/single-luxury-bar-unit4.jpg
+  - p4events/products/single-luxury-bar-unit5.jpeg
 components:
   -
     id: likbaoc9
@@ -42,7 +42,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
-featured_image: p4events/single-luxury-bar-unit31.jpg
 updated_by: 1
-updated_at: 1686057850
+updated_at: 1686550749
+featured_image: p4events/products/single-luxury-bar-unit.jpeg
 ---

@@ -32,8 +32,8 @@ product_description:
         type: text
         text: 'Maximum width 3.5m'
 product_images:
-  - double-luxury-booth-unit3-342x152-(4).jpg
-  - corner-luxury-bar-unit3-342x152.jpg
+  - p4events/products/double-luxury-booth-unit3.jpg
+  - p4events/products/corner-luxury-bar-unit3.jpg
 components:
   -
     id: likb9ms1
@@ -42,7 +42,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
-featured_image: p4events/corner-luxury-bar-unit2.jpg
 updated_by: 1
-updated_at: 1686057802
+updated_at: 1686550790
+featured_image: p4events/products/corner-luxury-bar-unit.jpeg
 ---

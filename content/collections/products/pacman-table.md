@@ -10,8 +10,8 @@ product_description:
         type: text
         text: 'Hand crafted in the North West, our quirky PacMan table offers a unique focal point with superb functionality. Complete with wine holder and stool – this is the ideal addition to all gaming and retro themed events.'
 product_images:
-  - pacman-table5-342x152.jpg
-  - pacman-table4-342x152.jpg
+  - p4events/products/pacman-table5.jpeg
+  - p4events/products/pacman-table4.jpeg
 components:
   -
     id: likbficl
@@ -20,7 +20,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bean-bags-tables
-featured_image: p4events/pacman_chair_new_feature-749x484.jpg
 updated_by: 1
-updated_at: 1686058064
+updated_at: 1686551229
+featured_image: p4events/products/pacman_chair.jpeg
 ---

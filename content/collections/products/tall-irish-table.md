@@ -10,8 +10,8 @@ product_description:
         type: text
         text: 'This sturdy, multi-purpose tall Irish table fits to any theme, offering maximum functionality with a classic finish.'
 product_images:
-  - irish-table3-342x152.jpg
-  - irish-table4-342x152.jpg
+  - p4events/products/irish-table4.jpeg
+  - p4events/products/irish-table3.jpeg
 components:
   -
     id: likbcd2r
@@ -20,7 +20,7 @@ components:
     type: contact_us_block
     enabled: true
 boutique_furniture_hire: bean-bags-tables
-featured_image: p4events/irish-table21-749x484.jpg
 updated_by: 1
-updated_at: 1686057929
+updated_at: 1686551360
+featured_image: p4events/products/irish-table.jpeg
 ---

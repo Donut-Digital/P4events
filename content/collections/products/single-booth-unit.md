@@ -44,13 +44,13 @@ boutique_furniture_hire: bar-booth-layouts
 title: 'Single Booth Unit'
 subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
 updated_by: 1
-updated_at: 1682320710
+updated_at: 1686551015
 contact_us_blocktitle: 'Turn your ideas into action, arrange a free consultation'
 contact_us_blocksubtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
-featured_image: p4events/single-luxury-bar-unit2-(1).jpg
+featured_image: p4events/products/single-luxury-bar-unit2-(2).jpg
 product_images:
-  - p4events/double-luxury-booth-unit4-342x152.jpg
-  - p4events/double-luxury-booth-unit3-342x152.jpg
+  - p4events/products/double-luxury-booth-unit3.jpg
+  - p4events/products/poseur-table2.1-749x484.jpg
 components:
   -
     id: lguhwzj0
