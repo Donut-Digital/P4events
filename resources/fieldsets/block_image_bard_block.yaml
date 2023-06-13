@@ -36,6 +36,12 @@ fields:
       width: 50
       allow_any: true
       hide_display: false
+      swatches:
+        - '#E61E2A'
+        - '#FCFCFC'
+        - '#222222'
+        - '#FFFFFF'
+        - '#5d5d5d'
   -
     handle: bard
     field:

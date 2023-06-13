@@ -4,13 +4,13 @@ blueprint: page
 title: 'Event Theming'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686516439
+updated_at: 1686663012
 components:
   -
     id: li4t6z8j
     title: 'Event Theming'
     introduction: 'From recreating an Ibiza beach party complete with white loungers, live sax and a Tiki bar, to looking back through the decades and reliving that childhood nostalgia with a retro gaming theme complete with old school arcade games like Defender and Space invaders paired with our cool giant Rubix cubes tables, Tetris chairs and PacMan seating. Whatever takes your fancy, your wish is our command.'
-    background_color: '#e22631'
+    background_color: '#E61E2A'
     light_text: true
     type: intro_block
     enabled: true
@@ -66,7 +66,7 @@ components:
   -
     id: lirwc0ir
     video: 'https://www.youtube.com/embed/dR_o0o8Bl1w?autoplay=1&feature=oembed'
-    bard_highlight: '#ec353c'
+    bard_highlight: '#E61E2A'
     bard:
       -
         type: paragraph

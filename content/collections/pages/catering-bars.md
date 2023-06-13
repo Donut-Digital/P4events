@@ -4,13 +4,13 @@ blueprint: page
 title: 'Catering & Bars'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686516518
+updated_at: 1686663026
 components:
   -
     id: li4tua4n
     title: 'Catering & Bars'
     introduction: 'We understand that the quality of food and drinks served at any event is what really gets people talking. It’s for this reason that we only use a handpicked selection of the very best tried and trusted caterers, highly skilled cocktail bar staff and experienced wine merchants. We also have our own range of tailor-made luxury mobile bars available to hire and fully customisable around your brand or event theme.'
-    background_color: '#e22631'
+    background_color: '#E61E2A'
     light_text: true
     type: intro_block
     enabled: true
@@ -66,7 +66,7 @@ components:
   -
     id: lirwdaol
     video: 'https://www.youtube.com/embed/qBUqVgQyEJE'
-    bard_highlight: '#e22631'
+    bard_highlight: '#E61E2A'
     bard:
       -
         type: paragraph

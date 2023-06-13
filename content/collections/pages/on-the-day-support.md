@@ -4,13 +4,13 @@ blueprint: page
 title: 'On the Day Support'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686518575
+updated_at: 1686663127
 components:
   -
     id: lijyf0ug
     title: 'On the Day Support'
     introduction: 'We understand that many clients wish to plan their own events, utilising their in-house teams and ensuring a personal touch, but why not let our team take away all the stress on the day? By providing experienced staff we can work with your team to ensure your event is executed to perfection, leaving you free to network with clients and colleagues and truly enjoy the event you have spent months planning from start to finish.'
-    background_color: '#e22631'
+    background_color: '#E61E2A'
     light_text: true
     type: intro_block
     enabled: true

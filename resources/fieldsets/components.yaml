@@ -39,13 +39,6 @@ fields:
               fields:
                 -
                   import: block_image_bard_block
-            block_call_to_action:
-              display: 'Call to Action Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: block_call_to_action
             bard_block:
               display: 'Bard Block'
               instructions: null
@@ -53,13 +46,6 @@ fields:
               fields:
                 -
                   import: block_bard
-            image_portfolio_block:
-              display: 'Image Portfolio Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: image_portfolio_block
             entries_block:
               display: 'Entries Block'
               instructions: null
@@ -74,13 +60,6 @@ fields:
               fields:
                 -
                   import: block_entries_block_2
-            form_block:
-              display: 'Form Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: block_forms
             gallery_block:
               display: 'Gallery Block'
               instructions: null
@@ -102,13 +81,13 @@ fields:
               fields:
                 -
                   import: slider_block
-            product_categories:
-              display: 'Product Categories'
+            form_block:
+              display: 'Form Block'
               instructions: null
               icon: null
               fields:
                 -
-                  import: block_product_categories
+                  import: block_forms
             articles_block:
               display: 'Articles Block'
               instructions: null
@@ -116,6 +95,13 @@ fields:
               fields:
                 -
                   import: block_articles_block
+            product_categories:
+              display: 'Product Categories'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_product_categories
             documents_block:
               display: 'Documents Block'
               instructions: null
@@ -123,6 +109,20 @@ fields:
               fields:
                 -
                   import: block_documents_block
+            block_call_to_action:
+              display: 'Call to Action Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: block_call_to_action
+            image_portfolio_block:
+              display: 'Image Portfolio Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: image_portfolio_block
             wishlist:
               display: 'Wishlist Block'
               instructions: null

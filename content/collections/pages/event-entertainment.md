@@ -4,13 +4,13 @@ blueprint: page
 title: 'Event Entertainment'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686518292
+updated_at: 1686663051
 components:
   -
     id: ligbtw43
     title: 'Event Entertainment'
     introduction: 'Whether you’re looking for a celebrity host to wow guests at your award ceremony, a motivational speaker for your next conference, or simply stunning visual entertainment for your next party or celebration, Passion4Events have got it covered. With a large database of only the best, hand selected entertainers, we can provide you with a complete package at the most cost effective price. Meaning no going through multiple agents, paying numerous commissions and certainly no jumping through hoops (for you anyway).'
-    background_color: '#e61e2a'
+    background_color: '#E61E2A'
     light_text: true
     type: intro_block
     enabled: true
@@ -19,7 +19,7 @@ components:
     hero_sections:
       -
         id: Luys1GbT
-        bard_color: '#e61e2a'
+        bard_color: '#E61E2A'
         light_text: true
         bard_field:
           -
@@ -48,19 +48,19 @@ components:
         id: ligc6ka5
         entry: 39c04e17-258d-4c0d-8ace-863d36dcf142
         entry_image: p4events/arcade-machine-hire61-716x504.jpg
-        label_background: '#ec353c'
+        label_background: '#E61E2A'
         light_text: true
       -
         id: lirxdpcu
         entry: 437616ac-add0-4126-afb6-a2ec9565a0af
         entry_image: p4events/1-1115x760.jpg
-        label_background: '#ec353c'
+        label_background: '#E61E2A'
         light_text: true
       -
         id: lirxdx2p
         entry: f5eaab76-7676-4336-a227-b592e6085894
         entry_image: p4events/aerial-1115x760.jpg
-        label_background: '#ec353c'
+        label_background: '#E61E2A'
         light_text: true
   -
     id: ligd8qq1
@@ -161,7 +161,7 @@ components:
           -
             type: text
             text: ' consultation.'
-    bard_highlight: '#e61e2a'
+    bard_highlight: '#E61E2A'
   -
     id: ligecpkd
     form: contact

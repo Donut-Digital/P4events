@@ -4,7 +4,7 @@ blueprint: page
 title: 'On the Day Support'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686520633
+updated_at: 1686662221
 components:
   -
     id: liryqecw
@@ -45,13 +45,8 @@ components:
         id: liryr9c4
         hero_image: p4events/91.jpg
         light_text: true
-    type: hero_block
-    enabled: true
-  -
-    id: liryrlmv
-    hero_sections:
       -
-        id: j7QBo4mK
+        id: liub4k01
         hero_image: p4events/onthedaysupport444.jpg
         bard_color: '#ffffff'
         light_text: false

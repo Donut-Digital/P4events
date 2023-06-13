@@ -3,13 +3,13 @@ id: 39c04e17-258d-4c0d-8ace-863d36dcf142
 blueprint: page
 title: 'Arcade Machine Hire'
 updated_by: 1
-updated_at: 1686518440
+updated_at: 1686663072
 components:
   -
     id: lirwi310
     title: 'Arcade Machine Hire'
     introduction: 'Retro films are in! And with recent releases from Disney and Sony Entertainment of Wreck It Ralph, PIXELS and of course, the eagerly anticipated Star Wars movie, our collection of retro arcade equipment has never been more popular!'
-    background_color: '#e61e2a'
+    background_color: '#E61E2A'
     light_text: true
     type: intro_block
     enabled: true
@@ -19,7 +19,7 @@ components:
       -
         id: VmiBZ1wm
         hero_image: p4events/arcade-machine-hire61-716x504.jpg
-        bard_color: '#e61e2a'
+        bard_color: '#E61E2A'
         light_text: true
         bard_field:
           -
@@ -135,7 +135,7 @@ components:
           -
             type: text
             text: ' for the full range of machines available for hire.'
-    bard_highlight: '#e61e2a'
+    bard_highlight: '#E61E2A'
     type: gallery_bard_block
     enabled: true
   -

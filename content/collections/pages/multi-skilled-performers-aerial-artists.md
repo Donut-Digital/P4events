@@ -3,13 +3,13 @@ id: f5eaab76-7676-4336-a227-b592e6085894
 blueprint: page
 title: 'Multi-Skilled Performers & Aerial Artists'
 updated_by: 1
-updated_at: 1686518493
+updated_at: 1686663114
 components:
   -
     id: lirx5l2d
     title: 'Multi-Skilled Performers & Aerial Artists'
     introduction: 'Our award winning aerial artists are multi-skilled in a number of disciplines and are simply perfect for marquee events. With silks that beautifully complement the marquee linings available in a whole range of stunning colours, what better way to make an impact. Our multi-skilled performers are an ideal way to ensure your entertainment budget stretches as far as possible. Skilled in multiple disciplines they can breathe fire, body burn, and even perform a choreographed dance routine to accompany your musical entertainment.'
-    background_color: '#e61e2a'
+    background_color: '#E61E2A'
     light_text: true
     type: intro_block
     enabled: true
@@ -19,7 +19,7 @@ components:
       -
         id: 6YgiToc3
         hero_image: p4events/aerial-1115x760.jpg
-        bard_color: '#e61e2a'
+        bard_color: '#E61E2A'
         light_text: true
         bard_field:
           -
@@ -117,7 +117,7 @@ components:
                   target: null
                   title: null
             text: 'Click here to contact us for more details.'
-    bard_highlight: '#e61e2a'
+    bard_highlight: '#E61E2A'
     type: gallery_bard_block
     enabled: true
   -

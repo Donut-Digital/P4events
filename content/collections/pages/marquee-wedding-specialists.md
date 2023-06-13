@@ -4,7 +4,7 @@ blueprint: page
 title: 'Marquee Wedding Specialists'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686518914
+updated_at: 1686663199
 components:
   -
     id: lirxn7hf
@@ -45,13 +45,8 @@ components:
         id: lirxpavk
         hero_image: p4events/wm1.jpg
         light_text: true
-    type: hero_block
-    enabled: true
-  -
-    id: lirxqjiz
-    hero_sections:
       -
-        id: WbMLJVKM
+        id: liub164t
         hero_image: p4events/victoriaanddrew3.jpg
         bard_color: '#ffffff'
         light_text: false

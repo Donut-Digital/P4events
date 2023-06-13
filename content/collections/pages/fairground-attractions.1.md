@@ -3,13 +3,13 @@ id: 437616ac-add0-4126-afb6-a2ec9565a0af
 blueprint: page
 title: 'Fairground Attractions'
 updated_by: 1
-updated_at: 1686518477
+updated_at: 1686663100
 components:
   -
     id: lirwpbnu
     title: 'Fairground Attractions'
     introduction: 'It’s all the fun of the fair, with our ever popular fairground themed events. Let us take you back to your childhood for one night only! A favourite with clients looking for a novel and nostalgic way to ensure their guests are truly entertained.'
-    background_color: '#e61e2a'
+    background_color: '#E61E2A'
     light_text: true
     type: intro_block
     enabled: true
@@ -19,7 +19,7 @@ components:
       -
         id: fjXs5kTR
         hero_image: p4events/1-1115x760.jpg
-        bard_color: '#e61e2a'
+        bard_color: '#E61E2A'
         light_text: true
         bard_field:
           -
@@ -103,7 +103,7 @@ components:
           -
             type: text
             text: ' quotation.'
-    bard_highlight: '#e61e2a'
+    bard_highlight: '#E61E2A'
     type: gallery_bard_block
     enabled: true
   -

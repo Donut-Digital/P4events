@@ -4,7 +4,7 @@ blueprint: page
 title: 'Catering & Bars'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686519473
+updated_at: 1686662176
 components:
   -
     id: liry0l99
@@ -45,13 +45,8 @@ components:
         id: liry29r2
         hero_image: p4events/197730_10150884063392691_1093016170_n-639x504.jpg
         light_text: true
-    type: hero_block
-    enabled: true
-  -
-    id: liry2tcz
-    hero_sections:
       -
-        id: MqCYpT9S
+        id: liub39nv
         hero_image: p4events/case-study-3.jpg
         bard_color: '#ffffff'
         light_text: false

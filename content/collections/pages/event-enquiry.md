@@ -4,12 +4,12 @@ blueprint: page
 title: 'Event Enquiry'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686336261
+updated_at: 1686663148
 components:
   -
     id: likk7nel
     title: 'Event Enquiry'
-    background_color: '#222'
+    background_color: '#222222'
     light_text: true
     type: intro_block
     enabled: true

@@ -53,6 +53,12 @@ fields:
             visibility: visible
             hide_display: false
             width: 50
+            swatches:
+              - '#E61E2A'
+              - '#FCFCFC'
+              - '#222222'
+              - '#FFFFFF'
+              - '#5d5d5d'
         -
           handle: light_text
           field:

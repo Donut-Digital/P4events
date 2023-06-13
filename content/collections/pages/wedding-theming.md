@@ -4,7 +4,7 @@ blueprint: page
 title: 'Wedding Theming'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686519502
+updated_at: 1686662117
 components:
   -
     id: lirxu3f3
@@ -45,13 +45,8 @@ components:
         id: lirxvl8b
         hero_image: p4events/5-716x504.jpg
         light_text: true
-    type: hero_block
-    enabled: true
-  -
-    id: lirxx1kz
-    hero_sections:
       -
-        id: qipEaEwv
+        id: liub2dxf
         hero_image: p4events/1-1115x760.jpg
         bard_color: '#ffffff'
         light_text: false
