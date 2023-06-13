@@ -4,7 +4,7 @@ fields:
     handle: images
     field:
       max_files: 6
-      min_files: 3
+      min_files: 5
       mode: list
       container: images
       folder: p4events

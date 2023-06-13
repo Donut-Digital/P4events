@@ -25,13 +25,6 @@ fields:
               fields:
                 -
                   import: hero_block
-            video_bard_block:
-              display: 'Video Bard Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: video_bard_block
             image_bard_block:
               display: 'Image Bard Block'
               instructions: null
@@ -39,6 +32,13 @@ fields:
               fields:
                 -
                   import: block_image_bard_block
+            video_bard_block:
+              display: 'Video Bard Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: video_bard_block
             bard_block:
               display: 'Bard Block'
               instructions: null
@@ -60,6 +60,13 @@ fields:
               fields:
                 -
                   import: block_entries_block_2
+            slider_block:
+              display: 'Slider Block'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: slider_block
             gallery_block:
               display: 'Gallery Block'
               instructions: null
@@ -74,13 +81,6 @@ fields:
               fields:
                 -
                   import: block_gallery_bard_block
-            slider_block:
-              display: 'Slider Block'
-              instructions: null
-              icon: null
-              fields:
-                -
-                  import: slider_block
             form_block:
               display: 'Form Block'
               instructions: null
