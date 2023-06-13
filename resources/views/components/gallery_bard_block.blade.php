@@ -14,7 +14,7 @@
 
     <div class="flex lg:flex-1 w-full flex-col gap-5 lg:w-1/3">
         <img class="w-full" src="{{ $component['images'][5]['permalink'] }}" alt="{{ $component['images'][5]['alt'] }}" loading="lazy">
-        <div class="h-2/3 w-full">
+        <div class="lg:h-2/3 w-full">
             <hr class="mb-4 h-1 w-16 border-none" style="background-color: {{ $component['bard_highlight'] }}">
             {!! $component['bard'] !!}
         </div>
