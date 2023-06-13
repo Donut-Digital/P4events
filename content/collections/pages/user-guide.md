@@ -101,6 +101,20 @@ components:
     type: bard_block
     enabled: true
   -
+    id: liuf7qbe
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Entries Block'
+    bard_highlight: '#E61E2A'
+    type: bard_block
+    enabled: true
+  -
     id: liucueyr
     entries:
       -
@@ -112,6 +126,20 @@ components:
         entry: 475794f4-169c-42b7-840b-9c5774b54536
         image: p4events/aerial-1115x760.jpg
     type: entries_block
+    enabled: true
+  -
+    id: liuf86l0
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Entries Block 2'
+    bard_highlight: '#E61E2A'
+    type: bard_block
     enabled: true
   -
     id: liucuxry
@@ -129,6 +157,20 @@ components:
         label_background: '#FCFCFC'
         light_text: false
     type: entries_block_2
+    enabled: true
+  -
+    id: liuf8i3g
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Slider Block'
+    bard_highlight: '#E61E2A'
+    type: bard_block
     enabled: true
   -
     id: liucwjle
@@ -168,6 +210,20 @@ components:
     type: gallery_block
     enabled: true
   -
+    id: liuf8q7k
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Gallery Bard Block'
+    bard_highlight: '#E61E2A'
+    type: bard_block
+    enabled: true
+  -
     id: liud1tjt
     images:
       - p4events/1-1115x760.jpg
@@ -175,6 +231,7 @@ components:
       - p4events/197730_10150884063392691_1093016170_n-639x504.jpg
       - p4events/5-716x504.jpg
       - p4events/555-x-300-new-events-image.jpg
+      - p4events/716x1046.png
     bard:
       -
         type: paragraph
@@ -185,6 +242,86 @@ components:
     bard_highlight: '#E61E2A'
     type: gallery_bard_block
     enabled: true
+  -
+    id: liuha1fv
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Form Block - Join Us'
+    bard_highlight: '#E61E2A'
+    type: bard_block
+    enabled: true
+  -
+    id: liuh77nj
+    form: join
+    join:
+      -
+        id: USHGrHXc
+        main_image: p4events/716x1046.png
+        image_title: 'Form Block - Join Us'
+        image_sub_description: 'Lorem ipsum dolor sit amet'
+        terms_conditions: 771dc8e8-31b9-4a27-a69b-7e9df7222232
+    type: form_block
+    enabled: true
+  -
+    id: liuhauy1
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Form Block - Event'
+    bard_highlight: '#E61E2A'
+    type: bard_block
+    enabled: true
+  -
+    id: liuh7cqc
+    form: event
+    event:
+      -
+        id: QYxspYbw
+        image: p4events/1-1115x760.jpg
+        bard:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam dignissim diam quis enim lobortis.'
+    type: form_block
+    enabled: true
+  -
+    id: liuh8vqb
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Form Block - Contact Us'
+    bard_highlight: '#E61E2A'
+    type: bard_block
+    enabled: true
+  -
+    id: liuh6whj
+    form: contact
+    contact:
+      -
+        id: zE5NYd0C
+        title: 'Lorem ipsum dolor sit amet'
+        subtitle: 'consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    type: form_block
+    enabled: true
 updated_by: 1
-updated_at: 1686665713
+updated_at: 1686672610
 ---

@@ -1,6 +1,6 @@
 <section class="container m-auto flex flex-col gap-4 p-4 lg:flex-row xl:max-w-screen-xl">
 
-    <iframe src="{{ $component['video'] }}" class="w-full lg:w-1/2 min-h-[280px]"></iframe>
+    <iframe src="{{ $component['video'] }}" class="w-full lg:w-1/2 min-h-[350px]"></iframe>
 
     <div class="bard lg:w-1/2 flex flex-grow flex-col">
         <hr class="mb-4 h-1 w-24 border-none" style="background-color: {{ $component['bard_highlight'] }}">

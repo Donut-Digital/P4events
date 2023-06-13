@@ -25,10 +25,10 @@ let autoplay = {
     >
       <swiper-slide v-for="slide in props.slides">
         <div class="flex flex-col gap-4 lg:flex-row">
-          <img class="lg:w-1/2" :src="slide.image.permalink" :alt="slide.image.alt" loading="lazy" />
+          <img class="lg:w-1/2 h-[350px] object-cover" :src="slide.image.permalink" :alt="slide.image.alt" loading="lazy" />
           <div class="flex flex-row text-center lg:w-1/2">
             <img
-                class="h-10 w-10 lg:h-20 lg:w-20"
+                class="h-10 w-10 min-w-fit lg:h-20 lg:w-20"
                 :src="'/images/quote.png'"
                 alt="quote"
                 loading="lazy"
@@ -38,7 +38,7 @@ let autoplay = {
               <p class="text-lg">by {{ slide.quote_source }}</p>
             </div>
             <img
-              class="h-10 w-10 self-end lg:h-20 lg:w-20"
+              class="h-10 w-10 min-w-fit self-end lg:h-20 lg:w-20"
               :src="'/images/quote.png'"
               alt="quote"
               loading="lazy"
