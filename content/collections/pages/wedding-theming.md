@@ -79,6 +79,14 @@ components:
               -
                 type: text
                 text: ' weddings where we have a lot of outside space, is our fairground theme. Why not put on a show? From traditional Victorian stalls to full size dodgems, 30ft Helter-Skelters and beautiful carousels. This theme guarantees you and your guests a night to remember.'
+      -
+        id: liuah5ku
+        hero_image: p4events/716x1046.png
+        light_text: true
+      -
+        id: liuam03r
+        hero_image: p4events/5-716x504.jpg
+        light_text: true
     type: hero_block
     enabled: true
   -
