@@ -15,7 +15,7 @@
 
             @if($component['button_label'] && $component['button'] && $component['light_text'])
                 <a class="mt-4 inline-block border px-5 py-4 text-white border-1-white hover:bg-davy-gray hover:border-davy-gray" href="{{ $component['button'] }}">{{ $component['button_label'] }}</a>
-            @else
+            @elseif($component['button_label'] && $component['button'])
                 <a class="mt-4 inline-block border px-5 py-4 text-davy-gray border-1-davy-gray hover:bg-primary border-1-primary hover:border-primary" href="{{ $component['button'] }}">{{ $component['button_label'] }}</a>
             @endif
         </div>
