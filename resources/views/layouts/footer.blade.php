@@ -22,7 +22,7 @@
                         <i class="text-xs fa-solid fa-phone text-nav-secondary"></i>
                     </div>
 
-                    <a href="tel:{{ $company_details['telephone'] }}" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
+                    <a href="tel:{{ $company_details['telephone'] }}" aria-label="Company Telephone" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
                 </div>
 
                 <!-- Email -->
@@ -31,7 +31,7 @@
                         <i class="text-xs fa-solid fa-envelope text-nav-secondary"></i>
                     </div>
 
-                    <a href="mailto:{{ $company_details['email'] }}" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
+                    <a href="mailto:{{ $company_details['email'] }}" aria-label="Company Email" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
                 </div>
 
                 <!-- Facebook -->
@@ -40,7 +40,7 @@
                         <i class="text-xs fa-brands fa-facebook-f text-nav-secondary"></i>
                     </div>
 
-                    <a href="tel:{{ $company_details['facebook'] }}" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
+                    <a href="tel:{{ $company_details['facebook'] }}" aria-label="Company Facebook" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
                 </div>
 
                 <!-- Twitter -->
@@ -49,7 +49,7 @@
                         <i class="text-xs fa-brands fa-twitter text-nav-secondary"></i>
                     </div>
 
-                    <a href="tel:{{ $company_details['twitter'] }}" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
+                    <a href="tel:{{ $company_details['twitter'] }}" aria-label="Company Twitter" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
                 </div>
 
                 <!-- Pinterest -->
@@ -58,7 +58,7 @@
                         <i class="text-xs fa-brands fa-pinterest-p text-nav-secondary"></i>
                     </div>
 
-                    <a href="tel:{{ $company_details['pinterest'] }}" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
+                    <a href="tel:{{ $company_details['pinterest'] }}" aria-label="Company Pinterest" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
                 </div>
 
                 <!-- Instagram -->
@@ -67,7 +67,7 @@
                         <i class="text-xs fa-brands fa-instagram text-nav-secondary"></i>
                     </div>
 
-                    <a href="tel:{{ $company_details['instagram'] }}" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
+                    <a href="tel:{{ $company_details['instagram'] }}" aria-label="Company Instagram" class="text-sm font-light text-white transition-all hover:text-primary lg:text-base"></a>
                 </div>
             </div>
 

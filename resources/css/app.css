@@ -16,4 +16,3 @@
 html, body { @apply h-full w-full font-lato; }
 #app { @apply flex h-full flex-col justify-between; }
 img { @apply object-cover min-w-0 min-h-0; }
-

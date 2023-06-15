@@ -12,7 +12,7 @@
 
             <div class="mt-16">
                 @foreach($component['actions'] as $action)
-                    <a class="mb-14 inline-block w-1/3" href="{{ $action['link'] }}">
+                    <a class="mb-14 inline-block w-1/3" href="{{ $action['link'] }}" aria-label="A brand we have worked with">
                         <img class="m-auto" src="{{ $action['image']['permalink'] }}" alt="{{ $action['image']['alt'] }}" loading="lazy">
                     </a>
                 @endforeach

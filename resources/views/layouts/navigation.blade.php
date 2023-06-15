@@ -44,7 +44,7 @@
 
             @if ($company_details['navigation_logo'])
                 <div class="mx-auto w-fit lg:mx-0">
-                    <a href="/">
+                    <a href="/" aria-label="Company Logo">
                         <img class="m-auto py-2 w-[230px] h-[48px] lg:m-0"
                             src="{{ $company_details['navigation_logo']['permalink'] }}"
                             alt="{{ $company_details['navigation_logo']['alt'] }}">
@@ -59,8 +59,7 @@
             <ul class="flex flex-row text-sm font-medium">
                 @foreach (Statamic::tag('nav:main_navigation') as $item)
                     @if (count($item['children']) > 0)
-                        <li
-                            class="relative mr-4 flex items-center border-b-2 py-2 transition-all group border-b-nav-primary hover:border-b-primary">
+                        <li class="relative mr-4 flex items-center border-b-2 py-2 transition-all group border-b-nav-primary hover:border-b-primary">
                             <a href="{{ $item['url'] }}" class="text-lg font-light text-white">
                                 <span class="whitespace-nowrap">{{ $item['title'] }}</span>
                             </a>
