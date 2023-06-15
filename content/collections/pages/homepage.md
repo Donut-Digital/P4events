@@ -3,7 +3,7 @@ id: eb48a052-cc68-499b-a04f-e02d10ad8ef3
 blueprint: page
 title: Homepage
 updated_by: 1
-updated_at: 1686752462
+updated_at: 1686828183
 components:
   -
     id: lfo0nl2z
@@ -14,8 +14,8 @@ components:
     type: intro_block
     enabled: true
     button_label: 'View Our Case Studies'
-    background_image: p4events/eventtheming.png
     light_text: true
+    background_image: p4events/event-management.jpg.webp
   -
     id: lfo38gfm
     image_bard_layout: horizontal
@@ -395,7 +395,6 @@ components:
     id: lfof6b8u
     title: 'Working with some of the world’s biggest brands & leading companies'
     introduction: 'Click a logo to see how we work with them.'
-    background_image: p4events/brands-background.jpg
     background_color: '#E61E2A'
     actions:
       -
@@ -424,6 +423,7 @@ components:
         link: '#'
     type: block_call_to_action
     enabled: true
+    background_image: p4events/wedding-entertainment-hero-1115x743.jpg
   -
     id: li4s4t96
     form: contact
