@@ -58,7 +58,7 @@
         <div class="flex flex-col lg:flex-row gap-5">
             @foreach($component['gallery'] as $image)
 
-                <div class='relative inline-block hero-block object-cover w-full flex-1 lg:w-1/3 h-[250px]'>
+                <div class='relative inline-block hero-block object-cover w-full flex-1 lg:w-1/3'>
                     <img class="w-full h-full object-cover" src="{{ $image['image']['permalink'] }}" alt="{{ $image['image']['alt'] }}" loading="lazy">
 
                     @if($image['add_cta'] && $image['entry'])
