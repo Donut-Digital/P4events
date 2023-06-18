@@ -8,6 +8,8 @@ preview_targets:
   -
     label: Entry
     url: '{permalink}'
+    refresh: true
 structure:
   root: true
+  max_depth: 3
   slugs: true
