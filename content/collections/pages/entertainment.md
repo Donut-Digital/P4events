@@ -4,7 +4,7 @@ blueprint: page
 title: 'Wedding Entertainment'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686519628
+updated_at: 1686916462
 components:
   -
     id: likm0m3t
