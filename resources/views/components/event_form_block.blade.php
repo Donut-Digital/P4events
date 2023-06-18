@@ -12,7 +12,7 @@
         @endif
 
         {{-- Form details --}}
-        <div @class([$component['image']=>'flex w-full lg:w-2/3 flex-col gap-8',
+        <div @class([isset($component['image'])=>'flex w-full lg:w-2/3 flex-col gap-8',
                      !$component['image']=>'w-full'])>
 
             @if(!$component['image'])
