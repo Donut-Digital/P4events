@@ -24,6 +24,7 @@ fields:
       previews: true
       smart_typography: false
       buttons:
+        - h2
         - bold
         - anchor
       save_html: false
@@ -45,3 +46,4 @@ fields:
       listable: hidden
       instructions_position: above
       visibility: visible
+      hide_display: false
