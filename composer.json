@@ -16,7 +16,8 @@
         "laravel/tinker": "^2.5",
         "league/flysystem-aws-s3-v3": "^3.0",
         "mitydigital/sitemapamic": "^2.3",
-        "statamic/cms": "^4.0"
+        "statamic/cms": "^4.0",
+        "statamic/seo-pro": "^5.2"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",
