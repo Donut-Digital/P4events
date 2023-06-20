@@ -15,7 +15,6 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "league/flysystem-aws-s3-v3": "^3.0",
-        "mitydigital/sitemapamic": "^2.3",
         "statamic/cms": "^4.0",
         "statamic/seo-pro": "^5.2"
     },
