@@ -5,7 +5,7 @@
 
         <div class="w-full pb-4 lg:pb-0 lg:w-1/3">
             @foreach(Statamic::tag('nav:footer_navigation') as $item)
-                <a href="{{ $item['url'] }}" class="inline-block py-2 lg:py-0 text-center lg:text-left w-1/3 lg:w-1/2 whitespace-nowrap text-white hover:underline">{{ $item['title'] }}</a>
+                <a href="{{ $item['permalink'] }}" class="inline-block py-2 lg:py-0 text-center lg:text-left w-1/3 lg:w-1/2 whitespace-nowrap text-white hover:underline">{{ $item['title'] }}</a>
             @endforeach
         </div>
 

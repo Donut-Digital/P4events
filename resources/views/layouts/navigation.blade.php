@@ -60,7 +60,7 @@
                 @foreach (Statamic::tag('nav:main_navigation') as $item)
                     @if (count($item['children']) > 0)
                         <li class="relative mr-4 flex items-center border-b-2 py-2 transition-all group border-b-nav-primary hover:border-b-primary">
-                            <a href="{{ $item['url'] }}" class="text-lg font-light text-white">
+                            <a href="{{ $item['permalink'] }}" class="text-lg font-light text-white">
                                 <span class="whitespace-nowrap">{{ $item['title'] }}</span>
                             </a>
 
@@ -71,7 +71,7 @@
                                     aria-labelledby="dropdownLargeButton">
                                     @foreach ($item['children'] as $child)
                                         <li class="dropdown-item">
-                                            <a href="{{ $child['url'] }}"
+                                            <a href="{{ $child['permalink'] }}"
                                                 class="block py-2 px-4 hover:bg-[#444]">{{ $child['title'] }}</a>
                                         </li>
                                     @endforeach
@@ -83,14 +83,14 @@
                     @elseif(!$item['last'])
                         <li
                             class="mr-4 flex items-center border-b-2 py-2 transition-all border-b-nav-primary hover:border-b-primary">
-                            <a href="{{ $item['url'] }}" class="text-lg font-light text-white">
+                            <a href="{{ $item['permalink'] }}" class="text-lg font-light text-white">
                                 <span class="whitespace-nowrap">{{ $item['title'] }}</span>
                             </a>
                         </li>
                     @else
                         <li
                             class="ml-auto flex cursor-pointer items-center fill-white px-7 py-4 text-white transition-all bg-primary hover:bg-dim-gray">
-                            <a href="{{ $item['url'] }}" class="pr-1 font-light text-[15px] tracking-[1px]">
+                            <a href="{{ $item['permalink'] }}" class="pr-1 font-light text-[15px] tracking-[1px]">
                                 <span class="whitespace-nowrap">{{ $item['title'] }}</span>
                             </a>
                             <span class="pr-1">@include('SVGs.right-angle')</span>
@@ -114,7 +114,7 @@
                 <li class="flex w-full flex-col items-center py-2">
 
                     <button class="m-auto w-full flex items-center justify-center py-2 pr-4 pl-3 mobile-dropdown-trigger">
-                        <a href="{{ $item['url'] }}"
+                        <a href="{{ $item['permalink'] }}"
                             class="block inline-flex w-min justify-between rounded py-2 mr-2 lg:p-0">
                             <span class="m-auto whitespace-nowrap">{{ $item['title'] }}</span>
                         </a>
@@ -125,7 +125,7 @@
                         <ul class="py-1 text-center text-sm" aria-labelledby="dropdownLargeButton">
                             @foreach ($item['children'] as $child)
                                 <li class="dropdown-item">
-                                    <a href="{{ $child['url'] }}" class="block px-4 py-2">{{ $child['title'] }}</a>
+                                    <a href="{{ $child['permalink'] }}" class="block px-4 py-2">{{ $child['title'] }}</a>
                                 </li>
                             @endforeach
                         </ul>
@@ -134,13 +134,13 @@
                 </li>
             @elseif(!$item['last'])
                 <li class="flex w-full items-center py-2">
-                    <a href="{{ $item['url'] }}"
+                    <a href="{{ $item['permalink'] }}"
                         class="block inline-flex w-full justify-between rounded py-2 pr-4 pl-3 lg:p-0">
                         <span class="m-auto whitespace-nowrap">{{ $item['title'] }}</span>
                     </a>
                 </li>
             @else
-                @php($last_item_url = $item['url'])
+                @php($last_item_url = $item['permalink'])
                 @php($last_item_title = $item['title'])
             @endif
         @endforeach
