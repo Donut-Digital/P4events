@@ -16,7 +16,8 @@
         "laravel/tinker": "^2.5",
         "league/flysystem-aws-s3-v3": "^3.0",
         "statamic/cms": "^4.0",
-        "statamic/seo-pro": "^5.2"
+        "statamic/seo-pro": "^5.2",
+        "teamnovu/statamic-images-missing-alt": "^1.0"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",
