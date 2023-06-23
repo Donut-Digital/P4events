@@ -32,6 +32,8 @@ components:
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
 updated_by: 1
-updated_at: 1686550894
+updated_at: 1687363895
 featured_image: p4events/products/booth-stool1.2-749x484-(1).jpg
+seo:
+  description: 'Hand crafted in the North West, let this plush booth stool both compliment and complete any of your booth unit layouts.'
 ---

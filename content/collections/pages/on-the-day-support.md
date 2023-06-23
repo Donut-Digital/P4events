@@ -1,10 +1,10 @@
 ---
 id: 97a9c6c3-d1f9-4060-b173-fe3aba38833f
 blueprint: page
-title: 'On the Day Support'
+title: 'Bespoke Event Management | On the Day Support'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686663127
+updated_at: 1687443030
 components:
   -
     id: lijyf0ug
@@ -105,4 +105,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'We understand that many people wish to plan their own events to ensure an individual touch. But why not let our team take all the stress away from you on the day?'
 ---

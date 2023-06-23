@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Enquiry'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686663148
+updated_at: 1687422876
 components:
   -
     id: likk7nel
@@ -90,4 +90,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'If you want to talk through your ideas with a member of our team, submit your event enquiry here!'
 ---

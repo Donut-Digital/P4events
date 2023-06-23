@@ -309,6 +309,8 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687125140
+updated_at: 1687366028
 duplicated_from: bac3ec48-43a4-4fff-8f98-e531ebabd0c0
+seo:
+  description: 'Marquee hire specialists Manchester. Bespoke event transformations with our large marquee. P4events also provide bars, catering, entertainment & event staff.'
 ---

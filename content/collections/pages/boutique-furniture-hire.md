@@ -3,7 +3,7 @@ id: a4ca2745-13ba-4f39-8112-a69b1d8d5941
 blueprint: page
 title: 'Boutique Furniture Hire'
 updated_by: 1
-updated_at: 1686515268
+updated_at: 1687443812
 components:
   -
     id: lh09y9m4
@@ -40,4 +40,7 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  title: 'Boutique Furniture Hire | Furniture For Events'
+  description: 'Looking for boutique, luxury furniture hire for your event? Here at Passion4Events we have bars, booths, beanbags, tables and props!'
 ---

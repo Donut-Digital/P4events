@@ -1,9 +1,9 @@
 ---
 id: 5a65afb8-633e-4822-a6c7-1ad07e52bfd4
 blueprint: page
-title: 'Fairground Attractions'
+title: 'Luxury Wedding Planning | Fairground Attractions'
 updated_by: 1
-updated_at: 1686520026
+updated_at: 1687444180
 components:
   -
     id: liry90sb
@@ -105,4 +105,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Working with the ride and stall owners directly means that we can confidently guarantee the very best for your wedding day at a great price!'
 ---

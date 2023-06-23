@@ -245,5 +245,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687125619
+updated_at: 1687366089
+seo:
+  description: 'Our event staffing services in Preston are professional and reliable. The P4 team can supply event organisers, promoters, performers, bar staff & catering.'
 ---

@@ -3,7 +3,7 @@ id: 548e57dd-c22e-48c8-a20d-90f9ae4e402a
 blueprint: page
 title: 'Wedding Planner Preston'
 updated_by: 1
-updated_at: 1687123222
+updated_at: 1687366287
 components:
   -
     id: lj1uct7y
@@ -271,4 +271,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Luxury wedding planning services Preston. Looking for a wedding planner? Let our expert team create your perfect day. Marquee Wedding Specialists.'
 ---

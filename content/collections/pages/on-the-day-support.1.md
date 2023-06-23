@@ -1,10 +1,10 @@
 ---
 id: 0dc26fac-3c21-437a-968e-4fd3c8513d5b
 blueprint: page
-title: 'On the Day Support'
+title: 'Luxury Wedding Planning | On the Day Support'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686662221
+updated_at: 1687443019
 components:
   -
     id: liryqecw
@@ -135,4 +135,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Our support means we will meet with you as frequently as required. We pride ourselves on always being only a phone call away to discuss the finer details.'
 ---

@@ -1,10 +1,10 @@
 ---
 id: 22d2c5c5-9321-48d6-98be-5877302cac10
 blueprint: page
-title: 'Marquee Event Specialists'
+title: 'Bespoke Event Management | Marquee Event Specialists'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686916325
+updated_at: 1687443078
 components:
   -
     id: lgqehxcp
@@ -122,4 +122,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Marquees are the only venue where you can chose every last detail of your special event. From the size and shape, to how many different levels, rooms, and even the carpet colour! These blank canvases allow our creative potential to peak.'
 ---

@@ -3,7 +3,7 @@ id: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 blueprint: page
 title: 'Luxury Wedding Planning'
 updated_by: 1
-updated_at: 1686336324
+updated_at: 1687366689
 components:
   -
     id: lh6nj9qz
@@ -81,4 +81,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Our luxury wedding planning supports you to create your own stunning and unique wedding as the most cost effective price possible.'
 ---

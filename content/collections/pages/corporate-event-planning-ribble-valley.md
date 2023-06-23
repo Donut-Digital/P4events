@@ -4,7 +4,7 @@ blueprint: page
 title: 'Corporate Event Planning Ribble Valley'
 parent: b2222fac-7368-49cf-9792-57e993a5f77c
 updated_by: 1
-updated_at: 1687119554
+updated_at: 1687366345
 components:
   -
     id: lj1sqyg5
@@ -263,4 +263,6 @@ components:
     type: form_block
     enabled: true
 duplicated_from: 85271456-37e0-4fa5-8c01-a51bc6b50310
+seo:
+  description: 'Planning a corporate event in Ribble Valley? Our expert event management team as Passion4Events will take care of all aspects of planning and execution.'
 ---

@@ -1,9 +1,9 @@
 ---
 id: 39c04e17-258d-4c0d-8ace-863d36dcf142
 blueprint: page
-title: 'Arcade Machine Hire'
+title: 'Bespoke Event Management | Arcade Machine Hire'
 updated_by: 1
-updated_at: 1686663072
+updated_at: 1687442842
 components:
   -
     id: lirwi310
@@ -148,4 +148,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Our collection of arcade machines can cater for both individual one machine requirement, or large multiple hires for larger bespoke events or venues.'
 ---

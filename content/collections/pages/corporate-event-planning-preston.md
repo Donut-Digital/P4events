@@ -4,7 +4,7 @@ blueprint: page
 title: 'Corporate Event Planning Preston'
 parent: b2222fac-7368-49cf-9792-57e993a5f77c
 updated_by: 1
-updated_at: 1687120110
+updated_at: 1687366321
 components:
   -
     id: lj1sqyg5
@@ -263,4 +263,6 @@ components:
     type: form_block
     enabled: true
 duplicated_from: 28bbaf67-ec5e-43ba-b9d1-86c33e0c398c
+seo:
+  description: 'Planning a corporate event in Preston? Our expert event management team as Passion4Events will take care of all aspects of planning and execution.'
 ---

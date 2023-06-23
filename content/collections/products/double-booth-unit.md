@@ -16,7 +16,7 @@ boutique_furniture_hire: bar-booth-layouts
 contact_us_blocktitle: 'Turn your ideas into action, arrange a free consultation'
 contact_us_blocksubtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
 updated_by: 1
-updated_at: 1686550699
+updated_at: 1687364035
 product_images:
   - p4events/products/double-luxury-booth-unit3.jpg
   - p4events/products/poseur-table2.1-749x484.jpg
@@ -28,4 +28,6 @@ components:
     type: contact_us_block
     enabled: true
 featured_image: p4events/products/double-luxury-booth-unit.jpeg
+seo:
+  description: 'Hand crafted in the North West, our bespoke double booth seating unit will add a sense of occasion and individuality to your event.'
 ---

@@ -3,7 +3,7 @@ id: 950a3b61-3408-4816-bd58-fea52792793b
 blueprint: page
 title: 'Event Entertainment Preston'
 updated_by: 1
-updated_at: 1687118921
+updated_at: 1687422771
 components:
   -
     id: lj1ufigg
@@ -355,4 +355,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Event entertainment company in Preston. Amazing entertainers for your next event! We provide musicians, dancers, magicians, fire performers & more.'
 ---

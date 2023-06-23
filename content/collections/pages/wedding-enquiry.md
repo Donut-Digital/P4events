@@ -4,7 +4,7 @@ blueprint: page
 title: 'Wedding Enquiry'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686075101
+updated_at: 1687422752
 components:
   -
     id: liklim9c
@@ -53,4 +53,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'If you want to talk through your ideas for your big day with a member of our team, submit your wedding enquiry here!'
 ---

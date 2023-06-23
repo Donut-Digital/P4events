@@ -3,7 +3,7 @@ id: 9cac7c65-b869-43b0-b0ce-f1607fb2365e
 blueprint: page
 title: 'Privacy Policy'
 updated_by: 1
-updated_at: 1686074595
+updated_at: 1687366525
 components:
   -
     id: likl8qme
@@ -187,4 +187,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Passion4Events fully understand peoples concern at parting with information and for this reason we only ask for the minimum amount of information we need to process your enquiry or order. The following Privacy Policy explains how we do this in more detail.'
 ---

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Corporate Event Planning Lytham'
 parent: b2222fac-7368-49cf-9792-57e993a5f77c
 updated_by: 1
-updated_at: 1687119821
+updated_at: 1687366334
 components:
   -
     id: lj1sqyg5
@@ -268,4 +268,6 @@ components:
     type: form_block
     enabled: true
 duplicated_from: acbb30ab-b7a1-41df-9d4d-8afd11836161
+seo:
+  description: 'Planning a corporate event in Lytham? Our expert event management team as Passion4Events will take care of all aspects of planning and execution.'
 ---

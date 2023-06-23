@@ -18,9 +18,11 @@ components:
     enabled: true
 boutique_furniture_hire: bean-bags-tables
 updated_by: 1
-updated_at: 1686551150
+updated_at: 1687364171
 product_images:
   - p4events/products/poseur-table2.jpeg
   - p4events/products/poseur-table2.1-749x484.jpg
 featured_image: p4events/products/poseur-table.jpeg
+seo:
+  description: 'The elegant poseur table offers both formality and functionality. Adding height and defining spaces at your next event.'
 ---

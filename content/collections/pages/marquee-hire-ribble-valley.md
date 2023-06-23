@@ -301,5 +301,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687124923
+updated_at: 1687366052
+seo:
+  description: 'Marquee hire specialists Ribble Valley. Bespoke event transformations with our large marquee. P4events also provide bars, catering, entertainment & event staff.'
 ---

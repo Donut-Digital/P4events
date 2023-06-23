@@ -43,6 +43,8 @@ components:
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
 updated_by: 1
-updated_at: 1686550790
+updated_at: 1687364007
 featured_image: p4events/products/corner-luxury-bar-unit.jpeg
+seo:
+  description: 'Hand crafted in the North West, our bespoke corner cocktail bar will add a sense of occasion and individuality to your event.'
 ---

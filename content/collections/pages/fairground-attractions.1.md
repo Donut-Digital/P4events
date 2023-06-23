@@ -1,9 +1,9 @@
 ---
 id: 437616ac-add0-4126-afb6-a2ec9565a0af
 blueprint: page
-title: 'Fairground Attractions'
+title: 'Bespoke Event Management | Fairground Attractions'
 updated_by: 1
-updated_at: 1686663100
+updated_at: 1687442849
 components:
   -
     id: lirwpbnu
@@ -116,4 +116,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Working with the ride and stall owners directly means that we can confidently guarantee the very best service at the most competitive price.'
 ---

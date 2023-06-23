@@ -3,7 +3,7 @@ id: d88b0638-ef09-47d9-a5fb-acb534faf38c
 blueprint: page
 title: 'Wedding Planner Lancashire'
 updated_by: 1
-updated_at: 1687123737
+updated_at: 1687366266
 components:
   -
     id: lj1uct7y
@@ -284,4 +284,6 @@ components:
     type: form_block
     enabled: true
 duplicated_from: b70d9614-4b4d-447a-be97-3cc64afe6e47
+seo:
+  description: 'Luxury wedding planning services Lancashire. Looking for a wedding planner? Let our expert team create your perfect day. Marquee Wedding Specialists.'
 ---

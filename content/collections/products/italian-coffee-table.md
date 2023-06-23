@@ -20,6 +20,8 @@ components:
     enabled: true
 boutique_furniture_hire: bean-bags-tables
 updated_by: 1
-updated_at: 1686551263
+updated_at: 1687364093
 featured_image: p4events/products/coffeer-table.jpeg
+seo:
+  description: 'Sleek and sophisticated these authentic luxury Italian coffee tables offer the perfect alternative to our champagne tables when completing your booth setup.'
 ---

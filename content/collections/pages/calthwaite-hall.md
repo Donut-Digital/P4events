@@ -106,5 +106,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1686062344
+updated_at: 1687362920
+seo:
+  description: 'Perfectly located in the Eden Valley, Calthwaite Halls exquisite grounds are the perfect location to play host to your next marquee event or wedding.'
 ---

@@ -139,5 +139,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1686922554
+updated_at: 1687366447
+seo:
+  description: 'Don’t spend your time sifting through venues and negotiating contracts, leave it in our capable hands, we will find the right venue and price, perfect for you.'
 ---

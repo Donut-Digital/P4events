@@ -1,10 +1,10 @@
 ---
 id: d55067fd-c8b0-4a65-b3e6-69c08d787f81
 blueprint: page
-title: 'Marquee Wedding Specialists'
+title: 'Luxury Wedding Planning | Marquee Wedding Specialists'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686663199
+updated_at: 1687443064
 components:
   -
     id: lirxn7hf
@@ -132,4 +132,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Marquee weddings are the only type of wedding where you can chose every last detail of your special day to ensure it exudes your style, personality and taste. From the size and shape, to how many different levels, rooms, and even the carpet colour! These blank canvases allow our creative potential to peak.'
 ---

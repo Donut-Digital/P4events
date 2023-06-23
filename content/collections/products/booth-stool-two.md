@@ -32,6 +32,8 @@ components:
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
 updated_by: 1
-updated_at: 1686550927
+updated_at: 1687363930
 featured_image: p4events/products/booth-stool2.2-749x484-(1).jpg
+seo:
+  description: 'Hand crafted in the North West, this semi circular stool works both singularly or dually to create 2 unique seating solutions guaranteed to wow your guests.'
 ---

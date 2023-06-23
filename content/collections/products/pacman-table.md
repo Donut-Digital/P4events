@@ -21,6 +21,8 @@ components:
     enabled: true
 boutique_furniture_hire: bean-bags-tables
 updated_by: 1
-updated_at: 1686551229
+updated_at: 1687364150
 featured_image: p4events/products/pacman_chair.jpeg
+seo:
+  description: 'Hand crafted in the North West, our quirky PacMan table offers a unique focal point with superb functionality. Complete with wine holder and stool.'
 ---

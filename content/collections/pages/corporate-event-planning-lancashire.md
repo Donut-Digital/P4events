@@ -4,7 +4,7 @@ blueprint: page
 title: 'Corporate Event Planning Lancashire'
 parent: b2222fac-7368-49cf-9792-57e993a5f77c
 updated_by: 1
-updated_at: 1687117228
+updated_at: 1687366357
 components:
   -
     id: lj1sqyg5
@@ -262,4 +262,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Planning a corporate event in Lancashire? Our expert event management team as Passion4Events will take care of all aspects of planning and execution.'
 ---

@@ -3,7 +3,7 @@ id: fd804697-6c8b-4d29-93b6-3a137c63c66e
 blueprint: page
 title: 'Event Furniture Hire Ribble Valley'
 updated_by: 1
-updated_at: 1687121960
+updated_at: 1687366127
 components:
   -
     id: lj1vsx10
@@ -225,4 +225,6 @@ components:
     type: form_block
     enabled: true
 duplicated_from: 5a878de8-9cdc-4017-94a0-7e0d1a704d69
+seo:
+  description: 'Event furniture hire in Ribble Valley. We provide bars, seating, tables, bean bags and more for your event, wedding or party. Marquee furniture hire specialists.'
 ---

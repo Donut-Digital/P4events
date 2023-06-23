@@ -1,9 +1,9 @@
 ---
 id: b95995fb-2ec3-4c51-b0e4-0616decb7edc
 blueprint: page
-title: 'Multi-Skilled Performers & Aerial Artists'
+title: 'Luxury Wedding Planning | Multi-Skilled Performers & Aerial Artists'
 updated_by: 1
-updated_at: 1686916484
+updated_at: 1687442909
 components:
   -
     id: liry985a
@@ -130,4 +130,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Our multi-skilled performers are the perfect way to ensure your entertainment budget stretches to create the wow factor for your wedding guests.'
 ---

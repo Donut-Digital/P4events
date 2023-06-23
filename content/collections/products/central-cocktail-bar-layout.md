@@ -43,6 +43,8 @@ components:
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
 updated_by: 1
-updated_at: 1686550862
+updated_at: 1687363952
 featured_image: p4events/products/central-luxury-bar-unit.jpeg
+seo:
+  description: 'Hand crafted in the North West, our bespoke central cocktail bar will add a sense of occasion and individuality to your event.'
 ---

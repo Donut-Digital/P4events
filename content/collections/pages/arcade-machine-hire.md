@@ -1,9 +1,9 @@
 ---
 id: d74f2116-ca89-41f5-a425-662d8f4bd4cd
 blueprint: page
-title: 'Arcade Machine Hire'
+title: 'Luxury Wedding Planning | Arcade Machine Hire'
 updated_by: 1
-updated_at: 1686519797
+updated_at: 1687442872
 components:
   -
     id: liry73gy
@@ -137,4 +137,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'With access to one of the most expansive and valuable collections of arcade machines and merchandise, your wedding guests will be glued to the machines.'
 ---

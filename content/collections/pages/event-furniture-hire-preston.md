@@ -3,7 +3,7 @@ id: 5a878de8-9cdc-4017-94a0-7e0d1a704d69
 blueprint: page
 title: 'Event Furniture Hire Preston'
 updated_by: 1
-updated_at: 1687121348
+updated_at: 1687366138
 components:
   -
     id: lj1vsx10
@@ -242,4 +242,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Event furniture hire in Preston. We provide bars, seating, tables, bean bags and more for your event, wedding or party. Marquee furniture hire specialists.'
 ---

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Entertainment'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686663051
+updated_at: 1687422978
 components:
   -
     id: ligbtw43
@@ -172,4 +172,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'We have a large database of only the best, hand selected entertainers, providing a complete package at a cost effective price.'
 ---

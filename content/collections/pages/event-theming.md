@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Theming'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1686663012
+updated_at: 1687422957
 components:
   -
     id: li4t6z8j
@@ -120,4 +120,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Coming up with inventive and innovative ideas and event theming is a regular part of our work here at Passion4Events. We can work your event around almost any theme or promotional campaign! And don’t worry, we want your event to be as unique as you are, so we will tailor it to suit your specific needs and tastes.'
 ---

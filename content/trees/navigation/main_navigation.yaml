@@ -71,12 +71,13 @@ tree:
         id: ad6ffca3-49db-4417-b87c-ba92952436e5
         entry: 29b0ff9f-b3df-49ff-9d52-3b2cebd88e13
   -
-    id: 98d6d6e7-3250-444d-aa6a-91c49170c450
-    entry: 53e223f5-2c6e-4907-b816-164f9681228f
+    id: 502d989c-a2fa-4868-bfb6-a18ccdccc1f3
+    title: 'Latest Projects'
+    url: 'https://p4events.co.uk/category/latest-projects'
   -
-    id: 02fc35d8-f94f-4034-b7ad-38ad93c39f88
-    entry: 5bf29d77-7c3e-4329-ab46-c4408ddbb0c4
+    id: 1758a23e-c492-44c9-92e3-e2e0fcdd7945
     title: Blog
+    url: 'https://p4events.co.uk/category/industry-news'
   -
     id: f3aa6dc9-2ac4-43ea-add4-bcd9cb71f127
     entry: fea3b984-3e51-4330-84a5-9d9b3c20e769

@@ -3,7 +3,7 @@ id: 170ceaa8-bc0a-4335-afbe-8809d54cd762
 blueprint: page
 title: 'Event Furniture Hire Lancashire'
 updated_by: 1
-updated_at: 1687122069
+updated_at: 1687366114
 components:
   -
     id: lj1vsx10
@@ -243,4 +243,6 @@ components:
     type: form_block
     enabled: true
 duplicated_from: fd804697-6c8b-4d29-93b6-3a137c63c66e
+seo:
+  description: 'Event furniture hire in Lancashire. We provide bars, seating, tables, bean bags and more for your event, wedding or party. Marquee furniture hire specialists.'
 ---

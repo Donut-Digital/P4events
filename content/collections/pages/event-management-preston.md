@@ -326,5 +326,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687123913
+updated_at: 1687366229
+seo:
+  description: 'Experienced events management company in Preston. P4events organise unique experiences, including bespoke, creative intimate parties & corporate events.'
 ---

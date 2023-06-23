@@ -3,7 +3,7 @@ id: fea3b984-3e51-4330-84a5-9d9b3c20e769
 blueprint: page
 title: Contact
 updated_by: 1
-updated_at: 1686520746
+updated_at: 1687366606
 components:
   -
     id: likl7s39
@@ -52,4 +52,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: "Interested in speaking to us about how we can help you? Please get in touch with us via phone, contact form or email. We can't wait to speak!"
 ---

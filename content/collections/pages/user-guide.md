@@ -323,5 +323,6 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1686672610
+updated_at: 1687366410
+seo: false
 ---

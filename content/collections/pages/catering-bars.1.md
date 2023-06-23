@@ -1,10 +1,10 @@
 ---
 id: 7b17aac5-67ab-4cfe-a255-90d661de96d3
 blueprint: page
-title: 'Catering & Bars'
+title: 'Luxury Wedding Planning | Catering & Bars'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1686662176
+updated_at: 1687443054
 components:
   -
     id: liry0l99
@@ -158,4 +158,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Quality event catering. Event staffing for highly skilled cocktail bar staff & wine merchants. Luxury & large scale event catering in the UK.'
 ---

@@ -3,7 +3,7 @@ id: c908f0c4-ff54-45eb-b125-00628c638f3c
 blueprint: page
 title: 'Insurance Policy'
 updated_by: 1
-updated_at: 1686074700
+updated_at: 1687366572
 components:
   -
     id: lh089gv5
@@ -56,4 +56,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Read our insurance policies and terms and conditions for our business here.'
 ---

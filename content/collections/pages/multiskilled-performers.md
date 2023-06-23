@@ -1,9 +1,9 @@
 ---
 id: f5eaab76-7676-4336-a227-b592e6085894
 blueprint: page
-title: 'Multi-Skilled Performers & Aerial Artists'
+title: 'Bespoke Event Management | Multi-Skilled Performers & Aerial Artists'
 updated_by: 1
-updated_at: 1686916395
+updated_at: 1687443025
 components:
   -
     id: lirx5l2d
@@ -130,4 +130,6 @@ components:
         subtitle: 'Or contact us… 0333 050 4624 / 01772 497206 or email us: info@p4events.co.uk'
     type: form_block
     enabled: true
+seo:
+  description: 'Our multi-skilled performers promise to entertain you with a range of striking costumes available to suit any event theme and budget for your bespoke event.'
 ---

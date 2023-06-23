@@ -3,7 +3,7 @@ id: eb48a052-cc68-499b-a04f-e02d10ad8ef3
 blueprint: page
 title: Homepage
 updated_by: 1
-updated_at: 1686828183
+updated_at: 1687362444
 components:
   -
     id: lfo0nl2z
@@ -436,4 +436,6 @@ components:
     enabled: true
 test:
   - double-luxury-booth-unit3-342x152-(1).jpg
+seo:
+  description: 'Experiential Marketing & Brand Activation experts in the UK. We create interactive, innovative experiences for global companies.'
 ---

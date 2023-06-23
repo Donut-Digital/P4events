@@ -3,7 +3,7 @@ id: b70d9614-4b4d-447a-be97-3cc64afe6e47
 blueprint: page
 title: 'Wedding Planner Ribble Valley'
 updated_by: 1
-updated_at: 1687123084
+updated_at: 1687366278
 components:
   -
     id: lj1uct7y
@@ -274,4 +274,6 @@ components:
     type: form_block
     enabled: true
 duplicated_from: 548e57dd-c22e-48c8-a20d-90f9ae4e402a
+seo:
+  description: 'Luxury wedding planning services Ribble Valley. Looking for a wedding planner? Let our expert team create your perfect day. Marquee Wedding Specialists.'
 ---

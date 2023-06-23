@@ -264,5 +264,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687125514
+updated_at: 1687365952
+seo:
+  description: 'Hire a party planner in Manchester! The P4 team will assist you in planning a unique party for your guests. Small to large parties; birthdays to weddings.'
 ---

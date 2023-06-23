@@ -43,6 +43,8 @@ components:
     enabled: true
 boutique_furniture_hire: bar-booth-layouts
 updated_by: 1
-updated_at: 1686550822
+updated_at: 1687364074
 featured_image: p4events/products/horseshoe-luxury-bar-unit.jpeg
+seo:
+  description: 'Hand crafted in the North West, our bespoke horseshoe cocktail bar until will add a sense of occasion and individuality to your event.'
 ---

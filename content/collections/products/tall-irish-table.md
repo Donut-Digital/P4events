@@ -21,6 +21,8 @@ components:
     enabled: true
 boutique_furniture_hire: bean-bags-tables
 updated_by: 1
-updated_at: 1686551360
+updated_at: 1687364273
 featured_image: p4events/products/irish-table.jpeg
+seo:
+  description: 'This sturdy, multi-purpose tall Irish table fits to any theme, offering maximum functionality with a classic finish.'
 ---
