@@ -80,7 +80,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://p4events.co.uk/mobo-in-the-making/'
+                  href: 'https://p4events.co.uk/mobo-in-the-making/'
                   rel: null
                   target: null
                   title: null
@@ -100,7 +100,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://p4events.co.uk/bespoke-event-management/event-enquiry/'
+                  href: 'https://p4events.co.uk/bespoke-event-management/event-enquiry/'
                   rel: null
                   target: null
                   title: null

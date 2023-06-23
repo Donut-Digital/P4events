@@ -88,7 +88,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://p4events.co.uk/event-staff/'
+                  href: 'https://p4events.co.uk/event-staff/'
                   rel: null
                   target: null
                   title: null

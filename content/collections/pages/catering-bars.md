@@ -86,7 +86,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://p4events.co.uk/boutique-furniture-hire/'
+                  href: 'https://p4events.co.uk/boutique-furniture-hire/'
                   rel: null
                   target: null
                   title: null
@@ -100,7 +100,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://p4events.co.uk/bespoke-event-management/event-enquiry/'
+                  href: 'https://p4events.co.uk/bespoke-event-management/event-enquiry/'
                   rel: null
                   target: null
                   title: null

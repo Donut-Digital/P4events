@@ -70,7 +70,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://calthwaitehall.co.uk/'
+                  href: 'https://calthwaitehall.co.uk/'
                   rel: noopener
                   target: _blank
                   title: null
@@ -84,7 +84,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://p4events.co.uk/contact/'
+                  href: 'https://p4events.co.uk/contact/'
                   rel: noopener
                   target: _blank
                   title: null

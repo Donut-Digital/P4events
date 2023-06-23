@@ -116,7 +116,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://www.arcadedirect.co.uk/'
+                  href: 'https://www.arcadedirect.co.uk/'
                   rel: noopener
                   target: _blank
                   title: null

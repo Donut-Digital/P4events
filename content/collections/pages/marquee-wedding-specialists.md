@@ -112,7 +112,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://p4events.co.uk/contact/'
+                  href: 'https://p4events.co.uk/contact/'
                   rel: null
                   target: null
                   title: null

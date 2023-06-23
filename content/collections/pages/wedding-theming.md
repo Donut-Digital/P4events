@@ -71,7 +71,7 @@ components:
                   -
                     type: link
                     attrs:
-                      href: 'http://p4events.co.uk/marquee-specialists/'
+                      href: 'https://p4events.co.uk/marquee-specialists/'
                       rel: null
                       target: null
                       title: null
@@ -131,7 +131,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'http://p4events.co.uk/luxury-wedding-planning/wedding-enquiry/'
+                  href: 'https://p4events.co.uk/luxury-wedding-planning/wedding-enquiry/'
                   rel: null
                   target: null
                   title: null
