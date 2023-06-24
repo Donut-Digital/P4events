@@ -28,7 +28,7 @@
 
         <div class="relative">
             <!-- Mobile Menu Trigger button start -->
-            <button id="menu-btn" type="button"
+            <button id="menu-btn" type="button" aria-label="Menu Button"
                 class="absolute my-auto h-full text-white hover:text-primary lg:hidden">
                 <div class="relative h-10 w-10">
                     <div id="menu-btn-1" class="absolute transition-all duration-300 ease-in-out">
@@ -113,7 +113,7 @@
             @if (count($item['children']) > 0)
                 <li class="flex w-full flex-col items-center py-2">
 
-                    <button class="m-auto w-full flex items-center justify-center py-2 pr-4 pl-3 mobile-dropdown-trigger">
+                    <button class="m-auto w-full flex items-center justify-center py-2 pr-4 pl-3 mobile-dropdown-trigger" aria-label="Menu Button">
                         <a href="{{ $item['permalink'] }}"
                             class="block inline-flex w-min justify-between rounded py-2 mr-2 lg:p-0">
                             <span class="m-auto whitespace-nowrap">{{ $item['title'] }}</span>
