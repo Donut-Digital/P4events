@@ -149,12 +149,12 @@
 <!-- mobile navigation end -->
 
 <!-- mobile menu CTA start -->
-<li class="flex items-center justify-center px-7 py-2 bg-primary lg:hidden lg:py-4">
+<div class="flex items-center justify-center px-7 py-2 bg-primary lg:hidden lg:py-4">
     <a href="{{ $last_item_url }}"
         class="flex w-full items-center justify-center fill-white pr-1 font-light text-white text-[15px] tracking-[1px]">
         <span class="whitespace-nowrap pr-2">{{ $last_item_title }}</span>
         <span class="pr-1">@include('SVGs.right-angle')</span>
         <span>@include('SVGs.right-angle')</span>
     </a>
-</li>
+</div>
 <!-- mobile menu CTA end -->
