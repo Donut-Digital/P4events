@@ -81,18 +81,18 @@ async function submit(event)
     >
       <div class="field">
         <label for="name" class="pr-4">Name: </label>
-        <input type="text" name="name" id="name" v-model="name" required />
+        <input type="text" name="name" id="name" v-model="name" autocomplete="name" required />
       </div>
 
       <div class="field">
         <label for="number" class="pr-4">Number: </label>
-        <input type="text" name="number" id="number" v-model="number" required
+        <input type="text" name="number" id="number" v-model="number" autocomplete="tel" required
         />
       </div>
 
       <div class="field">
         <label for="email" class="pr-4">Email: </label>
-        <input type="email" name="email" id="email" v-model="email" required />
+        <input type="email" name="email" id="email" v-model="email" autocomplete="email" required />
       </div>
 
       <input name="origin" class="hidden" :value="props.origin" />
