@@ -4,7 +4,7 @@
         <div class="absolute h-full w-full bg-cover bg-center opacity-10" style="background-image: url({{ $component['background_image'] }});"></div>
         <div class="z-10 m-auto max-w-3xl py-24">
 
-            <h1 class="text-white">{{ $component['title'] }}</h1>
+            <h2 class="text-white">{{ $component['title'] }}</h2>
 
             @if($component['introduction'])
                 <p class="m-auto pt-4 font-light text-white">{{ $component['introduction'] }}</p>
