@@ -45,7 +45,7 @@ components:
     enabled: true
   -
     id: lj1vgjsp
-    image: p4events/rh-2-716x504.jpg
+    image: p4events/rh-2.jpg
     bard_highlight: '#5d5d5d'
     bard:
       -
@@ -315,7 +315,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687366040
+updated_at: 1687553048
 duplicated_from: bac3ec48-43a4-4fff-8f98-e531ebabd0c0
 seo:
   description: 'Marquee hire specialists Preston. Bespoke event transformations with our large marquee. P4events also provide bars, catering, entertainment & event staff.'

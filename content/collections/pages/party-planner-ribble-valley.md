@@ -118,8 +118,8 @@ components:
     gallery:
       -
         id: NWGyAXGl
-        image: p4events/event-staffing-716x504.jpg.webp
         add_cta: false
+        image: p4events/event-staffing-716x504.jpg
     type: gallery_block
     enabled: true
   -
@@ -245,7 +245,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687365915
+updated_at: 1687553250
 duplicated_from: a353461d-6dfe-42bb-b053-58c40c837803
 seo:
   description: 'Hire a party planner in Ribble Valley! The P4 team will assist you in planning a unique party for your guests. Small to large parties; birthdays to weddings .'

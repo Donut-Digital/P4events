@@ -3,7 +3,7 @@ id: fd804697-6c8b-4d29-93b6-3a137c63c66e
 blueprint: page
 title: 'Event Furniture Hire Ribble Valley'
 updated_by: 1
-updated_at: 1687366127
+updated_at: 1687552933
 components:
   -
     id: lj1vsx10
@@ -68,7 +68,7 @@ components:
     enabled: true
   -
     id: lj1w5pys
-    image: p4events/event-staffing-716x504.jpg.webp
+    image: p4events/event-staffing-716x504.jpg
     bard_highlight: '#5d5d5d'
     bard:
       -
@@ -78,7 +78,7 @@ components:
         content:
           -
             type: text
-            text: 'Ate team of experts are here to help'
+            text: 'A team of experts are here to help'
       -
         type: paragraph
         content:

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Theming'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1687422957
+updated_at: 1687551387
 components:
   -
     id: li4t6z8j
@@ -39,7 +39,7 @@ components:
                 text: 'Coming up with inventive and innovative ideas and event themes is a regular part of our work here at Passion4Events. We can work your event around almost any theme or promotional campaign! And don’t worry, we want your event to be as unique as you are, so we will tailor it to suit your specific needs and tastes.'
       -
         id: li4tnf5y
-        hero_image: p4events/homepage11-e1448911424940-716x504.png
+        hero_image: p4events/homepage11-e1448911424940.png
         bard_color: '#E61E2A'
         light_text: true
         bard_field:

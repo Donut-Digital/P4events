@@ -3,7 +3,7 @@ id: 79aca9fc-31e7-4066-9b20-c5ae5ff70bfa
 blueprint: page
 title: 'Join Our Team'
 updated_by: 1
-updated_at: 1686512846
+updated_at: 1687551962
 components:
   -
     id: lh82mtik
@@ -18,7 +18,7 @@ components:
     join:
       -
         id: RbEbeO6z
-        main_image: p4events/staff1-(1).jpg
+        main_image: p4events/staff1.jpg
         image_title: 'Register Today!'
         image_sub_description: 'Once you’ve completed the form one of our team will be in touch to organise a one-to-one interview. If successful you’ll then be added to our staffing database.'
         terms_conditions: 771dc8e8-31b9-4a27-a69b-7e9df7222232

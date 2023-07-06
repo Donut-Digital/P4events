@@ -4,7 +4,7 @@ blueprint: page
 title: 'Corporate Event Planning Preston'
 parent: b2222fac-7368-49cf-9792-57e993a5f77c
 updated_by: 1
-updated_at: 1687366321
+updated_at: 1687552344
 components:
   -
     id: lj1sqyg5
@@ -42,7 +42,7 @@ components:
         light_text: true
       -
         id: lj1synda
-        hero_image: p4events/fra19_header-716x504.jpg
+        hero_image: p4events/fra191.jpg
         light_text: true
     type: hero_block
     enabled: true
@@ -174,7 +174,7 @@ components:
     enabled: true
   -
     id: lj1t9q52
-    image: p4events/team-building-716x504.jpg
+    image: p4events/10355891_10152751161678117_6559463582501774816_n-368x257.jpg
     bard_highlight: '#5d5d5d'
     bard:
       -
@@ -195,7 +195,7 @@ components:
     enabled: true
   -
     id: lj1taf5y
-    image: p4events/gala-dinners-716x504.jpg
+    image: p4events/gala-dinners-716x504.jpg.webp
     bard_highlight: '#5d5d5d'
     bard:
       -

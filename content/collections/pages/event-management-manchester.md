@@ -137,7 +137,7 @@ components:
     enabled: true
   -
     id: lj1v25og
-    image: p4events/annual-events-716x504.jpg.webp
+    image: p4events/annual-events-716x504.jpg
     bard_highlight: '#5d5d5d'
     bard:
       -
@@ -200,7 +200,7 @@ components:
     enabled: true
   -
     id: lj1v3e03
-    image: p4events/exhibitions-716x504.jpg.webp
+    image: p4events/exhibitions-716x504.jpg
     bard_highlight: '#5d5d5d'
     bard:
       -
@@ -263,7 +263,7 @@ components:
     enabled: true
   -
     id: lj1v4fza
-    image: p4events/event-staffing-716x504.jpg.webp
+    image: p4events/event-staffing-716x504.jpg
     bard_highlight: '#5d5d5d'
     bard:
       -
@@ -322,7 +322,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687366183
+updated_at: 1687552803
 duplicated_from: c5db6e3c-9960-4a2c-8fb8-4942d57505a4
 seo:
   description: 'Experienced events management company in Manchester. P4events organise unique experiences, including bespoke, creative intimate parties & corporate events.'

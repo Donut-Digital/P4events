@@ -3,7 +3,7 @@ id: b95995fb-2ec3-4c51-b0e4-0616decb7edc
 blueprint: page
 title: 'Luxury Wedding Planning | Multi-Skilled Performers & Aerial Artists'
 updated_by: 1
-updated_at: 1687442909
+updated_at: 1687555432
 components:
   -
     id: liry985a
@@ -112,7 +112,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'https://p4events.co.uk/link-here'
+                  href: 'statamic://entry::fea3b984-3e51-4330-84a5-9d9b3c20e769'
                   rel: null
                   target: null
                   title: null
