@@ -3,8 +3,7 @@
 import { ref } from "vue";
 import { generateRecaptchaToken } from "../../modules/Recaptcha.js";
 
-// values passed into the component
-const props = defineProps(["csrf", "origin"]);
+const csrf = document.querySelector('meta[name="csrf-token"]').content;
 
 // ref allows these fields to be bound to an input and updated dynamically
 const name = ref("");
@@ -26,7 +25,7 @@ async function submit(event)
     method: form.method,
     body: data,
     headers: {
-      "X-CSRF-TOKEN": props.csrf,
+      "X-CSRF-TOKEN":csrf,
       "X-Requested-With": "XMLHttpRequest",
     },
   })
@@ -95,7 +94,7 @@ async function submit(event)
         <input type="email" name="email" id="email" v-model="email" autocomplete="email" required />
       </div>
 
-      <input name="origin" class="hidden" :value="props.origin" />
+      <input name="origin" class="hidden" value="contact_us_form_block" />
 
       <button
         type="submit"

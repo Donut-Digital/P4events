@@ -10,8 +10,7 @@
 
     {{-- Form details --}}
     <div id="join_us" class="flex w-full lg:w-2/3 flex-col gap-8">
-        <join-us-form csrf="{{ csrf_token() }}" origin="{{ $component['type'] }}"
-                  tcs="{{ $component['terms_conditions']['permalink'] }}">
+        <join-us-form tcs="{{ $component['terms_conditions']['permalink'] }}">
         </join-us-form>
     </div>
 

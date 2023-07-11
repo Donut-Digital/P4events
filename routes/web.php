@@ -14,3 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('/api/create/wishlist', 'App\Http\Controllers\WishListController@create');
+
+Route::get('/refresh-token', function () {
+    return response()->json([
+        'token' => csrf_token()
+    ], 200);
+});

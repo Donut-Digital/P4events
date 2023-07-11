@@ -3,8 +3,7 @@
 import { ref } from "vue";
 import { generateRecaptchaToken } from "../../modules/Recaptcha.js";
 
-// values passed into the component
-const props = defineProps(["csrf", "origin", "tcs"]);
+const csrf = document.querySelector('meta[name="csrf-token"]').content;
 
 // ref allows these fields to be bound to an input and updated dynamically
 const name = ref("");
@@ -30,7 +29,7 @@ async function submit(event)
     body: data,
     headers:
     {
-      "X-CSRF-TOKEN": props.csrf,
+      "X-CSRF-TOKEN":csrf,
       "X-Requested-With": "XMLHttpRequest",
     },
   })
@@ -135,7 +134,7 @@ function updateFilePreview(event)
 
     </div>
 
-    <input name="origin" class="hidden" :value="props.origin" />
+    <input name="origin" class="hidden" value="join_us_form_block" />
 
     <div class="flex justify-between gap-4 py-4">
       <a class="w-max cursor-pointer pl-4 text-primary-text hover:text-black" :href="props.tcs" target="_blank">View Terms and conditions</a>

@@ -1,4 +1,5 @@
 window.addEventListener("load", function () {
+
   // main menu
   const btn = document.querySelector("#menu-btn");
   const btn_1 = document.querySelector("#menu-btn-1");
@@ -28,3 +29,5 @@ window.addEventListener("load", function () {
     });
   }
 });
+
+

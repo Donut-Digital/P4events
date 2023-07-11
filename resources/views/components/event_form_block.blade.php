@@ -23,8 +23,7 @@
                 </div>
             @endif
 
-            <event-form csrf="{{ csrf_token() }}" origin="{{ $component['type'] }}">
-            </event-form>
+            <event-form></event-form>
         </div>
     </div>
 </section>

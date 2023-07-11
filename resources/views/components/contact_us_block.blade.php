@@ -8,7 +8,7 @@
             possible.
         </div>
 
-        <contact-us-form csrf="{{ csrf_token() }}" origin="{{ $component['type'] }}"></contact-us-form>
+        <contact-us-form></contact-us-form>
 
     <h3 class="py-10 text-center">{{ $component['subtitle'] }}</h3>
     </div>

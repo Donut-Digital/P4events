@@ -17,6 +17,7 @@ import "../css/app.css";
 
 import "./scripts/navigation_menu";
 import "./scripts/products_slider";
+import "./scripts/csrf_setup";
 
 const app = createApp({});
 
