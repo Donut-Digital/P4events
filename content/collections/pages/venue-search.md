@@ -16,7 +16,7 @@ components:
     hero_sections:
       -
         id: lSu4zTka
-        hero_image: p4events/victoriaanddrew3-727x534.png
+        hero_image: p4events/venue-search-hero-716x504.jpg
         bard_color: '#FFFFFF'
         light_text: false
         bard_field:
@@ -63,7 +63,7 @@ components:
         light_text: false
       -
         id: liym2ju6
-        hero_image: p4events/katie-gavin-730.534.jpg
+        hero_image: p4events/katie-gavin-hero.jpg
         bard_color: '#FFFFFF'
         light_text: false
         bard_field:
@@ -139,7 +139,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687366447
+updated_at: 1687552044
 seo:
   description: 'Don’t spend your time sifting through venues and negotiating contracts, leave it in our capable hands, we will find the right venue and price, perfect for you.'
 ---

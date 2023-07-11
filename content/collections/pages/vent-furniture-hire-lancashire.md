@@ -3,7 +3,7 @@ id: 170ceaa8-bc0a-4335-afbe-8809d54cd762
 blueprint: page
 title: 'Event Furniture Hire Lancashire'
 updated_by: 1
-updated_at: 1687366114
+updated_at: 1687552951
 components:
   -
     id: lj1vsx10
@@ -74,7 +74,7 @@ components:
     enabled: true
   -
     id: lj1w5pys
-    image: p4events/event-staffing-716x504.jpg.webp
+    image: p4events/event-staffing-716x504.jpg
     bard_highlight: '#5d5d5d'
     bard:
       -
@@ -84,7 +84,7 @@ components:
         content:
           -
             type: text
-            text: 'Ate team of experts are here to help'
+            text: 'A team of experts are here to help'
       -
         type: paragraph
         content:

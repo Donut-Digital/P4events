@@ -4,7 +4,7 @@ blueprint: page
 title: 'Luxury Wedding Planning | On the Day Support'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1687443019
+updated_at: 1687551835
 components:
   -
     id: liryqecw
@@ -43,7 +43,7 @@ components:
         light_text: true
       -
         id: liryr9c4
-        hero_image: p4events/91.jpg
+        hero_image: p4events/91-368x257.png
         light_text: true
       -
         id: liub4k01
@@ -78,7 +78,7 @@ components:
         add_cta: false
       -
         id: lirysbrl
-        image: p4events/victoriaaanddreww-716x504.jpg
+        image: p4events/victoriaanddrew1-727x534.png
         add_cta: false
       -
         id: liryscf9

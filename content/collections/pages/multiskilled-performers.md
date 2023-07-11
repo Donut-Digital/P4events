@@ -3,7 +3,7 @@ id: f5eaab76-7676-4336-a227-b592e6085894
 blueprint: page
 title: 'Bespoke Event Management | Multi-Skilled Performers & Aerial Artists'
 updated_by: 1
-updated_at: 1687443025
+updated_at: 1687555407
 components:
   -
     id: lirx5l2d
@@ -112,7 +112,7 @@ components:
               -
                 type: link
                 attrs:
-                  href: 'https://p4events.co.uk/link-here'
+                  href: 'statamic://entry::fea3b984-3e51-4330-84a5-9d9b3c20e769'
                   rel: null
                   target: null
                   title: null

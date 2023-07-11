@@ -4,7 +4,7 @@ blueprint: page
 title: 'Luxury Wedding Planning | Marquee Wedding Specialists'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1687443064
+updated_at: 1687551630
 components:
   -
     id: lirxn7hf
@@ -19,7 +19,7 @@ components:
     hero_sections:
       -
         id: WbMLJVKM
-        hero_image: p4events/d4a4105-1115x742-1686518708.jpg
+        hero_image: p4events/d4a4105-727x534.jpg
         bard_color: '#ffffff'
         light_text: false
         bard_field:
@@ -39,7 +39,7 @@ components:
                 text: 'Whether your looking for an intimate wedding with a single tipi and a rustic feel or you’re looking for an contemporary marquee with many rooms and levels to keep guests entertained and wowed throughout your special day our service can cater for all requirements.'
       -
         id: lirxpjf1
-        hero_image: p4events/weddingents-716x504-1686518769.jpg
+        hero_image: p4events/weddingents-716x504.jpg
         light_text: true
       -
         id: lirxpavk

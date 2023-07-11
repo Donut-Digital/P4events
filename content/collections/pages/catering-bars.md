@@ -4,7 +4,7 @@ blueprint: page
 title: 'Bespoke Event Management | Catering & Bars'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1687443039
+updated_at: 1687551460
 components:
   -
     id: li4tua4n
@@ -19,7 +19,7 @@ components:
     hero_sections:
       -
         id: ksH7BQHr
-        hero_image: p4events/mobile-bars1-1115x760.jpg
+        hero_image: p4events/mobile-bars1-1115x764.jpg
         bard_color: '#E61E2A'
         light_text: true
         bard_field:

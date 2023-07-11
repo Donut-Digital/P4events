@@ -4,7 +4,7 @@ blueprint: page
 title: 'Wedding Theming'
 parent: 7eba06fc-a0c8-4f57-98ba-118cbd882ce2
 updated_by: 1
-updated_at: 1687422834
+updated_at: 1687555597
 components:
   -
     id: lirxu3f3
@@ -71,7 +71,7 @@ components:
                   -
                     type: link
                     attrs:
-                      href: 'https://p4events.co.uk/marquee-specialists/'
+                      href: 'statamic://entry::d55067fd-c8b0-4a65-b3e6-69c08d787f81'
                       rel: null
                       target: null
                       title: null

@@ -3,7 +3,7 @@ id: d74f2116-ca89-41f5-a425-662d8f4bd4cd
 blueprint: page
 title: 'Luxury Wedding Planning | Arcade Machine Hire'
 updated_by: 1
-updated_at: 1687442872
+updated_at: 1687551719
 components:
   -
     id: liry73gy
@@ -48,7 +48,7 @@ components:
         add_cta: false
       -
         id: liry9qth
-        image: p4events/wedding-ents-arcade1-704x516-(1).jpg
+        image: p4events/wedding-ents-arcade1-704x516.jpg
         add_cta: false
       -
         id: liry9rcb

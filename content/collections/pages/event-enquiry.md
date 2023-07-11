@@ -4,7 +4,7 @@ blueprint: page
 title: 'Event Enquiry'
 parent: 230a564f-2e26-4415-8ebb-58860f49310f
 updated_by: 1
-updated_at: 1687422876
+updated_at: 1687555053
 components:
   -
     id: likk7nel
@@ -45,7 +45,7 @@ components:
                   -
                     type: link
                     attrs:
-                      href: 'https://p4events.co.uk/inspiration-wall/'
+                      href: 'statamic://entry::7add59be-8f0c-4413-aa23-2c9feafc2131'
                       rel: null
                       target: null
                       title: null
@@ -59,7 +59,7 @@ components:
                   -
                     type: link
                     attrs:
-                      href: 'https://p4events.co.uk/blog/'
+                      href: 'https://p4events.co.uk/category/industry-news'
                       rel: null
                       target: null
                       title: null

@@ -110,8 +110,8 @@ components:
     gallery:
       -
         id: NWGyAXGl
-        image: p4events/event-staffing-716x504.jpg.webp
         add_cta: false
+        image: p4events/event-staffing-716x504.jpg
     type: gallery_block
     enabled: true
   -
@@ -264,7 +264,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687365952
+updated_at: 1687553217
 seo:
   description: 'Hire a party planner in Manchester! The P4 team will assist you in planning a unique party for your guests. Small to large parties; birthdays to weddings.'
 ---
