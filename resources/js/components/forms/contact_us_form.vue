@@ -3,8 +3,6 @@
 import { ref } from "vue";
 import { generateRecaptchaToken } from "../../modules/Recaptcha.js";
 
-const csrf = document.querySelector('meta[name="csrf-token"]').content;
-
 // ref allows these fields to be bound to an input and updated dynamically
 const name = ref("");
 const number = ref("");
@@ -25,7 +23,7 @@ async function submit(event)
     method: form.method,
     body: data,
     headers: {
-      "X-CSRF-TOKEN":csrf,
+      "X-CSRF-TOKEN":document.querySelector('meta[name="csrf-token"]').content,
       "X-Requested-With": "XMLHttpRequest",
     },
   })
