@@ -4,6 +4,7 @@ import { ref } from "vue";
 import {wishlist_store} from "../../stores/wishlist_store";
 
 let wishlist = ref(JSON.parse(localStorage.getItem('wishlist')));
+console.log(wishlist);
 
 let sortedWishlist = function() {
   return this.wishlist.sort((a, b) => {
