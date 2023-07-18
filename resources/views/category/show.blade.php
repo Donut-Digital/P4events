@@ -25,12 +25,17 @@
                          'w-full' => $loop->index % 3 == 0,
                          'w-full lg:w-[49%]'=>$loop->index % 3 !== 0])>
 
-                        <img class="w-full h-[740px] object-cover" src="{{ $entry['featured_image'] }}" alt="{{ $entry['alt'] }}" loading="lazy">
+                        @if($entry['featured_image'])
+                         <img class="w-full h-[740px] object-cover" src="{{ $entry['featured_image'] }}" alt="{{ $entry['alt'] }}" loading="lazy">
+                        @endif
 
-                        <div @class(['md:absolute bottom-0 p-12',
+                        <div @class(['p-12',
                              'text-right w-full min-h-2/5' => $loop->index % 3 !== 0,
-                             'text-left w-full lg:w-[49%]'=>$loop->index % 3 == 0
+                             'text-left w-full lg:w-[49%]'=>$loop->index % 3 == 0,
+                             'md:absolute bottom-0'=> $entry['featured_image'],
+                             'h-full'=> !$entry['featured_image']
                              ])
+
                              style="background-color: #f21623cc;">
                             <h2 class="text-white pb-4">{{ $entry['title'] }}</h2>
                             <p class="text-white pb-4 font-light">{{ $entry['summary'] }}</p>
