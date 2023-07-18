@@ -4,14 +4,14 @@ import { ref } from "vue";
 import {wishlist_store} from "../../stores/wishlist_store";
 
 let wishlist = ref(JSON.parse(localStorage.getItem('wishlist')));
-console.log(wishlist);
 
 let sortedWishlist = function() {
-  return this.wishlist.sort((a, b) => {
+  return wishlist.value.sort((a, b) => {
     if (a.title > b.title) return 1;
     else return -1;
   });
 }
+
 function RemoveProductFromWishlist(product)
 {
   wishlist.value.filter(function(wishlist_product,i)
