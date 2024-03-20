@@ -1,0 +1,13 @@
+name: 'Andrew justice'
+number: '07770959816'
+email: andrew@rootedginger.co.uk
+date: '2023-12-22'
+event_description: "22nd December \r\n3 course sit down 9 guests\r\nNeeding 1 professional waiter 630-1030pm\r\nSt Anne’s \r\n\r\n31st December \r\n12 guests \r\nCanapés and champagne reception \r\n2 course sit down meal\r\n2 professional waiters \r\n630-1030/11"
+contact_time:
+  - morning
+  - afternoon
+  - evening
+contact_method:
+  - via_email
+  - telephone
+origin: event_form_block

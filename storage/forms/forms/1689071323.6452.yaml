@@ -1,0 +1,13 @@
+name: 'Victoria Manciocchi'
+number: '07805845603'
+email: v.balch@hotmail.co.uk
+date: '2023-12-16'
+event_description: 'I want to host my husbands 30th birthday party at our house. I would need catering, decorations, entertainment etc'
+contact_time:
+  - morning
+  - afternoon
+  - evening
+contact_method:
+  - via_email
+  - sms
+  - telephone

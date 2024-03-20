@@ -1,0 +1,10 @@
+name: 'Bob Gemmell'
+number: '07938540353'
+email: bob.gemmell@btinternet.com
+date: '2024-12-31'
+event_description: 'looking for ball park figures for a New Years event at the Lowther Theatre in Lytham ,would include food (options ) Live Band , set up and get out New years day Have tried ringing your Preston number for several days , no answer would like to discuss above'
+contact_time:
+  - morning
+contact_method:
+  - telephone
+origin: event_form_block
