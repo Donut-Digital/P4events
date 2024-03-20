@@ -1,6 +1,6 @@
 title: '@seo:title'
 description: '@seo:content'
-site_name: 'Event Planning Agency | P4 Events'
+site_name: 'P4 Events'
 site_name_position: after
 site_name_separator: '|'
 canonical_url: '@seo:permalink'

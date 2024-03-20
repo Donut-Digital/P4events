@@ -3,7 +3,7 @@ id: 548e57dd-c22e-48c8-a20d-90f9ae4e402a
 blueprint: page
 title: 'Wedding Planner Preston'
 updated_by: 1
-updated_at: 1687366287
+updated_at: 1689691770
 components:
   -
     id: lj1uct7y
@@ -272,5 +272,5 @@ components:
     type: form_block
     enabled: true
 seo:
-  description: 'Luxury wedding planning services Preston. Looking for a wedding planner? Let our expert team create your perfect day. Marquee Wedding Specialists.'
+  description: "Dream weddings don't need to break the bank. Explore our budget-friendly planner services in Preston today. Make your dream wedding a reality!"
 ---

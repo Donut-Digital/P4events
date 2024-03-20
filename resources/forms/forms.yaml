@@ -1,1 +1,10 @@
 title: Forms
+email:
+  -
+    id: lk9ts086
+    to: developers@donutdigital.co.uk
+    subject: 'P4events - New Form Submission'
+  -
+    id: lk9tsoxw
+    to: mark@p4uk.co.uk
+    subject: 'P4events - New Form Submission'

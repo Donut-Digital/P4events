@@ -32,7 +32,7 @@ components:
             content:
               -
                 type: text
-                text: "Are you looking to hire a marquee in Preston for an upcoming event?\_ P4 Events are specialists in outdoor events and weddings and our team is here to help make your ideas a reality.\_Whether you are planning a big birthday party, corporate event, anniversary or engagement party, we can supply a beautiful marquee to suit all events.\_Offering a flexible solution to your event planning problems, P4 Events offer marquees with maximum floor space and our team has a reputation in Lancashire for delivering great marquees at affordable prices.\_ There are many reasons why you may need to use a marquee so here are a couple of examples to give you some inspiration!\_"
+                text: "Are you looking to hire a marquee in Preston for an upcoming event?\_ P4 Events are specialists in outdoor events and weddings and our team is here to help make your ideas a reality.\_Whether you are planning a big birthday party, corporate event, anniversary or engagement party, we can supply a beautiful marquee to suit all events.\_Offering a flexible solution to your event planning problems, P4 Events offer marquees with maximum floor space and our team has a reputation in Preston for delivering great marquees at affordable prices.\_ There are many reasons why you may need to use a marquee so here are a couple of examples to give you some inspiration!\_"
       -
         id: lj1vf4t3
         hero_image: p4events/boothbarsandlayouts.png
@@ -264,7 +264,7 @@ components:
         content:
           -
             type: text
-            text: "If you are looking to host an event in Lancashire and create your own unique party venue that will completely wow your guests, contact P4 Events and the team will be happy to discuss your particular marquee requirements to make sure you experience the best service possible.\_"
+            text: "If you are looking to host an event in Preston and create your own unique party venue that will completely wow your guests, contact P4 Events and the team will be happy to discuss your particular marquee requirements to make sure you experience the best service possible.\_"
       -
         type: paragraph
         content:
@@ -315,7 +315,7 @@ components:
     type: form_block
     enabled: true
 updated_by: 1
-updated_at: 1687553048
+updated_at: 1689622716
 duplicated_from: bac3ec48-43a4-4fff-8f98-e531ebabd0c0
 seo:
   description: 'Marquee hire specialists Preston. Bespoke event transformations with our large marquee. P4events also provide bars, catering, entertainment & event staff.'
